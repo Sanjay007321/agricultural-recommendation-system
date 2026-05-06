@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  background-color: #F8FAFC;
+  background-image: radial-gradient(at 0% 0%, hsla(141,41%,90%,1) 0px, transparent 50%),
+                    radial-gradient(at 100% 100%, hsla(140,84%,95%,1) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: #1e293b;
+}
+
+@layer components {
+  .btn-primary {
+    @apply relative overflow-hidden bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-semibold py-2.5 px-5 rounded-xl shadow-md hover:shadow-glow transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0;
+  }
+  
+  .btn-secondary {
+    @apply bg-white/80 backdrop-blur-md hover:bg-white text-gray-800 border border-gray-200 hover:border-primary-300 font-semibold py-2.5 px-5 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-0.5 active:translate-y-0;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-white/50 backdrop-blur-sm border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500 outline-none transition-all duration-300 shadow-sm focus:bg-white;
+  }
+  
+  .card {
+    @apply bg-white/80 backdrop-blur-xl rounded-2xl shadow-soft p-6 border border-white/50;
+  }
+  
+  .stat-card {
+    @apply bg-white/80 backdrop-blur-xl rounded-2xl shadow-soft p-5 border-l-4 border-primary-500 hover:shadow-lg transition-all duration-300;
+  }
+  
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/40 shadow-glass;
+  }
+  
+  .glass-dark {
+    @apply bg-gray-900/80 backdrop-blur-lg border border-gray-700/50 shadow-glass;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22c55e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a;
+}

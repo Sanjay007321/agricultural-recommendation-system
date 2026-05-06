@@ -1,0 +1,3001 @@
+crop,season,humidity_percent,temperature_c,rainfall_mm,disease_risk,disease_occurred
+Soybean,Kharif,47.3,15.5,983.4,Low,None
+Tomato,Rabi,40.6,15.6,399.9,Low,None
+Wheat,Kharif,70.3,31.8,737.1,Medium,Loose Smut
+Potato,Rabi,47.0,22.5,946.9,Low,None
+Soybean,Kharif,71.3,19.1,942.9,Medium,Pod Borer
+Tomato,Zaid,67.1,34.6,1678.5,Medium,Late Blight
+Wheat,Kharif,51.4,25.5,1611.5,Medium,Loose Smut
+Wheat,Rabi,87.5,25.5,1365.9,High,Rust
+Rice,Kharif,57.3,29.5,1336.8,Medium,Brown Spot
+Cotton,Kharif,47.1,35.4,1495.3,Medium,Bacterial Blight
+Potato,Kharif,70.8,32.8,558.0,Medium,None
+Tomato,Rabi,77.6,35.7,1277.9,High,Late Blight
+Rice,Kharif,88.6,19.2,1083.2,High,Blast
+Cotton,Zaid,40.8,25.0,1858.1,Low,None
+Wheat,Rabi,81.5,30.4,1873.2,High,Loose Smut
+Tomato,Zaid,62.2,25.2,1258.1,Medium,Fruit Borer
+Cotton,Zaid,72.1,27.0,1331.8,High,Whitefly
+Soybean,Kharif,81.1,36.9,1575.3,High,Pod Borer
+Soybean,Rabi,45.9,27.6,421.2,Low,None
+Cotton,Kharif,70.0,36.7,867.7,Medium,Bollworm
+Wheat,Kharif,46.0,33.9,1176.5,Low,None
+Tomato,Rabi,59.7,19.4,1143.9,Low,None
+Soybean,Kharif,60.2,35.0,428.8,Low,None
+Tomato,Kharif,75.4,36.1,309.7,Medium,Early Blight
+Wheat,Rabi,65.5,16.3,1878.3,Medium,Rust
+Rice,Zaid,66.3,33.4,1411.9,Medium,Bacterial Leaf Blight
+Tomato,Zaid,82.8,36.7,904.1,Medium,Fruit Borer
+Rice,Kharif,55.1,20.6,727.5,Low,None
+Cotton,Kharif,47.4,27.4,1992.8,Medium,Bollworm
+Tomato,Kharif,81.2,31.8,299.3,Medium,Early Blight
+Potato,Rabi,50.4,24.3,453.0,Low,None
+Cotton,Rabi,93.6,23.9,1397.2,High,Whitefly
+Soybean,Kharif,46.8,34.2,919.0,Low,None
+Rice,Zaid,70.2,28.6,621.2,Medium,None
+Wheat,Zaid,66.3,29.0,1600.0,Medium,None
+Potato,Zaid,71.9,24.7,974.5,Medium,None
+Wheat,Kharif,48.4,27.1,469.0,Low,None
+Tomato,Kharif,43.9,34.7,1937.6,Medium,Fruit Borer
+Potato,Kharif,81.2,32.5,942.8,High,Late Blight
+Wheat,Kharif,53.6,28.4,1586.9,Medium,Rust
+Cotton,Zaid,93.4,16.3,543.6,Medium,Bollworm
+Rice,Zaid,56.7,18.5,1046.0,Low,None
+Wheat,Rabi,48.1,31.3,980.2,Low,None
+Potato,Rabi,80.9,25.6,1403.6,High,Late Blight
+Rice,Kharif,66.7,30.4,1240.6,High,Bacterial Leaf Blight
+Potato,Zaid,49.1,28.6,1781.8,Medium,Late Blight
+Cotton,Rabi,64.0,28.1,477.4,Low,None
+Wheat,Kharif,40.1,27.8,1622.5,Medium,Powdery Mildew
+Cotton,Zaid,95.0,23.3,387.2,Medium,Bacterial Blight
+Potato,Rabi,86.4,26.0,1950.4,High,Late Blight
+Wheat,Zaid,87.3,16.3,1600.7,High,Rust
+Potato,Kharif,68.7,28.3,209.2,Medium,Early Blight
+Rice,Kharif,63.1,26.6,1841.0,High,Bacterial Leaf Blight
+Rice,Rabi,55.2,20.0,1392.5,Low,None
+Soybean,Rabi,45.3,30.3,824.2,Low,None
+Rice,Zaid,64.0,17.9,1460.7,Medium,Bacterial Leaf Blight
+Tomato,Rabi,50.9,19.9,764.5,Low,None
+Wheat,Rabi,65.7,22.0,440.5,Low,None
+Wheat,Kharif,46.0,23.4,1238.5,Medium,Loose Smut
+Tomato,Kharif,77.5,25.2,1531.2,High,Fruit Borer
+Potato,Rabi,77.1,16.8,770.3,Low,None
+Cotton,Kharif,71.8,24.6,516.6,Medium,Bollworm
+Cotton,Kharif,93.0,22.1,1537.8,High,Whitefly
+Wheat,Rabi,94.7,33.9,572.2,Low,None
+Rice,Zaid,87.4,30.3,1286.0,High,Blast
+Rice,Kharif,93.2,19.6,257.7,Medium,None
+Wheat,Zaid,66.2,33.7,1941.7,Medium,Powdery Mildew
+Rice,Rabi,79.7,29.2,594.2,Medium,None
+Wheat,Zaid,55.7,21.7,1887.7,Low,None
+Cotton,Zaid,88.4,33.3,304.7,Medium,Whitefly
+Cotton,Kharif,80.5,30.6,366.1,Medium,None
+Soybean,Rabi,56.7,36.9,1380.5,Low,None
+Tomato,Zaid,75.5,26.0,684.8,Medium,Fruit Borer
+Rice,Rabi,52.9,21.7,574.9,Low,None
+Rice,Kharif,50.0,18.2,1579.1,Medium,Brown Spot
+Tomato,Zaid,45.3,22.4,404.6,Low,None
+Tomato,Kharif,88.0,21.2,1815.0,High,Late Blight
+Cotton,Kharif,71.3,25.0,1461.8,High,Bacterial Blight
+Soybean,Zaid,71.4,21.8,773.8,Low,None
+Potato,Kharif,63.4,20.5,503.6,Low,None
+Potato,Rabi,40.1,34.5,1127.9,Low,None
+Rice,Rabi,47.9,18.8,437.0,Low,None
+Wheat,Zaid,40.7,25.9,1987.8,Low,None
+Rice,Kharif,87.1,35.9,1061.5,Medium,Bacterial Leaf Blight
+Potato,Rabi,73.2,19.4,993.7,Medium,Early Blight
+Tomato,Kharif,81.8,30.4,1468.4,High,Late Blight
+Rice,Kharif,87.9,23.5,1699.5,High,Bacterial Leaf Blight
+Potato,Zaid,79.0,28.8,1997.0,High,Early Blight
+Tomato,Zaid,52.4,21.0,1024.9,Low,None
+Wheat,Zaid,93.8,27.4,1433.9,High,Rust
+Wheat,Kharif,71.5,28.8,1723.7,High,Loose Smut
+Potato,Zaid,88.2,32.0,1834.9,High,Early Blight
+Potato,Kharif,60.3,23.4,1862.4,Medium,Early Blight
+Wheat,Zaid,94.7,20.7,527.2,Medium,None
+Potato,Zaid,58.3,19.9,1761.2,Low,None
+Tomato,Rabi,55.2,27.6,1568.6,Low,None
+Cotton,Rabi,77.0,36.7,1168.0,Medium,Bollworm
+Potato,Zaid,68.4,19.1,379.1,Low,None
+Rice,Kharif,72.8,27.9,1902.0,High,Bacterial Leaf Blight
+Soybean,Rabi,46.7,22.5,1619.0,Low,None
+Soybean,Rabi,93.1,26.3,738.3,High,Rust
+Soybean,Zaid,43.2,19.5,629.6,Low,None
+Wheat,Kharif,76.9,24.5,1336.2,High,Loose Smut
+Potato,Kharif,60.8,15.1,1543.5,Medium,Early Blight
+Wheat,Kharif,61.7,32.0,783.7,Low,None
+Soybean,Zaid,54.8,23.6,1153.5,Low,None
+Potato,Rabi,51.5,19.3,1278.3,Medium,Late Blight
+Wheat,Rabi,57.8,27.9,814.8,Low,None
+Soybean,Zaid,46.3,15.4,1215.9,Medium,Yellow Mosaic
+Wheat,Kharif,64.4,38.0,815.1,Medium,Rust
+Rice,Kharif,75.7,21.6,1591.9,High,Brown Spot
+Tomato,Zaid,63.7,16.1,1470.6,Medium,None
+Cotton,Rabi,54.6,17.8,1877.2,Medium,Bacterial Blight
+Cotton,Rabi,43.1,21.2,567.3,Low,None
+Tomato,Rabi,75.4,29.0,816.3,High,Late Blight
+Wheat,Kharif,42.5,34.8,1633.3,Medium,None
+Tomato,Rabi,76.1,33.2,1043.7,Medium,None
+Tomato,Zaid,93.7,27.9,1804.3,High,Early Blight
+Tomato,Rabi,84.8,28.5,1822.5,High,Fruit Borer
+Wheat,Zaid,79.7,29.7,613.8,Medium,Powdery Mildew
+Tomato,Kharif,62.3,31.5,497.0,Low,None
+Soybean,Zaid,86.5,19.2,1886.7,Medium,None
+Cotton,Zaid,46.9,15.3,1886.7,Medium,Whitefly
+Potato,Rabi,74.8,30.9,242.3,Low,None
+Rice,Rabi,94.5,23.9,1619.6,High,Bacterial Leaf Blight
+Rice,Zaid,51.5,15.4,1276.3,Low,None
+Soybean,Rabi,52.8,26.5,203.9,Low,None
+Wheat,Kharif,85.8,16.9,589.9,Medium,Loose Smut
+Soybean,Kharif,86.6,28.8,828.7,High,Yellow Mosaic
+Tomato,Zaid,90.5,32.5,662.9,Medium,None
+Soybean,Zaid,90.7,37.8,851.5,Medium,Yellow Mosaic
+Cotton,Zaid,87.6,17.5,661.0,Low,None
+Potato,Zaid,89.6,24.7,1676.3,High,Early Blight
+Rice,Kharif,93.5,32.9,1489.6,High,Bacterial Leaf Blight
+Tomato,Zaid,90.2,28.4,1565.1,High,Late Blight
+Soybean,Kharif,46.2,35.6,802.1,Low,None
+Cotton,Rabi,74.7,20.7,342.1,Low,None
+Cotton,Rabi,79.8,35.5,1792.9,Medium,Bollworm
+Rice,Zaid,80.2,31.7,1020.7,Medium,None
+Soybean,Kharif,69.2,17.5,1412.4,Medium,Yellow Mosaic
+Rice,Rabi,71.4,36.7,774.8,Low,None
+Wheat,Kharif,54.0,36.8,1287.7,Medium,Rust
+Soybean,Zaid,85.4,37.1,1025.8,Medium,Yellow Mosaic
+Rice,Zaid,87.8,19.0,905.9,Medium,Brown Spot
+Tomato,Zaid,59.8,33.0,1843.5,Low,None
+Soybean,Zaid,89.3,35.8,1488.2,Medium,None
+Soybean,Zaid,73.4,17.3,620.5,Low,None
+Tomato,Rabi,91.6,18.1,845.5,Medium,Fruit Borer
+Tomato,Zaid,73.5,29.4,1869.6,High,Early Blight
+Potato,Rabi,42.6,19.0,1208.0,Medium,None
+Wheat,Zaid,86.2,19.9,406.6,Medium,Rust
+Rice,Rabi,42.1,21.9,1937.3,Medium,Bacterial Leaf Blight
+Rice,Rabi,94.6,37.0,668.9,Low,None
+Soybean,Kharif,88.6,33.7,1115.1,High,Yellow Mosaic
+Wheat,Kharif,93.9,34.6,793.7,Medium,None
+Tomato,Zaid,53.1,17.3,809.2,Low,None
+Tomato,Rabi,57.6,18.5,1471.3,Low,None
+Soybean,Zaid,52.8,20.8,807.3,Low,None
+Tomato,Zaid,41.8,25.6,1047.2,Low,None
+Cotton,Zaid,52.8,20.7,363.2,Low,None
+Tomato,Kharif,84.2,34.1,1035.6,High,Fruit Borer
+Wheat,Zaid,86.4,20.4,1630.6,High,Loose Smut
+Wheat,Rabi,47.5,38.0,1690.0,Low,None
+Wheat,Kharif,77.4,24.3,1239.0,High,Rust
+Cotton,Kharif,47.1,24.3,1283.5,Medium,Whitefly
+Tomato,Rabi,63.6,37.6,1700.9,Medium,None
+Soybean,Rabi,73.4,27.4,1141.9,Medium,None
+Wheat,Rabi,49.2,26.9,1185.3,Low,None
+Wheat,Kharif,69.1,30.2,1032.9,Medium,Powdery Mildew
+Wheat,Zaid,48.6,27.1,1909.7,Medium,None
+Rice,Rabi,44.0,20.1,899.1,Low,None
+Tomato,Zaid,55.5,22.6,1297.0,Low,None
+Potato,Rabi,44.2,37.4,1574.3,Medium,Late Blight
+Potato,Kharif,58.0,20.0,1802.4,Medium,Late Blight
+Wheat,Rabi,83.7,27.0,1597.2,High,Rust
+Potato,Rabi,63.4,25.7,1444.9,Medium,Early Blight
+Rice,Zaid,90.6,24.9,1172.9,High,Blast
+Cotton,Kharif,46.9,34.3,1816.5,Medium,Whitefly
+Rice,Kharif,48.4,24.2,436.9,Low,None
+Potato,Zaid,94.4,19.6,391.4,Medium,Early Blight
+Soybean,Zaid,72.6,19.0,235.3,Low,None
+Potato,Zaid,63.8,24.0,355.6,Low,None
+Cotton,Zaid,56.6,27.3,1571.4,Low,None
+Potato,Kharif,70.0,19.9,1788.4,Medium,Early Blight
+Tomato,Kharif,80.8,37.2,840.1,High,Late Blight
+Wheat,Rabi,77.0,35.9,1956.1,High,Powdery Mildew
+Rice,Kharif,40.5,27.5,1722.3,Medium,Blast
+Soybean,Rabi,71.1,21.7,233.0,Low,None
+Soybean,Zaid,56.1,16.4,727.5,Low,None
+Rice,Zaid,67.7,15.3,1410.6,Medium,Bacterial Leaf Blight
+Cotton,Zaid,44.8,37.2,808.7,Low,None
+Tomato,Zaid,47.7,33.2,714.1,Low,None
+Tomato,Zaid,57.2,28.1,1968.8,Medium,Late Blight
+Tomato,Zaid,55.7,26.0,780.6,Low,None
+Wheat,Rabi,72.2,18.3,409.3,Low,None
+Rice,Zaid,76.6,19.2,1479.7,High,Brown Spot
+Cotton,Zaid,71.7,31.7,1088.1,Low,None
+Tomato,Rabi,78.7,36.6,1122.7,Medium,Early Blight
+Rice,Rabi,46.1,28.9,1369.5,Medium,Blast
+Rice,Zaid,84.0,20.4,958.4,Medium,Bacterial Leaf Blight
+Tomato,Zaid,65.3,22.6,1580.7,Medium,Late Blight
+Wheat,Rabi,79.1,16.8,1614.8,High,Rust
+Wheat,Rabi,61.6,37.9,1075.9,Medium,None
+Soybean,Kharif,68.2,37.6,1698.2,High,Pod Borer
+Rice,Rabi,70.5,29.1,1028.1,Medium,Brown Spot
+Soybean,Kharif,74.1,16.3,538.8,Medium,None
+Rice,Rabi,83.8,24.9,1198.8,High,Blast
+Rice,Rabi,68.2,32.8,1085.1,Medium,Bacterial Leaf Blight
+Potato,Rabi,46.1,29.5,431.0,Low,None
+Potato,Kharif,68.1,25.8,1413.1,High,Late Blight
+Potato,Zaid,68.7,31.4,610.6,Low,None
+Cotton,Rabi,63.0,29.0,1059.5,Low,None
+Rice,Rabi,61.7,25.1,1945.6,Medium,Blast
+Potato,Zaid,74.5,32.5,674.7,Low,None
+Tomato,Zaid,84.2,31.5,212.8,Low,None
+Rice,Rabi,70.3,33.7,1915.1,Medium,Blast
+Rice,Zaid,73.2,24.1,596.1,Medium,Bacterial Leaf Blight
+Soybean,Kharif,49.0,25.6,883.9,Low,None
+Wheat,Rabi,80.3,33.7,423.3,Medium,Powdery Mildew
+Rice,Rabi,80.5,33.4,601.1,Low,None
+Rice,Zaid,43.8,17.6,1334.4,Low,None
+Potato,Zaid,41.2,18.2,806.8,Low,None
+Cotton,Rabi,88.0,27.1,604.7,Medium,Whitefly
+Wheat,Rabi,55.0,19.1,1049.4,Low,None
+Tomato,Rabi,40.2,17.1,216.4,Low,None
+Tomato,Zaid,59.0,27.5,1311.9,Low,None
+Soybean,Kharif,73.2,31.6,506.3,Medium,Yellow Mosaic
+Rice,Zaid,75.4,16.0,1511.9,High,Bacterial Leaf Blight
+Wheat,Kharif,92.2,15.1,1641.3,High,Powdery Mildew
+Wheat,Rabi,85.6,32.8,572.9,Medium,None
+Rice,Kharif,62.1,19.5,1898.2,High,Bacterial Leaf Blight
+Soybean,Zaid,43.6,27.2,1654.5,Low,None
+Soybean,Kharif,40.7,28.8,977.3,Low,None
+Cotton,Rabi,74.1,36.3,757.5,Low,None
+Rice,Kharif,94.8,35.1,708.5,Medium,Blast
+Wheat,Kharif,59.6,35.5,780.3,Low,None
+Wheat,Kharif,84.5,24.0,1881.3,High,Rust
+Cotton,Zaid,73.0,31.8,547.0,Low,None
+Soybean,Kharif,45.7,28.9,1514.4,Medium,Yellow Mosaic
+Rice,Kharif,62.2,32.1,1246.9,High,Blast
+Wheat,Kharif,72.3,35.4,1847.7,Medium,Loose Smut
+Wheat,Kharif,66.9,15.6,820.9,Medium,Loose Smut
+Cotton,Rabi,43.7,27.7,1525.4,Medium,Bacterial Blight
+Potato,Kharif,71.5,16.7,346.0,Low,None
+Soybean,Zaid,55.0,19.7,518.0,Low,None
+Wheat,Kharif,41.4,23.9,1662.9,Medium,Loose Smut
+Potato,Zaid,61.0,30.3,1052.0,Low,None
+Cotton,Rabi,65.7,33.5,1489.4,Medium,Bacterial Blight
+Cotton,Zaid,67.6,18.5,1606.3,Medium,Bacterial Blight
+Soybean,Rabi,60.2,28.9,970.3,Low,None
+Potato,Zaid,73.0,24.3,227.6,Medium,None
+Potato,Kharif,86.3,34.2,847.5,Medium,Late Blight
+Potato,Kharif,81.2,36.2,740.7,Medium,Late Blight
+Potato,Rabi,43.8,19.4,501.6,Low,None
+Rice,Zaid,56.7,25.2,1855.1,Low,None
+Soybean,Kharif,81.9,29.4,1565.5,High,Rust
+Cotton,Zaid,91.8,19.0,205.6,Low,None
+Potato,Kharif,80.9,33.8,1887.5,High,Early Blight
+Soybean,Zaid,87.5,28.3,1028.9,High,Rust
+Potato,Zaid,50.0,24.2,294.6,Low,None
+Rice,Kharif,94.7,25.6,1294.9,High,Brown Spot
+Cotton,Rabi,53.7,32.7,625.7,Low,None
+Soybean,Zaid,57.5,25.5,1961.2,Low,None
+Soybean,Kharif,87.4,17.2,1334.5,High,Rust
+Soybean,Zaid,65.9,27.8,280.9,Low,None
+Cotton,Kharif,65.3,28.2,1262.4,Medium,Bollworm
+Potato,Rabi,52.3,30.8,384.2,Low,None
+Cotton,Kharif,43.0,35.2,481.4,Low,None
+Potato,Kharif,86.4,36.2,1502.0,High,Early Blight
+Soybean,Zaid,62.9,16.5,232.4,Low,None
+Rice,Kharif,52.8,21.4,1191.5,Medium,Bacterial Leaf Blight
+Wheat,Kharif,78.5,31.2,1713.9,High,Rust
+Cotton,Zaid,73.7,35.7,1366.6,Medium,Whitefly
+Soybean,Rabi,52.0,22.4,1298.8,Low,None
+Rice,Kharif,76.4,15.7,1669.3,High,Blast
+Wheat,Zaid,50.4,17.8,1524.2,Low,None
+Cotton,Zaid,74.6,31.4,1709.2,Medium,Bacterial Blight
+Potato,Rabi,69.7,29.2,982.6,Medium,Late Blight
+Soybean,Zaid,46.9,37.0,572.9,Low,None
+Soybean,Zaid,51.3,33.9,727.3,Low,None
+Potato,Zaid,52.7,28.8,442.8,Low,None
+Tomato,Zaid,77.2,29.5,550.3,Medium,Fruit Borer
+Soybean,Zaid,91.2,19.4,1802.0,High,Rust
+Rice,Kharif,43.6,25.4,491.6,Low,None
+Tomato,Kharif,75.2,22.6,1122.5,High,Early Blight
+Potato,Kharif,73.1,18.3,1347.8,Medium,Early Blight
+Soybean,Zaid,75.5,21.2,1942.9,Medium,Yellow Mosaic
+Potato,Rabi,76.3,26.1,1342.3,High,Late Blight
+Cotton,Zaid,94.1,33.8,803.4,Medium,Whitefly
+Potato,Zaid,77.1,18.2,1919.5,Medium,Late Blight
+Tomato,Zaid,64.5,17.5,474.5,Low,None
+Rice,Kharif,56.8,21.3,1791.8,Medium,None
+Tomato,Kharif,61.5,29.7,1262.9,High,Early Blight
+Potato,Zaid,51.5,26.3,282.1,Low,None
+Tomato,Zaid,62.0,25.2,807.2,Low,None
+Tomato,Kharif,74.5,34.5,677.7,Low,None
+Rice,Zaid,90.7,35.3,683.0,Medium,Bacterial Leaf Blight
+Rice,Rabi,87.2,21.6,729.9,Medium,None
+Wheat,Zaid,41.4,15.2,1496.3,Medium,None
+Soybean,Zaid,59.9,35.7,936.0,Low,None
+Tomato,Rabi,86.6,31.9,1126.6,Medium,None
+Wheat,Rabi,74.5,15.7,940.7,Low,None
+Potato,Zaid,91.9,27.6,1937.9,High,Late Blight
+Rice,Rabi,88.6,16.7,831.7,Medium,Bacterial Leaf Blight
+Rice,Rabi,72.5,28.9,1862.9,High,Blast
+Wheat,Rabi,90.9,35.8,1013.3,Medium,Loose Smut
+Rice,Kharif,57.1,18.0,1645.2,Medium,Brown Spot
+Rice,Rabi,41.2,17.5,1751.0,Medium,None
+Potato,Kharif,82.4,17.6,1431.1,High,Late Blight
+Wheat,Zaid,58.4,35.2,1711.1,Medium,Powdery Mildew
+Cotton,Rabi,55.6,35.0,991.6,Low,None
+Cotton,Rabi,53.9,16.4,793.1,Low,None
+Soybean,Rabi,92.7,18.5,1600.2,High,Pod Borer
+Soybean,Kharif,56.7,24.1,1280.7,Medium,Rust
+Soybean,Zaid,92.9,19.8,1254.1,High,Yellow Mosaic
+Tomato,Kharif,70.4,32.9,1074.8,Medium,Late Blight
+Cotton,Rabi,43.0,31.1,1080.8,Low,None
+Rice,Zaid,58.6,31.9,313.3,Low,None
+Rice,Kharif,65.8,35.1,534.1,Low,None
+Potato,Kharif,58.0,16.1,1465.0,Medium,Late Blight
+Potato,Rabi,47.3,32.6,617.2,Low,None
+Soybean,Kharif,59.5,15.1,1575.2,Medium,Rust
+Potato,Zaid,63.4,17.1,274.4,Low,None
+Soybean,Rabi,83.6,31.8,1803.5,High,Pod Borer
+Cotton,Rabi,85.9,31.9,464.4,Low,None
+Potato,Rabi,75.3,36.1,1515.8,High,Late Blight
+Cotton,Rabi,62.6,22.7,502.1,Low,None
+Wheat,Zaid,84.1,28.0,402.5,Medium,Loose Smut
+Wheat,Kharif,63.6,17.5,561.0,Medium,Powdery Mildew
+Wheat,Zaid,52.6,37.6,1566.3,Medium,None
+Soybean,Rabi,49.8,28.4,377.7,Low,None
+Rice,Zaid,68.1,23.9,282.1,Low,None
+Wheat,Kharif,76.4,28.2,287.9,High,Loose Smut
+Soybean,Zaid,82.5,16.5,565.3,Medium,Yellow Mosaic
+Rice,Zaid,85.9,18.6,1156.5,Medium,None
+Tomato,Kharif,63.3,28.5,781.9,Medium,Early Blight
+Wheat,Zaid,54.8,36.2,1225.3,Medium,Powdery Mildew
+Wheat,Rabi,74.1,20.9,1787.7,Medium,Loose Smut
+Rice,Kharif,48.9,35.9,436.8,Low,None
+Cotton,Rabi,43.4,36.2,345.3,Low,None
+Tomato,Kharif,50.4,27.6,567.2,Low,None
+Rice,Rabi,72.2,29.5,1623.0,High,Blast
+Cotton,Rabi,73.2,15.8,1458.5,Medium,Whitefly
+Potato,Zaid,57.8,29.9,1601.7,Low,None
+Potato,Zaid,63.0,21.6,658.6,Low,None
+Wheat,Kharif,71.1,17.6,1115.8,Medium,Loose Smut
+Tomato,Kharif,87.2,32.4,263.9,Medium,None
+Potato,Zaid,48.7,28.5,344.0,Low,None
+Potato,Kharif,94.0,22.0,1797.2,High,Late Blight
+Soybean,Rabi,74.7,15.9,539.6,Low,None
+Cotton,Rabi,86.0,24.8,394.8,High,Bacterial Blight
+Soybean,Rabi,54.7,33.3,1264.7,Medium,Pod Borer
+Cotton,Rabi,88.4,22.1,834.6,High,Bacterial Blight
+Cotton,Kharif,69.3,29.3,783.3,Medium,Bollworm
+Tomato,Zaid,44.3,34.3,996.5,Low,None
+Potato,Kharif,62.0,26.1,1318.9,Medium,Late Blight
+Tomato,Kharif,85.9,16.5,899.6,Medium,Late Blight
+Tomato,Zaid,48.9,19.2,1896.0,Medium,Late Blight
+Tomato,Zaid,76.8,30.1,1185.6,Medium,Fruit Borer
+Rice,Kharif,86.5,33.6,1560.9,High,Bacterial Leaf Blight
+Rice,Rabi,58.0,30.4,1128.0,Low,None
+Wheat,Zaid,64.2,26.7,319.7,Low,None
+Wheat,Zaid,81.6,34.5,1463.1,High,Loose Smut
+Rice,Kharif,41.4,17.6,990.2,Low,None
+Soybean,Rabi,54.9,16.2,1718.1,Low,None
+Tomato,Zaid,82.2,15.4,1735.5,High,Late Blight
+Tomato,Kharif,41.9,20.8,911.7,Medium,None
+Potato,Zaid,47.9,33.3,801.4,Low,None
+Potato,Kharif,53.6,30.2,448.8,Low,None
+Cotton,Rabi,77.8,16.4,376.2,Low,None
+Soybean,Zaid,91.5,17.2,276.8,Medium,Rust
+Cotton,Rabi,78.5,28.3,1094.0,High,Bollworm
+Rice,Kharif,62.6,33.7,1999.9,Medium,Bacterial Leaf Blight
+Cotton,Kharif,91.3,21.5,284.1,Medium,Bollworm
+Wheat,Rabi,72.9,17.8,404.6,Low,None
+Rice,Zaid,81.6,15.2,939.6,Medium,Brown Spot
+Rice,Kharif,92.7,24.2,935.6,High,Brown Spot
+Tomato,Rabi,46.6,28.4,454.9,Low,None
+Cotton,Kharif,83.0,34.1,1598.1,High,Whitefly
+Potato,Zaid,93.4,34.3,368.4,Medium,Early Blight
+Cotton,Rabi,83.7,38.0,445.9,Medium,Whitefly
+Potato,Zaid,87.9,29.0,1985.2,High,Early Blight
+Tomato,Zaid,91.2,16.6,887.8,Medium,Late Blight
+Soybean,Zaid,44.7,26.5,1276.4,Low,None
+Tomato,Zaid,81.7,27.7,1627.6,High,Fruit Borer
+Tomato,Rabi,48.7,16.1,321.3,Low,None
+Rice,Rabi,86.7,35.3,1854.6,High,Brown Spot
+Cotton,Kharif,92.6,26.7,837.2,High,Bacterial Blight
+Rice,Rabi,82.5,36.3,1514.1,High,Brown Spot
+Rice,Kharif,78.3,15.6,1519.6,High,Bacterial Leaf Blight
+Potato,Kharif,87.7,26.2,757.1,High,Late Blight
+Soybean,Rabi,51.8,20.1,1276.9,Medium,Rust
+Tomato,Kharif,65.3,23.6,1238.3,High,Fruit Borer
+Wheat,Rabi,59.6,21.8,1650.3,Low,None
+Rice,Zaid,87.4,20.9,1763.2,High,Blast
+Potato,Zaid,60.2,22.3,1298.5,Medium,Early Blight
+Cotton,Kharif,77.1,22.4,1910.5,High,Whitefly
+Tomato,Rabi,67.7,29.5,608.7,Low,None
+Rice,Kharif,68.2,28.0,493.1,Medium,None
+Potato,Rabi,52.0,17.1,447.7,Low,None
+Rice,Rabi,72.4,30.0,1408.6,Medium,Brown Spot
+Potato,Kharif,74.1,31.1,947.5,Medium,None
+Cotton,Kharif,81.2,30.4,1648.0,High,Bollworm
+Tomato,Rabi,83.4,32.0,1055.5,Medium,Late Blight
+Soybean,Zaid,84.1,32.0,631.4,Medium,Rust
+Soybean,Zaid,84.6,15.7,1677.2,Medium,None
+Rice,Rabi,55.1,37.6,615.7,Low,None
+Wheat,Zaid,68.2,30.9,398.9,Low,None
+Soybean,Zaid,53.7,34.1,323.0,Low,None
+Rice,Rabi,51.8,21.5,450.5,Low,None
+Wheat,Zaid,71.1,21.2,1304.6,Medium,Loose Smut
+Soybean,Kharif,81.7,25.9,1991.5,High,Pod Borer
+Rice,Rabi,89.7,23.4,418.5,High,Brown Spot
+Soybean,Rabi,49.6,37.6,606.1,Low,None
+Potato,Rabi,70.3,26.2,498.3,Medium,Early Blight
+Rice,Rabi,43.6,38.0,581.5,Low,None
+Wheat,Kharif,90.3,21.0,1105.7,High,Loose Smut
+Wheat,Zaid,62.8,29.6,430.2,Low,None
+Soybean,Zaid,77.9,35.8,1545.0,High,Pod Borer
+Soybean,Kharif,63.1,34.5,872.7,Medium,Rust
+Tomato,Kharif,91.4,21.7,1346.8,High,Late Blight
+Wheat,Zaid,77.0,26.1,1758.3,High,Loose Smut
+Rice,Kharif,87.4,34.5,1880.3,High,Brown Spot
+Cotton,Zaid,47.5,20.1,1154.6,Low,None
+Rice,Kharif,47.9,37.1,361.9,Low,None
+Soybean,Kharif,90.9,17.3,1206.5,High,Rust
+Potato,Rabi,48.4,24.4,1233.0,Medium,None
+Cotton,Kharif,61.5,22.3,871.9,Medium,Bollworm
+Wheat,Zaid,54.7,21.0,1756.0,Medium,Loose Smut
+Rice,Rabi,54.6,27.5,1854.2,Medium,Brown Spot
+Rice,Rabi,74.6,29.8,969.3,Medium,None
+Cotton,Zaid,77.2,23.3,623.7,Medium,None
+Rice,Zaid,83.8,33.1,577.8,Medium,None
+Tomato,Zaid,81.6,35.7,1692.2,High,Late Blight
+Potato,Zaid,61.0,30.4,432.6,Low,None
+Cotton,Rabi,94.9,15.1,1692.7,High,Bollworm
+Cotton,Rabi,50.9,24.1,448.1,Low,None
+Wheat,Rabi,79.9,21.7,1779.3,High,Loose Smut
+Cotton,Kharif,90.0,19.0,533.1,Medium,Whitefly
+Wheat,Kharif,40.9,28.8,1292.8,Medium,None
+Potato,Zaid,79.6,30.2,1037.8,Medium,None
+Wheat,Rabi,86.5,24.8,1924.1,High,Powdery Mildew
+Rice,Zaid,52.3,16.1,678.6,Low,None
+Rice,Rabi,53.2,34.3,544.8,Low,None
+Soybean,Rabi,88.9,35.1,1042.6,Medium,None
+Tomato,Zaid,77.7,35.4,1588.4,High,Early Blight
+Wheat,Kharif,85.3,34.5,1716.7,High,Powdery Mildew
+Cotton,Kharif,58.1,18.4,1595.4,Medium,Whitefly
+Soybean,Rabi,70.4,31.1,1059.0,Low,None
+Soybean,Zaid,80.4,16.5,282.2,Medium,Yellow Mosaic
+Tomato,Zaid,86.3,27.7,714.8,Medium,Late Blight
+Rice,Kharif,53.0,35.6,1792.3,Medium,Blast
+Tomato,Rabi,81.9,17.5,926.0,Medium,Late Blight
+Rice,Zaid,75.7,22.6,1387.7,High,Brown Spot
+Cotton,Rabi,64.9,28.6,1505.3,Medium,Bacterial Blight
+Cotton,Zaid,60.4,16.1,1542.7,Medium,Whitefly
+Cotton,Zaid,56.3,25.7,1309.7,Medium,Bacterial Blight
+Soybean,Rabi,93.5,22.3,533.7,High,Yellow Mosaic
+Tomato,Zaid,51.0,32.3,352.2,Low,None
+Cotton,Rabi,67.9,18.0,642.9,Low,None
+Wheat,Zaid,83.8,25.8,1994.7,High,Loose Smut
+Potato,Kharif,47.7,32.8,738.8,Low,None
+Wheat,Rabi,77.7,24.9,1281.3,High,Rust
+Cotton,Zaid,87.5,26.0,209.9,High,Bollworm
+Wheat,Rabi,71.1,28.9,1239.8,High,Rust
+Wheat,Rabi,70.1,29.2,605.4,Medium,Powdery Mildew
+Rice,Zaid,94.1,17.3,1743.0,Medium,Bacterial Leaf Blight
+Potato,Zaid,52.4,26.3,1736.7,Low,None
+Potato,Kharif,80.8,21.9,837.7,Medium,Early Blight
+Rice,Rabi,53.2,36.3,1793.2,Medium,Bacterial Leaf Blight
+Wheat,Kharif,93.4,29.1,300.7,High,Powdery Mildew
+Tomato,Zaid,58.0,28.8,316.0,Low,None
+Soybean,Kharif,88.8,35.0,1020.2,High,Rust
+Potato,Zaid,76.3,25.8,992.7,High,Late Blight
+Cotton,Zaid,92.3,26.8,850.8,High,Whitefly
+Tomato,Kharif,72.3,32.9,1902.8,Medium,Late Blight
+Potato,Kharif,41.9,31.4,1024.4,Low,None
+Soybean,Rabi,73.1,30.4,1609.1,Medium,Pod Borer
+Tomato,Kharif,46.6,36.6,1365.3,Medium,Late Blight
+Wheat,Rabi,80.7,18.9,1497.9,High,Rust
+Potato,Rabi,47.7,36.6,493.3,Low,None
+Tomato,Rabi,67.2,25.3,1809.9,Medium,Fruit Borer
+Rice,Kharif,46.5,34.1,1888.3,Medium,Blast
+Rice,Kharif,49.9,20.6,1228.0,Medium,Blast
+Cotton,Zaid,58.9,21.5,956.0,Low,None
+Soybean,Kharif,95.0,35.6,1498.3,High,Yellow Mosaic
+Rice,Zaid,80.0,22.3,854.0,High,Brown Spot
+Soybean,Zaid,67.5,19.1,693.5,Low,None
+Tomato,Zaid,91.7,23.6,274.4,High,Late Blight
+Rice,Zaid,66.1,36.6,891.0,Medium,Brown Spot
+Tomato,Rabi,91.5,26.1,564.5,High,Fruit Borer
+Tomato,Rabi,66.5,27.6,1327.4,Medium,None
+Rice,Rabi,58.9,37.8,1634.5,Medium,Blast
+Wheat,Rabi,42.7,32.1,603.8,Low,None
+Soybean,Rabi,77.3,37.8,1191.2,Medium,None
+Wheat,Zaid,93.6,37.6,1367.5,Medium,Rust
+Rice,Kharif,41.1,16.7,1053.8,Low,None
+Rice,Zaid,65.8,25.5,1385.1,Medium,None
+Potato,Zaid,54.4,28.4,827.3,Low,None
+Cotton,Zaid,40.3,16.9,1730.0,Low,None
+Soybean,Zaid,41.2,21.9,1509.2,Medium,Rust
+Tomato,Zaid,93.8,33.9,1908.8,High,Early Blight
+Rice,Kharif,56.0,19.1,778.5,Low,None
+Rice,Kharif,92.1,31.9,372.2,Medium,Blast
+Cotton,Rabi,56.7,35.0,914.5,Low,None
+Wheat,Rabi,59.8,16.6,1301.9,Medium,Loose Smut
+Wheat,Kharif,47.4,28.6,1766.1,Medium,None
+Rice,Kharif,90.8,33.7,1901.6,High,Blast
+Rice,Kharif,67.4,35.9,1965.5,High,Blast
+Cotton,Zaid,77.7,37.9,1037.6,Medium,None
+Potato,Zaid,46.8,34.1,1114.6,Low,None
+Wheat,Kharif,53.4,17.0,1309.8,Medium,None
+Wheat,Kharif,74.5,29.0,224.0,Medium,Loose Smut
+Rice,Kharif,70.6,30.9,682.2,Medium,Blast
+Soybean,Kharif,76.9,22.7,1998.5,High,Rust
+Cotton,Zaid,86.7,32.3,351.1,Medium,Bacterial Blight
+Rice,Rabi,76.4,20.5,1295.5,High,Blast
+Rice,Zaid,86.9,23.6,1893.8,High,Blast
+Potato,Kharif,88.1,30.8,201.7,Medium,Late Blight
+Soybean,Zaid,40.5,28.0,1424.2,Low,None
+Wheat,Zaid,59.7,19.1,1564.4,Low,None
+Soybean,Rabi,53.6,33.3,1418.2,Medium,Pod Borer
+Potato,Zaid,95.0,29.3,708.4,Medium,Early Blight
+Wheat,Kharif,51.7,22.4,647.6,Low,None
+Potato,Kharif,50.0,27.0,969.1,Low,None
+Tomato,Rabi,72.3,16.3,1987.0,Medium,Early Blight
+Soybean,Zaid,50.5,25.0,574.8,Low,None
+Wheat,Zaid,87.6,25.4,776.7,Medium,None
+Cotton,Rabi,44.8,27.3,597.1,Low,None
+Cotton,Rabi,69.9,32.3,202.7,Low,None
+Cotton,Zaid,42.3,26.0,291.6,Low,None
+Rice,Zaid,52.4,32.2,938.4,Low,None
+Tomato,Rabi,60.2,28.9,1244.2,Medium,Fruit Borer
+Potato,Kharif,59.6,34.1,365.7,Low,None
+Potato,Kharif,46.2,32.5,1897.6,Medium,Late Blight
+Potato,Rabi,90.4,19.0,463.6,Medium,Late Blight
+Cotton,Rabi,45.7,23.3,306.0,Low,None
+Rice,Kharif,73.3,16.1,1830.2,High,Brown Spot
+Tomato,Kharif,61.6,31.1,405.5,Low,None
+Potato,Kharif,51.5,34.3,1936.0,Medium,Late Blight
+Wheat,Kharif,90.8,19.5,1630.1,High,Loose Smut
+Cotton,Rabi,82.8,21.3,394.4,Low,None
+Rice,Kharif,42.5,25.2,644.9,Low,None
+Wheat,Zaid,69.0,22.5,835.4,Low,None
+Cotton,Rabi,94.7,15.8,875.3,Medium,None
+Tomato,Rabi,46.1,29.8,1210.1,Low,None
+Soybean,Zaid,76.7,26.2,1068.8,High,Rust
+Soybean,Kharif,75.5,34.7,1242.8,High,Rust
+Tomato,Kharif,58.9,26.2,1672.6,Medium,Late Blight
+Cotton,Zaid,62.5,29.5,1237.3,Medium,None
+Soybean,Rabi,85.3,29.1,1230.9,High,Pod Borer
+Cotton,Rabi,52.2,37.1,1441.8,Low,None
+Rice,Zaid,88.8,31.7,1178.3,Medium,Blast
+Rice,Zaid,46.0,31.8,1786.6,Low,None
+Tomato,Rabi,84.2,23.7,666.9,High,Fruit Borer
+Cotton,Zaid,48.3,20.3,1295.8,Medium,Bollworm
+Wheat,Zaid,85.2,24.6,968.7,High,Loose Smut
+Potato,Rabi,43.5,21.2,1794.8,Medium,Early Blight
+Potato,Rabi,46.1,27.3,933.1,Low,None
+Potato,Rabi,62.5,19.1,838.4,Low,None
+Cotton,Rabi,45.8,28.6,1401.7,Low,None
+Rice,Kharif,51.8,25.9,448.5,Low,None
+Potato,Rabi,46.1,27.1,311.5,Low,None
+Tomato,Kharif,42.3,34.8,1627.6,Medium,Fruit Borer
+Tomato,Zaid,59.9,23.4,1365.1,Medium,Late Blight
+Cotton,Kharif,47.4,17.7,574.9,Low,None
+Tomato,Kharif,83.7,35.4,907.7,Medium,Fruit Borer
+Rice,Zaid,76.8,21.3,1723.8,Medium,Brown Spot
+Wheat,Kharif,79.3,19.3,1004.4,High,Rust
+Cotton,Zaid,92.3,15.5,1901.1,High,Bollworm
+Rice,Rabi,49.3,16.0,1124.1,Low,None
+Tomato,Zaid,70.2,34.6,325.2,Low,None
+Cotton,Zaid,48.1,16.8,292.5,Low,None
+Rice,Rabi,70.4,27.0,399.6,Medium,Brown Spot
+Wheat,Kharif,95.0,15.2,619.1,Medium,Rust
+Potato,Rabi,75.9,37.6,1900.5,High,Early Blight
+Potato,Rabi,47.7,33.9,777.2,Low,None
+Potato,Rabi,53.3,23.5,1839.8,Low,None
+Wheat,Rabi,71.3,25.7,592.5,Medium,Loose Smut
+Tomato,Rabi,54.4,29.9,245.7,Low,None
+Potato,Rabi,75.0,17.7,1198.3,Low,None
+Cotton,Kharif,47.8,21.2,1234.7,Medium,Bollworm
+Soybean,Rabi,62.4,19.9,994.7,Medium,Rust
+Cotton,Rabi,68.9,24.9,378.6,Low,None
+Rice,Kharif,84.1,20.0,307.0,Medium,Blast
+Rice,Zaid,52.3,28.6,417.9,Low,None
+Rice,Rabi,49.5,16.1,1032.5,Low,None
+Cotton,Kharif,72.8,16.3,607.2,Low,None
+Rice,Kharif,76.9,36.2,258.6,Medium,Blast
+Tomato,Zaid,60.3,31.0,692.9,Low,None
+Rice,Kharif,75.8,29.5,1774.4,High,Bacterial Leaf Blight
+Cotton,Zaid,72.0,22.4,1817.1,High,Bollworm
+Potato,Rabi,66.4,34.4,393.0,Low,None
+Soybean,Zaid,73.5,26.8,1648.8,High,Rust
+Rice,Zaid,69.0,24.4,728.0,Low,None
+Cotton,Zaid,42.1,15.3,812.5,Low,None
+Cotton,Zaid,62.7,28.7,283.5,Low,None
+Rice,Zaid,58.9,20.8,1551.2,Medium,Bacterial Leaf Blight
+Wheat,Kharif,44.9,27.4,445.2,Low,None
+Wheat,Rabi,57.4,15.2,946.7,Low,None
+Rice,Rabi,70.6,22.4,875.8,Medium,None
+Potato,Zaid,90.1,29.9,960.3,High,Early Blight
+Soybean,Rabi,85.0,36.7,1992.5,Medium,Yellow Mosaic
+Soybean,Rabi,61.1,20.3,949.5,Low,None
+Wheat,Kharif,83.7,36.9,1156.9,Medium,None
+Tomato,Kharif,50.3,23.6,1794.2,Medium,Early Blight
+Potato,Rabi,46.2,36.0,407.9,Low,None
+Wheat,Zaid,46.7,29.1,905.5,Low,None
+Wheat,Rabi,78.5,26.3,1398.2,High,Powdery Mildew
+Potato,Kharif,75.3,29.0,1132.6,High,Early Blight
+Cotton,Zaid,71.5,21.5,1246.2,Medium,Whitefly
+Tomato,Kharif,90.7,19.9,1016.6,Medium,Late Blight
+Tomato,Kharif,68.0,20.9,1951.6,Medium,Late Blight
+Soybean,Zaid,83.0,31.7,1826.2,High,Rust
+Rice,Zaid,67.2,23.3,1684.6,Medium,Brown Spot
+Tomato,Zaid,86.8,20.0,1148.1,Medium,None
+Rice,Rabi,62.4,20.1,1230.7,Medium,Bacterial Leaf Blight
+Rice,Kharif,79.9,16.0,1928.3,High,Brown Spot
+Potato,Zaid,76.5,20.4,1110.4,Medium,Late Blight
+Tomato,Zaid,66.1,19.5,1950.0,Medium,None
+Rice,Rabi,51.8,31.1,1245.4,Medium,Bacterial Leaf Blight
+Rice,Kharif,50.4,21.8,1255.0,Medium,None
+Potato,Kharif,61.9,35.8,1790.0,Medium,Early Blight
+Rice,Zaid,48.6,21.8,1643.8,Low,None
+Soybean,Rabi,54.5,24.0,762.4,Low,None
+Tomato,Kharif,73.5,16.2,1378.3,High,Late Blight
+Cotton,Rabi,53.5,17.8,349.7,Low,None
+Tomato,Zaid,45.0,15.1,1727.7,Low,None
+Cotton,Rabi,56.7,29.2,628.0,Low,None
+Wheat,Kharif,65.6,24.2,244.3,Low,None
+Cotton,Rabi,55.9,23.7,1409.7,Low,None
+Cotton,Rabi,86.6,35.3,377.8,Low,None
+Rice,Rabi,79.8,30.8,1585.5,High,Blast
+Rice,Kharif,41.1,22.2,1283.6,Medium,Bacterial Leaf Blight
+Wheat,Kharif,82.8,24.3,245.7,High,Powdery Mildew
+Cotton,Kharif,68.1,32.5,326.9,Medium,Bollworm
+Soybean,Zaid,52.1,25.7,1151.1,Low,None
+Cotton,Rabi,77.0,35.0,465.7,Low,None
+Rice,Kharif,60.0,15.7,1951.0,High,Bacterial Leaf Blight
+Tomato,Zaid,92.9,35.8,689.6,Medium,Fruit Borer
+Potato,Kharif,47.3,36.4,490.3,Low,None
+Wheat,Zaid,83.7,32.2,1799.8,High,Rust
+Potato,Rabi,57.1,23.3,1300.8,Medium,Early Blight
+Cotton,Kharif,42.9,22.3,974.0,Low,None
+Tomato,Rabi,46.2,23.1,1288.7,Low,None
+Tomato,Rabi,69.9,15.7,1795.7,Medium,Early Blight
+Tomato,Rabi,55.0,17.5,969.2,Low,None
+Rice,Zaid,50.0,26.5,710.5,Low,None
+Cotton,Kharif,57.7,25.9,1353.4,Medium,Whitefly
+Tomato,Kharif,47.0,27.0,640.9,Low,None
+Soybean,Kharif,68.5,16.6,1491.0,High,Rust
+Wheat,Rabi,57.0,27.4,1977.3,Medium,Loose Smut
+Cotton,Kharif,91.7,35.6,865.1,Medium,None
+Soybean,Rabi,71.0,25.3,1181.9,High,Rust
+Cotton,Kharif,87.0,29.5,729.0,High,Whitefly
+Wheat,Rabi,85.8,28.6,1913.3,High,Rust
+Soybean,Kharif,43.2,25.8,636.0,Low,None
+Wheat,Kharif,55.4,33.8,1095.7,Low,None
+Cotton,Kharif,49.0,27.2,481.0,Low,None
+Rice,Rabi,79.9,30.1,1828.2,High,Brown Spot
+Rice,Rabi,51.0,29.2,466.1,Low,None
+Cotton,Kharif,48.3,26.0,928.7,Low,None
+Rice,Zaid,55.7,29.6,628.4,Low,None
+Rice,Zaid,92.3,31.4,219.6,Low,None
+Rice,Kharif,52.2,35.7,201.9,Low,None
+Soybean,Kharif,81.2,18.3,236.8,Medium,Yellow Mosaic
+Wheat,Kharif,54.5,32.3,1876.1,Medium,Loose Smut
+Soybean,Zaid,72.1,29.9,567.0,Medium,Pod Borer
+Potato,Rabi,58.1,30.7,1753.9,Low,None
+Potato,Kharif,86.4,24.1,1578.5,High,Early Blight
+Wheat,Rabi,89.5,34.4,1290.2,High,Powdery Mildew
+Cotton,Kharif,47.1,34.6,514.8,Low,None
+Rice,Zaid,75.5,29.0,1491.7,High,Bacterial Leaf Blight
+Wheat,Rabi,81.9,22.2,844.8,High,Powdery Mildew
+Wheat,Kharif,42.6,15.1,1054.3,Low,None
+Tomato,Rabi,82.5,32.0,684.6,Medium,Late Blight
+Potato,Zaid,52.4,30.0,441.2,Low,None
+Soybean,Kharif,60.6,18.7,406.5,Low,None
+Rice,Zaid,76.2,25.8,1650.8,High,Blast
+Rice,Zaid,73.6,26.0,1202.5,High,Blast
+Potato,Rabi,46.8,23.9,364.1,Low,None
+Cotton,Rabi,48.6,16.2,1707.9,Low,None
+Cotton,Rabi,65.6,35.2,484.5,Low,None
+Potato,Zaid,45.5,32.0,1654.8,Medium,Late Blight
+Tomato,Rabi,64.4,32.7,887.0,Medium,Early Blight
+Wheat,Kharif,65.2,24.4,362.6,Medium,None
+Soybean,Rabi,43.2,36.8,722.9,Low,None
+Potato,Kharif,67.4,15.5,1685.0,Medium,Late Blight
+Wheat,Kharif,89.9,30.8,1704.5,High,Loose Smut
+Potato,Zaid,88.1,33.6,1209.4,High,Early Blight
+Potato,Rabi,67.1,27.9,1054.1,Medium,Early Blight
+Tomato,Kharif,62.1,17.5,860.2,Medium,None
+Cotton,Zaid,80.4,19.2,1979.2,High,Bacterial Blight
+Soybean,Kharif,67.5,17.3,1370.8,High,Pod Borer
+Tomato,Zaid,93.5,17.3,749.8,Medium,None
+Potato,Rabi,88.0,15.2,354.5,Medium,Late Blight
+Rice,Kharif,56.6,28.9,1116.2,Medium,Bacterial Leaf Blight
+Wheat,Kharif,44.2,30.4,1288.2,Medium,None
+Rice,Kharif,48.1,34.3,1951.7,Medium,Bacterial Leaf Blight
+Rice,Rabi,43.3,32.0,705.8,Low,None
+Soybean,Rabi,47.8,16.0,1360.2,Low,None
+Soybean,Zaid,57.5,28.7,294.0,Low,None
+Cotton,Rabi,71.4,36.0,1638.0,Medium,None
+Potato,Rabi,85.8,32.9,1606.5,High,Early Blight
+Soybean,Kharif,42.6,20.4,370.1,Low,None
+Rice,Zaid,79.6,16.0,1839.6,High,Bacterial Leaf Blight
+Cotton,Kharif,48.6,28.1,1079.4,Medium,Bacterial Blight
+Soybean,Zaid,82.0,25.2,1583.4,High,Pod Borer
+Tomato,Rabi,78.0,22.0,1664.5,High,Early Blight
+Potato,Kharif,47.0,15.3,541.3,Low,None
+Cotton,Rabi,42.9,34.4,1216.3,Low,None
+Wheat,Kharif,56.1,21.6,512.0,Low,None
+Soybean,Rabi,82.7,18.0,1793.6,High,Pod Borer
+Cotton,Kharif,74.1,31.5,1208.5,High,Bollworm
+Wheat,Kharif,74.9,27.4,1996.3,High,Powdery Mildew
+Tomato,Rabi,64.1,26.9,1298.8,Medium,Late Blight
+Rice,Zaid,80.0,29.4,1819.1,High,Brown Spot
+Potato,Zaid,79.9,22.8,835.6,High,Late Blight
+Potato,Zaid,88.2,33.7,1512.3,High,Late Blight
+Soybean,Kharif,59.3,34.8,1766.6,Medium,None
+Soybean,Rabi,59.8,26.6,700.0,Low,None
+Cotton,Zaid,64.1,32.8,1646.4,Medium,None
+Wheat,Kharif,48.4,33.0,552.3,Low,None
+Cotton,Kharif,43.4,28.6,1525.0,Medium,Bacterial Blight
+Cotton,Zaid,63.2,22.0,1154.3,Low,None
+Rice,Kharif,58.4,29.5,428.7,Low,None
+Rice,Rabi,72.6,26.7,789.8,Medium,Bacterial Leaf Blight
+Wheat,Kharif,90.2,17.3,1169.6,High,Loose Smut
+Soybean,Zaid,70.9,34.6,1800.5,Medium,Yellow Mosaic
+Tomato,Kharif,88.6,29.6,1993.3,High,Fruit Borer
+Potato,Zaid,70.5,24.0,1906.0,High,Late Blight
+Potato,Rabi,90.6,18.0,671.0,Medium,Early Blight
+Wheat,Zaid,58.8,30.0,559.8,Low,None
+Wheat,Zaid,90.4,23.5,230.1,Medium,Rust
+Rice,Rabi,58.9,26.3,469.9,Low,None
+Cotton,Zaid,86.6,36.5,1624.4,High,Bollworm
+Wheat,Zaid,53.3,15.3,1210.1,Medium,Rust
+Cotton,Rabi,58.5,32.2,740.0,Low,None
+Rice,Kharif,60.4,22.3,1142.0,Medium,Blast
+Potato,Kharif,88.6,19.9,758.2,Medium,Early Blight
+Rice,Zaid,87.6,19.3,1990.9,High,Blast
+Cotton,Kharif,55.2,32.1,1145.1,Low,None
+Tomato,Zaid,89.4,36.1,999.7,Medium,Early Blight
+Rice,Kharif,53.5,37.7,1398.6,Medium,Brown Spot
+Cotton,Kharif,88.1,23.3,361.2,High,Bacterial Blight
+Cotton,Zaid,84.0,16.3,551.4,Medium,Bacterial Blight
+Wheat,Zaid,78.3,34.1,378.9,Low,None
+Soybean,Kharif,53.5,30.7,654.9,Low,None
+Potato,Rabi,85.9,16.6,1413.9,High,Early Blight
+Rice,Zaid,59.8,37.5,238.7,Low,None
+Potato,Rabi,80.1,24.3,275.3,High,Late Blight
+Rice,Zaid,55.9,18.0,449.4,Low,None
+Potato,Kharif,46.3,35.5,1520.3,Medium,Early Blight
+Tomato,Kharif,59.4,21.3,795.5,Low,None
+Soybean,Rabi,76.9,29.2,1493.0,High,Yellow Mosaic
+Tomato,Rabi,72.4,27.7,372.0,Medium,Late Blight
+Tomato,Zaid,73.6,30.6,1569.4,Medium,None
+Soybean,Zaid,94.4,32.9,725.7,Medium,Pod Borer
+Tomato,Kharif,49.8,33.7,1611.3,Medium,None
+Potato,Rabi,55.6,37.3,804.4,Low,None
+Soybean,Zaid,60.1,18.6,228.0,Low,None
+Soybean,Zaid,88.1,21.3,558.3,Medium,None
+Rice,Kharif,55.9,25.0,1951.1,Medium,Blast
+Rice,Rabi,67.8,29.2,684.2,Low,None
+Tomato,Zaid,59.4,20.2,892.1,Low,None
+Cotton,Rabi,89.7,19.2,1823.4,High,Whitefly
+Rice,Zaid,61.4,31.7,782.8,Low,None
+Potato,Rabi,93.0,32.1,637.6,Low,None
+Cotton,Zaid,45.0,32.6,1192.1,Low,None
+Wheat,Zaid,67.5,31.2,1076.2,Medium,Powdery Mildew
+Soybean,Zaid,61.4,36.2,1289.2,Medium,Pod Borer
+Cotton,Rabi,52.4,38.0,995.1,Low,None
+Tomato,Rabi,41.3,20.3,875.1,Low,None
+Tomato,Zaid,92.5,31.0,563.5,Low,None
+Soybean,Zaid,86.3,25.5,1834.8,High,Yellow Mosaic
+Rice,Kharif,59.7,16.0,638.4,Low,None
+Potato,Zaid,61.3,25.0,502.4,Low,None
+Potato,Kharif,40.2,34.2,1754.9,Medium,None
+Soybean,Kharif,93.9,17.9,251.0,Medium,Pod Borer
+Cotton,Zaid,83.1,36.5,1183.1,Medium,Whitefly
+Tomato,Zaid,80.0,27.4,1699.1,High,Late Blight
+Potato,Kharif,94.7,31.7,857.9,High,Early Blight
+Tomato,Kharif,45.7,28.9,1312.7,Medium,Fruit Borer
+Rice,Kharif,70.7,31.0,1286.1,Medium,Bacterial Leaf Blight
+Cotton,Rabi,93.6,20.1,1548.6,High,Bacterial Blight
+Wheat,Zaid,73.2,28.6,1288.5,High,Loose Smut
+Wheat,Kharif,79.4,16.9,987.4,High,Rust
+Rice,Rabi,80.4,35.6,1169.4,Medium,Bacterial Leaf Blight
+Rice,Zaid,44.8,15.9,547.2,Low,None
+Potato,Zaid,61.7,33.0,647.3,Low,None
+Potato,Rabi,83.3,30.6,338.8,Low,None
+Cotton,Rabi,53.6,33.0,1988.7,Medium,Whitefly
+Wheat,Rabi,73.3,35.2,743.5,Low,None
+Cotton,Rabi,83.3,36.6,389.8,Medium,Bollworm
+Wheat,Zaid,67.0,22.6,629.4,Low,None
+Rice,Zaid,69.8,36.1,1513.7,Medium,None
+Potato,Zaid,84.6,22.7,1931.2,High,Early Blight
+Tomato,Rabi,54.1,26.5,1683.3,Medium,Early Blight
+Rice,Rabi,80.8,24.7,1668.6,High,Blast
+Rice,Kharif,71.2,21.4,1572.4,High,Bacterial Leaf Blight
+Potato,Zaid,40.2,20.6,637.7,Low,None
+Cotton,Kharif,42.1,18.3,1723.7,Medium,Whitefly
+Wheat,Kharif,54.8,33.2,1434.1,Medium,Rust
+Cotton,Rabi,83.2,16.5,229.7,Medium,Bollworm
+Rice,Rabi,54.9,31.6,1738.5,Medium,Blast
+Tomato,Kharif,64.7,37.2,835.0,Medium,Early Blight
+Wheat,Rabi,50.2,22.3,1955.5,Low,None
+Wheat,Kharif,58.3,25.8,297.5,Low,None
+Wheat,Kharif,72.0,18.9,943.3,Medium,Loose Smut
+Soybean,Rabi,85.7,27.8,410.4,Medium,Rust
+Rice,Rabi,77.1,31.8,1169.7,Medium,Bacterial Leaf Blight
+Soybean,Rabi,94.9,34.2,1235.2,High,Pod Borer
+Rice,Kharif,43.9,22.9,1003.1,Low,None
+Rice,Rabi,46.9,26.2,314.7,Low,None
+Potato,Zaid,84.8,21.0,1957.8,High,Early Blight
+Soybean,Zaid,62.1,22.3,1667.5,Medium,Yellow Mosaic
+Soybean,Zaid,82.9,29.9,305.4,High,Yellow Mosaic
+Rice,Kharif,88.5,37.0,1956.1,High,Brown Spot
+Rice,Kharif,82.8,19.3,490.0,Medium,Bacterial Leaf Blight
+Tomato,Zaid,42.8,27.0,1819.7,Low,None
+Soybean,Zaid,62.2,37.2,352.8,Low,None
+Tomato,Rabi,71.6,28.7,1631.3,High,Late Blight
+Cotton,Zaid,54.2,35.4,728.8,Low,None
+Potato,Kharif,76.5,25.1,946.2,High,Early Blight
+Cotton,Kharif,56.1,18.7,1330.0,Medium,Whitefly
+Rice,Rabi,51.2,24.3,1568.2,Low,None
+Cotton,Rabi,93.6,20.5,1411.7,High,Bacterial Blight
+Soybean,Zaid,57.8,26.6,760.0,Low,None
+Tomato,Zaid,77.0,32.4,223.0,Medium,Early Blight
+Tomato,Zaid,50.4,16.5,689.1,Low,None
+Cotton,Kharif,73.5,25.0,1230.2,High,Bollworm
+Soybean,Rabi,70.5,16.8,1183.5,Medium,Rust
+Potato,Zaid,47.9,32.9,459.2,Low,None
+Tomato,Zaid,77.8,19.8,1419.9,High,Late Blight
+Tomato,Kharif,63.4,23.2,416.8,Medium,Early Blight
+Tomato,Zaid,55.5,30.3,1044.8,Low,None
+Potato,Kharif,61.8,37.2,558.8,Medium,Late Blight
+Wheat,Zaid,51.5,35.4,1332.6,Low,None
+Soybean,Rabi,89.7,20.5,1554.8,Medium,None
+Potato,Rabi,55.5,23.7,996.9,Low,None
+Potato,Rabi,76.0,29.2,834.7,High,Early Blight
+Cotton,Kharif,47.2,18.9,1551.6,Medium,Bacterial Blight
+Rice,Rabi,72.5,36.2,1943.4,Medium,Blast
+Rice,Zaid,70.3,22.9,1012.1,Medium,Brown Spot
+Rice,Kharif,54.2,23.8,667.4,Low,None
+Soybean,Rabi,64.2,21.0,1872.6,Medium,Pod Borer
+Rice,Kharif,93.1,37.5,497.4,Medium,Blast
+Cotton,Kharif,62.8,25.2,1297.3,Medium,Bollworm
+Wheat,Rabi,57.7,15.3,1694.5,Medium,Rust
+Tomato,Kharif,57.2,21.1,1474.6,Medium,Late Blight
+Soybean,Kharif,54.0,21.3,724.1,Low,None
+Wheat,Zaid,68.9,31.4,529.0,Low,None
+Rice,Kharif,93.4,30.4,862.5,High,Bacterial Leaf Blight
+Wheat,Kharif,54.8,26.9,206.1,Low,None
+Rice,Zaid,79.5,33.1,1632.4,High,Brown Spot
+Potato,Zaid,90.4,29.7,578.0,High,Late Blight
+Wheat,Zaid,43.8,17.5,248.4,Low,None
+Cotton,Kharif,92.4,17.8,1919.5,High,Bollworm
+Wheat,Rabi,94.4,19.7,894.8,Medium,Rust
+Potato,Zaid,60.3,25.7,1837.4,Medium,Early Blight
+Wheat,Kharif,82.7,20.3,1817.6,High,Rust
+Cotton,Kharif,69.3,27.2,1534.1,High,Whitefly
+Wheat,Rabi,73.6,26.8,698.5,Medium,None
+Tomato,Rabi,41.9,27.4,1223.4,Medium,None
+Rice,Zaid,48.4,16.2,1534.9,Low,None
+Rice,Zaid,86.0,18.1,555.3,Medium,Brown Spot
+Tomato,Rabi,70.8,35.3,978.7,Medium,Fruit Borer
+Soybean,Rabi,71.4,38.0,866.5,Low,None
+Soybean,Rabi,44.2,31.1,1305.9,Low,None
+Soybean,Zaid,40.4,15.2,1776.8,Low,None
+Tomato,Rabi,69.5,35.6,1515.4,Medium,None
+Wheat,Kharif,51.2,28.8,496.1,Low,None
+Soybean,Rabi,78.4,20.7,677.9,Medium,Rust
+Rice,Rabi,76.7,33.7,1841.8,High,Brown Spot
+Rice,Rabi,40.7,34.8,709.8,Low,None
+Potato,Kharif,74.1,32.1,828.6,Medium,None
+Potato,Zaid,52.6,36.9,1266.5,Low,None
+Potato,Zaid,67.9,31.5,1246.9,Medium,None
+Wheat,Zaid,90.0,33.7,1043.7,Medium,Powdery Mildew
+Tomato,Zaid,79.4,34.6,1938.1,Medium,Late Blight
+Cotton,Rabi,81.9,37.2,415.9,Medium,Bollworm
+Soybean,Kharif,40.6,27.7,1619.8,Medium,Pod Borer
+Cotton,Kharif,50.6,26.8,1003.7,Medium,None
+Potato,Rabi,52.7,23.7,1014.5,Low,None
+Rice,Rabi,81.6,20.2,504.8,Medium,None
+Wheat,Rabi,81.9,26.1,708.8,Medium,Rust
+Potato,Rabi,59.9,33.8,333.5,Low,None
+Rice,Rabi,90.3,24.9,288.7,High,Brown Spot
+Tomato,Rabi,44.2,21.0,713.8,Low,None
+Tomato,Kharif,41.0,28.5,275.4,Low,None
+Potato,Rabi,74.2,25.7,1377.2,High,Late Blight
+Potato,Zaid,67.6,37.8,488.1,Low,None
+Cotton,Zaid,73.3,26.5,1571.9,High,Bollworm
+Potato,Rabi,79.2,30.8,219.9,Low,None
+Tomato,Kharif,45.6,16.3,1421.6,Medium,Early Blight
+Potato,Zaid,90.8,27.5,1882.7,High,Early Blight
+Tomato,Rabi,52.2,17.9,1308.6,Medium,None
+Cotton,Rabi,57.0,22.6,1574.1,Low,None
+Rice,Kharif,69.5,30.9,1280.5,High,Bacterial Leaf Blight
+Wheat,Kharif,85.3,23.4,1366.1,High,Powdery Mildew
+Potato,Rabi,79.1,16.0,1823.1,High,Late Blight
+Wheat,Zaid,78.8,30.5,1151.0,Medium,None
+Tomato,Zaid,55.9,18.0,1237.5,Medium,Fruit Borer
+Rice,Rabi,80.8,17.2,262.5,Medium,Brown Spot
+Soybean,Kharif,69.7,25.8,1852.3,High,Rust
+Potato,Zaid,91.8,34.6,1741.2,High,Early Blight
+Soybean,Kharif,40.7,22.6,388.6,Low,None
+Rice,Zaid,78.6,15.4,1499.5,High,Brown Spot
+Potato,Kharif,82.0,24.5,1869.7,High,Early Blight
+Rice,Kharif,94.4,18.9,1108.3,Medium,Brown Spot
+Potato,Rabi,71.3,28.3,1268.6,High,Late Blight
+Cotton,Zaid,69.9,29.5,1446.2,Medium,Whitefly
+Tomato,Kharif,90.6,35.0,1062.0,Medium,Early Blight
+Wheat,Kharif,85.1,23.3,491.6,High,Loose Smut
+Soybean,Kharif,92.3,27.1,323.4,High,Yellow Mosaic
+Cotton,Rabi,52.9,21.1,839.1,Low,None
+Cotton,Kharif,72.1,16.1,438.5,Medium,None
+Potato,Zaid,91.4,24.6,1623.4,High,Early Blight
+Wheat,Kharif,56.5,17.8,398.9,Low,None
+Wheat,Kharif,82.5,17.9,1853.9,High,Powdery Mildew
+Rice,Kharif,73.5,25.4,1344.9,High,Brown Spot
+Tomato,Rabi,51.1,27.6,1299.3,Low,None
+Cotton,Zaid,82.2,30.9,713.6,Medium,Whitefly
+Cotton,Kharif,92.2,30.1,973.0,High,Whitefly
+Tomato,Rabi,44.5,33.6,1288.7,Medium,Early Blight
+Potato,Kharif,81.4,28.9,1620.2,High,Late Blight
+Rice,Kharif,43.5,17.2,234.2,Low,None
+Wheat,Kharif,40.9,19.1,1002.6,Low,None
+Rice,Zaid,42.4,25.5,1020.7,Low,None
+Tomato,Zaid,44.6,25.4,1286.7,Low,None
+Tomato,Kharif,94.6,16.1,1581.1,High,Late Blight
+Cotton,Rabi,82.4,17.7,1936.7,High,Bollworm
+Soybean,Rabi,76.8,26.2,319.1,High,Pod Borer
+Tomato,Zaid,58.4,28.4,1815.5,Low,None
+Tomato,Zaid,82.4,15.9,838.6,Medium,None
+Tomato,Zaid,92.3,21.4,459.7,Medium,Early Blight
+Cotton,Kharif,65.1,22.8,1481.7,Medium,Whitefly
+Wheat,Rabi,58.2,21.7,876.9,Low,None
+Tomato,Kharif,60.0,24.7,1355.3,Medium,Early Blight
+Tomato,Zaid,71.3,36.2,354.5,Low,None
+Tomato,Zaid,58.3,27.7,270.9,Low,None
+Soybean,Rabi,52.8,35.5,1144.3,Low,None
+Potato,Zaid,51.3,36.5,1639.4,Medium,None
+Wheat,Zaid,87.1,27.1,1563.6,High,Loose Smut
+Cotton,Kharif,94.0,23.8,1227.9,High,Whitefly
+Soybean,Rabi,70.4,16.0,1905.3,Medium,Pod Borer
+Tomato,Zaid,40.3,21.7,1607.7,Low,None
+Potato,Zaid,41.7,21.0,1794.1,Medium,Late Blight
+Rice,Rabi,92.1,25.3,1562.9,High,Bacterial Leaf Blight
+Tomato,Kharif,62.4,35.6,436.0,Low,None
+Rice,Rabi,90.2,26.4,1044.1,High,Blast
+Cotton,Zaid,81.8,20.9,1443.0,Medium,Whitefly
+Soybean,Rabi,55.9,27.5,215.1,Low,None
+Wheat,Zaid,66.3,19.5,1119.9,Medium,Loose Smut
+Potato,Kharif,50.9,18.1,334.2,Low,None
+Soybean,Rabi,92.5,32.9,1201.7,Medium,Rust
+Rice,Zaid,56.8,18.6,1649.5,Low,None
+Potato,Rabi,42.7,35.7,806.9,Low,None
+Cotton,Rabi,44.9,16.6,742.2,Low,None
+Rice,Rabi,82.5,33.3,1346.5,Medium,Blast
+Tomato,Zaid,88.1,35.3,350.2,Medium,Early Blight
+Cotton,Rabi,63.1,20.0,940.7,Medium,Bacterial Blight
+Wheat,Zaid,73.0,27.0,1970.5,High,Loose Smut
+Tomato,Rabi,58.9,19.3,260.8,Low,None
+Wheat,Zaid,47.4,21.7,1786.1,Medium,None
+Potato,Kharif,89.9,31.6,1000.5,Medium,Early Blight
+Rice,Zaid,90.5,19.0,1055.6,Medium,Brown Spot
+Tomato,Kharif,48.4,19.5,744.7,Low,None
+Wheat,Rabi,52.2,28.3,1599.2,Low,None
+Potato,Kharif,93.2,28.2,1827.8,High,Late Blight
+Soybean,Zaid,78.0,37.1,326.4,Medium,Rust
+Cotton,Zaid,83.1,33.5,1764.4,High,Whitefly
+Cotton,Zaid,79.7,30.6,1440.0,Medium,None
+Wheat,Rabi,80.7,18.0,1332.1,High,Powdery Mildew
+Wheat,Zaid,92.2,30.5,213.9,Low,None
+Wheat,Rabi,74.7,30.5,647.0,Low,None
+Wheat,Zaid,65.0,22.2,1935.2,Medium,None
+Potato,Rabi,51.1,15.8,1360.7,Low,None
+Cotton,Zaid,77.8,37.0,1970.8,High,Whitefly
+Soybean,Rabi,94.5,30.2,225.0,Medium,Yellow Mosaic
+Rice,Rabi,93.4,27.7,968.1,High,Brown Spot
+Wheat,Zaid,80.5,31.4,1134.9,Medium,None
+Cotton,Kharif,50.9,24.4,1844.6,Medium,Whitefly
+Rice,Rabi,83.0,29.9,1237.0,High,Brown Spot
+Tomato,Zaid,69.5,21.8,1017.0,Medium,Late Blight
+Soybean,Zaid,47.7,24.1,819.4,Low,None
+Tomato,Kharif,44.9,16.2,341.7,Low,None
+Wheat,Kharif,74.6,21.5,626.3,Low,None
+Wheat,Zaid,63.4,26.1,1301.8,Medium,Rust
+Potato,Rabi,85.4,29.5,1279.5,High,Early Blight
+Rice,Rabi,84.2,32.9,1853.9,High,Blast
+Tomato,Zaid,87.5,25.4,862.2,High,Late Blight
+Wheat,Zaid,74.3,22.2,1166.9,Medium,Rust
+Wheat,Zaid,42.8,36.2,938.3,Low,None
+Wheat,Zaid,57.1,19.5,1826.9,Low,None
+Soybean,Kharif,93.4,24.6,539.1,High,Pod Borer
+Rice,Zaid,87.4,20.8,1677.5,High,Brown Spot
+Cotton,Kharif,45.4,35.2,287.9,Low,None
+Potato,Rabi,82.6,25.2,521.1,High,Late Blight
+Soybean,Zaid,70.1,28.0,1377.0,High,Pod Borer
+Rice,Rabi,79.1,20.8,1147.0,Medium,Blast
+Rice,Rabi,65.6,30.4,202.5,Low,None
+Soybean,Kharif,55.0,29.0,406.7,Low,None
+Rice,Rabi,82.9,28.4,1154.5,High,Blast
+Tomato,Rabi,77.5,26.6,1578.9,High,Late Blight
+Wheat,Zaid,72.5,23.5,1834.9,High,Powdery Mildew
+Rice,Kharif,58.8,26.3,932.6,Low,None
+Tomato,Zaid,78.6,17.2,1773.9,High,Fruit Borer
+Wheat,Kharif,87.6,21.9,995.4,High,Powdery Mildew
+Cotton,Rabi,53.4,18.9,1693.2,Low,None
+Tomato,Kharif,66.8,15.4,1499.7,Medium,Fruit Borer
+Rice,Zaid,50.0,34.3,1078.5,Low,None
+Cotton,Kharif,50.8,20.3,540.0,Low,None
+Tomato,Rabi,68.0,23.1,427.7,Low,None
+Soybean,Zaid,47.3,30.5,392.9,Low,None
+Tomato,Kharif,58.5,35.3,927.3,Low,None
+Potato,Kharif,49.7,35.1,1130.9,Low,None
+Potato,Rabi,46.9,27.8,1466.6,Low,None
+Soybean,Rabi,88.6,19.1,1868.0,Medium,Rust
+Tomato,Kharif,68.7,36.8,979.2,Medium,Fruit Borer
+Soybean,Zaid,80.1,33.8,1113.4,Medium,Rust
+Potato,Rabi,54.3,24.4,1421.4,Medium,None
+Tomato,Rabi,83.1,18.0,1827.4,Medium,None
+Wheat,Zaid,63.8,30.8,1621.6,Medium,Powdery Mildew
+Wheat,Zaid,71.6,34.3,1845.7,Medium,None
+Soybean,Zaid,50.4,32.7,1181.8,Low,None
+Wheat,Rabi,90.2,16.8,876.5,Medium,Powdery Mildew
+Soybean,Kharif,79.3,20.0,562.7,Medium,Pod Borer
+Wheat,Rabi,42.5,22.4,1714.7,Medium,Rust
+Rice,Zaid,68.5,19.9,1582.6,Medium,Brown Spot
+Soybean,Rabi,93.5,32.9,1586.3,High,Pod Borer
+Wheat,Rabi,93.0,26.7,1810.1,High,Powdery Mildew
+Cotton,Kharif,94.8,16.4,878.1,High,Bollworm
+Wheat,Zaid,52.1,25.6,461.2,Low,None
+Tomato,Rabi,85.9,26.6,691.5,Medium,Fruit Borer
+Cotton,Zaid,48.6,24.4,944.1,Low,None
+Tomato,Zaid,44.8,23.9,1173.4,Low,None
+Rice,Kharif,51.3,19.7,1135.2,Low,None
+Tomato,Zaid,79.3,27.9,979.2,High,Early Blight
+Soybean,Kharif,49.4,26.4,1965.5,Medium,None
+Tomato,Rabi,47.9,31.7,366.4,Low,None
+Cotton,Kharif,40.9,24.6,1641.0,Medium,None
+Tomato,Kharif,45.9,37.8,1882.5,Medium,Late Blight
+Wheat,Zaid,82.9,29.1,1911.3,High,Powdery Mildew
+Tomato,Kharif,49.8,30.1,1333.5,Medium,Fruit Borer
+Rice,Rabi,41.4,36.9,1800.4,Low,None
+Potato,Rabi,67.9,36.5,1418.9,Medium,Early Blight
+Soybean,Kharif,74.3,34.4,516.0,Low,None
+Tomato,Rabi,69.1,28.5,1002.3,Low,None
+Rice,Zaid,90.4,33.4,1289.0,Medium,Bacterial Leaf Blight
+Wheat,Kharif,56.6,28.8,1164.5,Low,None
+Soybean,Rabi,77.2,30.1,1603.6,High,Yellow Mosaic
+Rice,Zaid,56.9,16.0,1773.2,Low,None
+Tomato,Rabi,61.1,15.3,867.8,Medium,Fruit Borer
+Wheat,Rabi,71.4,27.5,921.2,Medium,Rust
+Potato,Zaid,63.8,23.1,998.1,Low,None
+Potato,Rabi,60.6,23.8,1433.1,Medium,Late Blight
+Wheat,Kharif,47.5,31.5,1475.3,Medium,Powdery Mildew
+Tomato,Kharif,43.8,26.6,1247.1,Medium,Late Blight
+Rice,Rabi,88.7,20.2,899.9,Medium,Brown Spot
+Wheat,Rabi,68.3,29.3,464.8,Low,None
+Tomato,Kharif,74.0,28.5,1316.9,High,Fruit Borer
+Cotton,Zaid,75.9,30.0,1271.6,High,Bacterial Blight
+Rice,Rabi,91.7,26.5,1566.3,High,Blast
+Tomato,Kharif,40.9,24.5,1441.9,Medium,None
+Rice,Kharif,63.0,25.4,1145.2,Medium,Brown Spot
+Wheat,Kharif,46.0,20.8,1800.0,Medium,Rust
+Potato,Kharif,94.9,29.4,827.5,High,Late Blight
+Potato,Kharif,93.2,17.1,396.7,Medium,Late Blight
+Wheat,Zaid,58.3,35.6,240.3,Low,None
+Rice,Rabi,45.2,15.9,690.5,Low,None
+Tomato,Rabi,51.5,23.4,343.2,Low,None
+Cotton,Kharif,92.0,34.0,1106.5,Medium,Bacterial Blight
+Tomato,Rabi,71.0,31.7,857.1,Medium,Late Blight
+Cotton,Kharif,55.0,18.2,1905.0,Medium,Bacterial Blight
+Wheat,Kharif,78.7,30.9,289.3,Medium,None
+Tomato,Zaid,67.8,37.2,1750.5,Medium,Early Blight
+Rice,Zaid,59.0,31.2,507.6,Low,None
+Potato,Kharif,60.2,31.3,1252.4,Medium,None
+Wheat,Rabi,94.4,33.1,1862.2,Medium,Rust
+Soybean,Zaid,83.5,23.5,987.0,High,Yellow Mosaic
+Potato,Zaid,59.7,32.0,1438.7,Medium,Early Blight
+Cotton,Zaid,47.0,15.6,450.3,Low,None
+Wheat,Zaid,84.5,36.8,1764.7,High,Loose Smut
+Wheat,Rabi,49.1,37.3,1321.4,Medium,None
+Rice,Kharif,59.7,34.2,1407.5,Medium,Blast
+Soybean,Zaid,76.6,21.0,1132.8,Medium,Pod Borer
+Wheat,Kharif,43.6,28.6,1005.5,Medium,Rust
+Rice,Rabi,45.7,24.8,1953.0,Medium,Bacterial Leaf Blight
+Wheat,Zaid,53.6,19.6,1175.9,Low,None
+Wheat,Kharif,68.7,27.8,759.7,Low,None
+Wheat,Rabi,60.9,34.9,1179.3,Low,None
+Rice,Zaid,60.3,34.5,289.1,Low,None
+Tomato,Rabi,72.0,20.9,1275.5,Medium,Early Blight
+Rice,Zaid,91.4,18.2,251.9,Medium,Blast
+Potato,Zaid,59.2,17.9,479.3,Low,None
+Potato,Zaid,69.8,36.5,431.1,Low,None
+Soybean,Zaid,54.3,17.4,1449.5,Low,None
+Potato,Zaid,82.3,30.5,443.7,Medium,Early Blight
+Tomato,Zaid,51.0,33.4,1330.9,Low,None
+Cotton,Zaid,78.3,19.1,1773.5,Medium,Bacterial Blight
+Tomato,Kharif,91.5,28.3,793.3,High,Fruit Borer
+Tomato,Kharif,65.4,29.9,546.2,Medium,Early Blight
+Soybean,Rabi,60.1,37.9,1779.3,Medium,Rust
+Cotton,Zaid,42.4,30.8,599.0,Low,None
+Tomato,Zaid,48.7,18.6,1436.1,Low,None
+Tomato,Zaid,68.1,21.2,877.0,Medium,Early Blight
+Rice,Zaid,41.0,28.4,492.6,Low,None
+Rice,Kharif,40.3,32.1,738.5,Low,None
+Cotton,Kharif,83.9,37.3,322.9,Medium,Whitefly
+Rice,Rabi,64.7,30.3,1265.3,Medium,Blast
+Cotton,Rabi,70.0,24.7,334.0,Low,None
+Rice,Rabi,67.4,17.4,326.2,Low,None
+Cotton,Rabi,83.8,27.5,303.3,High,Whitefly
+Tomato,Kharif,77.5,18.9,1794.8,High,Late Blight
+Wheat,Zaid,59.6,35.5,1454.7,Low,None
+Rice,Rabi,43.7,26.7,1052.0,Low,None
+Soybean,Kharif,51.0,34.1,318.6,Low,None
+Potato,Kharif,63.0,30.6,609.5,Medium,Early Blight
+Wheat,Kharif,40.3,32.3,976.8,Medium,Powdery Mildew
+Tomato,Zaid,61.7,25.6,1031.0,Low,None
+Potato,Zaid,48.9,23.7,1721.3,Low,None
+Soybean,Rabi,51.0,16.6,895.2,Low,None
+Cotton,Kharif,51.1,22.1,1493.6,Medium,Whitefly
+Soybean,Kharif,88.4,24.4,210.9,High,Yellow Mosaic
+Soybean,Zaid,70.4,26.5,1893.3,High,Rust
+Cotton,Zaid,84.7,21.5,1565.7,High,Whitefly
+Rice,Zaid,88.0,18.0,1676.0,High,Brown Spot
+Potato,Zaid,86.4,36.8,1729.3,High,Early Blight
+Rice,Kharif,50.8,19.2,297.3,Low,None
+Rice,Kharif,91.6,28.2,1361.3,High,Bacterial Leaf Blight
+Wheat,Zaid,55.9,19.9,720.4,Low,None
+Potato,Rabi,83.0,28.1,479.7,Medium,Late Blight
+Potato,Kharif,93.0,24.4,1635.4,High,Early Blight
+Soybean,Zaid,65.4,20.7,831.0,Low,None
+Rice,Zaid,70.0,15.6,232.3,Low,None
+Rice,Kharif,75.3,24.6,1547.6,High,Brown Spot
+Soybean,Rabi,63.6,15.5,1763.8,Medium,Rust
+Soybean,Rabi,42.2,33.7,1206.6,Low,None
+Potato,Rabi,66.4,25.7,1983.9,Medium,Late Blight
+Potato,Zaid,92.7,37.7,445.4,Medium,Late Blight
+Cotton,Kharif,50.7,21.5,380.1,Low,None
+Tomato,Rabi,79.5,28.0,263.3,Medium,Fruit Borer
+Tomato,Zaid,41.3,24.5,1416.1,Medium,Early Blight
+Wheat,Rabi,43.1,31.6,1326.1,Medium,Rust
+Cotton,Kharif,45.4,18.0,1031.4,Low,None
+Soybean,Zaid,60.1,37.3,455.6,Low,None
+Tomato,Kharif,89.9,28.3,1413.2,High,Early Blight
+Cotton,Rabi,41.3,18.6,1409.8,Medium,Bollworm
+Rice,Rabi,86.9,22.0,1799.2,High,Blast
+Soybean,Zaid,47.9,18.1,1027.9,Low,None
+Tomato,Rabi,90.7,20.1,1497.0,Medium,Early Blight
+Tomato,Zaid,58.6,27.0,1653.1,Low,None
+Tomato,Rabi,88.6,20.7,1058.8,Medium,Early Blight
+Tomato,Kharif,53.6,27.3,317.9,Low,None
+Cotton,Kharif,45.8,23.0,817.5,Low,None
+Wheat,Zaid,75.5,22.2,1690.1,High,Loose Smut
+Tomato,Rabi,90.8,22.3,1223.1,High,Early Blight
+Cotton,Rabi,40.8,29.1,683.3,Low,None
+Soybean,Rabi,59.6,25.3,940.0,Low,None
+Cotton,Rabi,64.9,18.3,1324.2,Medium,Bacterial Blight
+Cotton,Rabi,66.3,32.6,869.4,Medium,Bollworm
+Cotton,Rabi,94.6,31.5,1012.7,Medium,None
+Cotton,Kharif,63.4,24.2,1199.1,Medium,None
+Tomato,Kharif,81.7,33.3,247.8,Medium,Early Blight
+Wheat,Rabi,59.8,35.8,1525.6,Low,None
+Wheat,Rabi,80.5,33.6,841.0,Medium,None
+Wheat,Kharif,80.9,16.0,612.4,Medium,Powdery Mildew
+Rice,Rabi,55.5,16.2,632.4,Low,None
+Cotton,Rabi,87.7,22.3,463.5,Medium,None
+Wheat,Kharif,57.3,20.6,1999.2,Medium,Loose Smut
+Cotton,Zaid,93.3,21.2,1743.3,High,Bollworm
+Rice,Rabi,42.9,35.7,1080.8,Low,None
+Rice,Kharif,69.8,19.8,838.8,Medium,Blast
+Soybean,Zaid,89.7,28.8,1499.2,High,Rust
+Rice,Rabi,41.2,17.2,592.9,Low,None
+Wheat,Zaid,42.0,16.1,546.2,Low,None
+Soybean,Rabi,63.8,25.0,681.8,Low,None
+Cotton,Rabi,94.9,20.2,1952.8,High,Whitefly
+Potato,Kharif,60.4,28.9,828.1,Medium,Early Blight
+Soybean,Zaid,79.1,30.1,1412.3,High,Yellow Mosaic
+Potato,Zaid,65.9,24.6,1817.3,Medium,Early Blight
+Cotton,Kharif,89.6,18.7,1596.6,High,Whitefly
+Tomato,Kharif,60.9,19.5,769.2,Medium,Early Blight
+Rice,Zaid,55.1,32.7,1188.3,Low,None
+Cotton,Zaid,70.8,38.0,1071.6,Medium,Bacterial Blight
+Cotton,Kharif,43.8,37.4,349.3,Low,None
+Soybean,Zaid,63.6,16.4,1704.0,Medium,Pod Borer
+Wheat,Rabi,53.6,24.8,1737.3,Low,None
+Wheat,Rabi,53.5,27.5,828.7,Low,None
+Wheat,Rabi,69.7,19.1,634.4,Low,None
+Soybean,Rabi,64.6,17.4,1015.8,Low,None
+Cotton,Kharif,67.6,25.3,1613.2,High,Bollworm
+Potato,Rabi,60.0,15.9,269.5,Low,None
+Potato,Kharif,51.0,20.5,468.6,Low,None
+Cotton,Rabi,94.0,21.0,289.0,Medium,Whitefly
+Rice,Zaid,90.6,18.3,437.8,Low,None
+Soybean,Kharif,80.2,29.7,344.5,High,Pod Borer
+Rice,Zaid,53.4,22.4,1993.9,Medium,Brown Spot
+Cotton,Kharif,65.4,28.9,298.8,Medium,Bacterial Blight
+Potato,Rabi,83.9,25.9,1849.3,High,Early Blight
+Potato,Rabi,91.0,34.8,325.0,Medium,Late Blight
+Rice,Rabi,89.2,18.1,1083.4,Medium,Brown Spot
+Cotton,Kharif,51.5,34.6,1196.3,Low,None
+Cotton,Zaid,88.0,28.7,208.1,High,Bacterial Blight
+Soybean,Zaid,94.2,17.5,1401.7,High,Pod Borer
+Rice,Kharif,67.1,31.1,1592.1,High,Bacterial Leaf Blight
+Wheat,Kharif,61.8,22.1,256.6,Medium,Powdery Mildew
+Tomato,Kharif,87.1,31.3,1346.2,High,Fruit Borer
+Soybean,Zaid,95.0,15.3,1938.4,High,Pod Borer
+Tomato,Zaid,86.3,27.4,1252.5,High,Early Blight
+Wheat,Kharif,50.1,37.2,770.2,Low,None
+Tomato,Kharif,54.6,37.4,263.5,Low,None
+Tomato,Kharif,63.1,32.7,1221.7,Medium,Fruit Borer
+Tomato,Kharif,44.0,32.6,1452.6,Medium,Early Blight
+Potato,Zaid,67.1,30.5,1268.6,Medium,Late Blight
+Tomato,Zaid,81.2,33.0,1803.9,High,Early Blight
+Rice,Rabi,71.2,18.1,1531.0,Medium,Brown Spot
+Tomato,Zaid,61.6,35.0,476.3,Low,None
+Potato,Kharif,66.2,28.9,1740.3,Medium,Early Blight
+Cotton,Rabi,76.4,36.3,876.0,Medium,Bacterial Blight
+Cotton,Zaid,55.4,31.6,1803.0,Medium,Bacterial Blight
+Tomato,Rabi,43.5,17.9,1784.1,Medium,Fruit Borer
+Rice,Kharif,46.6,18.0,1247.8,Medium,Brown Spot
+Rice,Rabi,81.0,16.8,605.2,Medium,Blast
+Rice,Zaid,66.4,22.3,306.2,Low,None
+Soybean,Zaid,72.8,37.2,1574.1,Medium,Pod Borer
+Tomato,Kharif,40.9,16.1,893.4,Low,None
+Potato,Rabi,88.6,18.5,1138.8,Medium,Early Blight
+Rice,Kharif,83.1,22.4,1690.2,High,Brown Spot
+Soybean,Rabi,74.7,18.2,1342.7,Medium,None
+Tomato,Zaid,75.9,17.7,405.9,Medium,Early Blight
+Potato,Rabi,76.8,27.7,1598.2,High,Late Blight
+Potato,Kharif,47.4,32.8,1757.3,Medium,Early Blight
+Potato,Zaid,84.8,30.7,900.9,Medium,None
+Potato,Rabi,62.8,33.5,692.1,Low,None
+Soybean,Zaid,76.9,20.1,338.4,Medium,None
+Soybean,Rabi,80.8,18.5,1552.4,High,Yellow Mosaic
+Rice,Zaid,79.7,21.3,652.4,Low,None
+Wheat,Rabi,55.7,31.9,1229.6,Medium,None
+Cotton,Kharif,67.1,17.6,647.7,Low,None
+Rice,Rabi,70.1,25.6,503.4,Medium,Blast
+Tomato,Kharif,77.8,16.9,1632.4,High,Early Blight
+Tomato,Kharif,50.0,24.9,586.3,Low,None
+Wheat,Kharif,53.7,34.3,1014.2,Low,None
+Wheat,Kharif,81.5,26.8,350.4,High,Loose Smut
+Wheat,Kharif,75.0,28.9,1241.6,High,Rust
+Potato,Kharif,66.5,31.8,763.0,Low,None
+Cotton,Rabi,90.5,19.8,608.3,Medium,None
+Tomato,Rabi,73.7,28.1,1642.9,High,Fruit Borer
+Rice,Kharif,92.4,23.0,1063.7,High,Blast
+Potato,Zaid,83.8,37.7,459.0,Medium,None
+Tomato,Kharif,80.3,15.9,1044.4,High,Fruit Borer
+Tomato,Zaid,44.1,33.9,896.1,Low,None
+Tomato,Rabi,86.0,26.3,1875.9,High,Late Blight
+Wheat,Zaid,85.4,21.3,1642.6,High,Rust
+Soybean,Zaid,68.8,23.7,757.4,Low,None
+Wheat,Rabi,77.6,23.4,762.6,High,Loose Smut
+Cotton,Zaid,55.3,26.2,314.0,Low,None
+Tomato,Rabi,47.8,28.8,384.9,Low,None
+Cotton,Rabi,41.6,21.4,1125.0,Low,None
+Rice,Kharif,88.7,20.5,1480.5,High,Blast
+Tomato,Kharif,86.9,16.8,559.4,Medium,Fruit Borer
+Soybean,Zaid,82.0,29.0,1576.9,High,Yellow Mosaic
+Soybean,Rabi,72.0,15.0,1202.0,Medium,None
+Potato,Zaid,62.2,23.0,1757.9,Medium,Early Blight
+Soybean,Rabi,47.0,35.6,399.0,Low,None
+Rice,Kharif,65.0,32.2,1179.6,Medium,None
+Tomato,Zaid,43.7,19.5,1402.9,Low,None
+Soybean,Rabi,90.4,27.5,455.3,Medium,None
+Potato,Kharif,70.7,16.3,948.0,Medium,Early Blight
+Soybean,Kharif,76.9,26.8,1025.2,High,Rust
+Potato,Zaid,40.4,27.8,626.1,Low,None
+Potato,Rabi,69.9,21.9,1982.7,Medium,Early Blight
+Tomato,Kharif,60.8,15.6,1590.1,Medium,Fruit Borer
+Soybean,Kharif,76.1,24.2,1590.0,High,Rust
+Wheat,Kharif,70.3,20.5,477.4,Low,None
+Tomato,Kharif,83.3,24.2,666.1,High,Early Blight
+Tomato,Kharif,48.7,21.8,1041.2,Low,None
+Soybean,Kharif,43.7,28.7,1235.3,Medium,Rust
+Tomato,Kharif,40.5,27.2,1091.7,Medium,Late Blight
+Rice,Rabi,59.0,15.6,1109.3,Low,None
+Tomato,Kharif,53.9,34.5,1453.6,Medium,None
+Potato,Kharif,90.5,26.3,1553.8,High,Late Blight
+Rice,Zaid,77.4,20.4,1640.2,Medium,Blast
+Tomato,Zaid,93.9,37.7,1273.7,Medium,Early Blight
+Tomato,Kharif,72.6,20.9,1033.7,Medium,Late Blight
+Soybean,Zaid,41.6,31.8,1483.8,Low,None
+Potato,Zaid,78.1,29.1,997.7,High,Late Blight
+Soybean,Rabi,77.7,16.3,340.3,Medium,None
+Cotton,Kharif,68.0,19.6,724.4,Medium,Whitefly
+Soybean,Kharif,90.5,27.4,1873.3,High,Rust
+Soybean,Rabi,55.0,26.6,595.5,Low,None
+Rice,Rabi,62.2,20.8,1674.2,Medium,None
+Rice,Zaid,56.2,30.1,1522.7,Medium,Brown Spot
+Cotton,Kharif,77.9,32.5,1233.2,High,Whitefly
+Potato,Rabi,90.6,31.7,526.1,Medium,Late Blight
+Tomato,Kharif,47.3,25.2,1954.0,Medium,Fruit Borer
+Potato,Zaid,49.1,36.3,591.2,Low,None
+Tomato,Zaid,78.0,22.2,603.4,High,Early Blight
+Soybean,Zaid,91.4,31.2,814.0,Medium,Yellow Mosaic
+Potato,Kharif,85.7,15.5,1883.3,High,Late Blight
+Potato,Rabi,72.8,17.6,531.7,Low,None
+Soybean,Kharif,41.2,26.3,1638.4,Medium,None
+Soybean,Rabi,91.2,19.5,791.3,Medium,None
+Rice,Kharif,56.8,15.7,1006.5,Low,None
+Tomato,Rabi,71.3,29.5,729.4,Medium,Early Blight
+Cotton,Kharif,76.4,33.1,506.3,Medium,None
+Soybean,Kharif,69.7,30.8,491.2,Medium,Rust
+Wheat,Kharif,44.7,19.9,1838.3,Medium,None
+Wheat,Zaid,66.0,24.9,1813.2,Medium,Powdery Mildew
+Tomato,Kharif,44.1,32.4,1757.7,Medium,Late Blight
+Tomato,Zaid,56.7,24.1,614.2,Low,None
+Cotton,Zaid,79.5,25.5,1892.6,High,Whitefly
+Tomato,Kharif,88.5,22.8,203.2,High,Late Blight
+Wheat,Rabi,91.7,23.9,1596.3,High,Rust
+Tomato,Kharif,76.4,17.1,1724.5,High,Late Blight
+Cotton,Kharif,83.5,21.4,807.9,High,Whitefly
+Tomato,Rabi,42.0,33.9,1005.1,Low,None
+Soybean,Kharif,76.7,23.7,1542.9,High,Rust
+Potato,Kharif,66.6,31.1,1458.2,High,Early Blight
+Soybean,Zaid,82.6,29.1,1343.8,High,Yellow Mosaic
+Rice,Rabi,63.4,18.3,324.9,Low,None
+Wheat,Kharif,44.1,28.0,320.4,Low,None
+Tomato,Zaid,59.1,27.9,1341.1,Low,None
+Soybean,Kharif,53.0,17.7,1214.5,Medium,Rust
+Cotton,Rabi,75.9,24.2,1206.7,High,Whitefly
+Cotton,Rabi,63.3,15.8,1168.4,Low,None
+Rice,Kharif,52.2,34.0,1366.4,Medium,Bacterial Leaf Blight
+Rice,Rabi,89.6,36.9,1694.8,Medium,Blast
+Cotton,Zaid,89.7,19.8,1679.6,Medium,Whitefly
+Rice,Kharif,87.6,19.5,1275.0,High,Blast
+Wheat,Rabi,64.9,16.7,1629.0,Medium,Loose Smut
+Potato,Kharif,73.0,18.6,951.0,Medium,None
+Soybean,Kharif,72.1,19.2,1919.6,Medium,None
+Potato,Kharif,70.1,16.3,1983.4,High,Early Blight
+Rice,Rabi,92.9,28.8,1031.9,High,Bacterial Leaf Blight
+Cotton,Kharif,83.8,26.4,548.8,High,Bacterial Blight
+Cotton,Zaid,42.4,29.2,814.9,Low,None
+Tomato,Zaid,72.8,19.0,863.0,Medium,Early Blight
+Rice,Kharif,84.5,19.2,1352.0,High,Blast
+Tomato,Kharif,71.8,30.0,653.5,Low,None
+Potato,Zaid,43.8,26.5,331.4,Low,None
+Wheat,Zaid,78.3,34.8,1455.6,High,Rust
+Rice,Zaid,67.2,32.9,1690.5,Medium,Bacterial Leaf Blight
+Soybean,Kharif,83.3,28.1,1154.0,High,Rust
+Soybean,Kharif,64.5,19.2,1538.8,Medium,Yellow Mosaic
+Rice,Rabi,68.6,22.4,1537.1,Medium,None
+Wheat,Zaid,93.3,27.8,1484.3,High,Powdery Mildew
+Soybean,Rabi,58.3,31.8,827.6,Low,None
+Cotton,Zaid,67.8,36.1,806.0,Low,None
+Rice,Kharif,57.1,36.6,1850.5,Medium,Brown Spot
+Potato,Zaid,43.2,20.9,517.9,Low,None
+Soybean,Zaid,62.8,30.2,699.8,Low,None
+Rice,Rabi,72.7,27.6,739.0,Medium,Brown Spot
+Tomato,Rabi,42.8,22.6,1878.6,Medium,Early Blight
+Rice,Rabi,82.2,23.6,776.7,Medium,Blast
+Potato,Rabi,85.1,23.0,1615.9,High,Late Blight
+Wheat,Zaid,57.6,26.6,578.0,Low,None
+Tomato,Kharif,66.7,29.2,1410.1,High,Fruit Borer
+Rice,Zaid,86.3,25.1,1850.6,High,Bacterial Leaf Blight
+Potato,Rabi,56.9,32.5,367.2,Low,None
+Wheat,Kharif,47.5,37.0,678.2,Low,None
+Soybean,Rabi,44.9,32.8,928.4,Low,None
+Tomato,Zaid,61.2,33.7,629.9,Low,None
+Wheat,Zaid,44.4,22.6,794.1,Low,None
+Soybean,Rabi,57.8,26.9,359.9,Low,None
+Tomato,Zaid,64.1,33.8,790.2,Low,None
+Wheat,Rabi,80.3,20.8,1201.3,High,Loose Smut
+Cotton,Zaid,93.9,37.3,716.0,Medium,Whitefly
+Rice,Rabi,81.1,36.6,778.6,Medium,Bacterial Leaf Blight
+Tomato,Zaid,67.7,28.8,1206.0,Medium,Late Blight
+Soybean,Rabi,60.1,37.1,882.9,Low,None
+Soybean,Zaid,85.5,15.7,1877.2,Medium,Rust
+Soybean,Rabi,83.9,24.8,1417.7,High,Rust
+Wheat,Zaid,61.8,25.1,1252.4,Medium,Powdery Mildew
+Rice,Zaid,46.3,37.1,1670.7,Medium,Brown Spot
+Potato,Kharif,82.3,34.5,977.2,High,Late Blight
+Wheat,Rabi,79.3,21.1,1735.4,High,Rust
+Rice,Kharif,83.9,17.0,450.1,Medium,Brown Spot
+Wheat,Zaid,59.1,26.5,211.8,Low,None
+Rice,Rabi,52.5,19.3,677.0,Low,None
+Wheat,Zaid,59.9,23.8,1403.7,Medium,Rust
+Rice,Rabi,87.2,18.0,1787.5,Medium,Brown Spot
+Wheat,Kharif,45.2,29.8,743.0,Low,None
+Wheat,Zaid,60.1,17.3,518.3,Low,None
+Tomato,Kharif,48.5,35.9,320.9,Low,None
+Potato,Rabi,55.4,22.3,803.1,Low,None
+Cotton,Rabi,52.6,34.1,226.3,Low,None
+Tomato,Kharif,68.9,23.8,964.5,Medium,Fruit Borer
+Potato,Zaid,88.2,17.8,716.8,Medium,Late Blight
+Soybean,Kharif,58.0,34.4,751.5,Low,None
+Tomato,Kharif,41.2,27.5,1811.5,Medium,None
+Cotton,Zaid,53.5,24.9,1728.6,Medium,Bollworm
+Soybean,Zaid,54.0,26.8,1176.9,Low,None
+Potato,Rabi,43.7,16.5,265.2,Low,None
+Potato,Rabi,53.0,26.1,845.4,Low,None
+Tomato,Rabi,83.5,30.9,833.2,Medium,Early Blight
+Rice,Kharif,61.2,37.4,668.7,Medium,Brown Spot
+Cotton,Rabi,65.5,34.7,1021.8,Low,None
+Wheat,Zaid,81.8,36.3,1700.6,High,Rust
+Wheat,Zaid,64.3,23.4,1827.4,Medium,Powdery Mildew
+Potato,Kharif,53.9,17.8,1199.5,Low,None
+Wheat,Rabi,49.1,25.9,692.3,Low,None
+Soybean,Rabi,62.6,37.3,565.3,Low,None
+Rice,Rabi,46.8,22.7,465.5,Low,None
+Cotton,Zaid,52.7,34.4,1516.7,Medium,Whitefly
+Cotton,Rabi,91.3,18.7,204.2,Medium,Whitefly
+Rice,Zaid,62.0,20.2,1008.8,Medium,Bacterial Leaf Blight
+Soybean,Rabi,56.4,16.0,1320.4,Low,None
+Potato,Kharif,64.1,35.7,1312.0,Medium,Early Blight
+Rice,Kharif,52.9,23.8,1730.7,Medium,Blast
+Soybean,Rabi,41.4,30.3,1474.1,Low,None
+Tomato,Rabi,90.8,31.0,906.7,Medium,Early Blight
+Potato,Rabi,79.2,21.5,622.1,Medium,Early Blight
+Soybean,Zaid,87.7,31.7,934.7,Medium,Yellow Mosaic
+Potato,Zaid,56.8,22.1,1203.7,Low,None
+Potato,Zaid,82.4,22.3,962.5,High,Early Blight
+Soybean,Kharif,49.3,37.8,337.0,Low,None
+Potato,Zaid,53.4,35.4,795.3,Low,None
+Wheat,Zaid,51.4,28.3,462.6,Low,None
+Wheat,Kharif,63.5,21.0,734.6,Low,None
+Wheat,Kharif,60.2,19.8,1546.0,High,Rust
+Tomato,Kharif,87.9,27.2,1640.9,High,Early Blight
+Cotton,Rabi,94.3,26.3,1964.4,High,Bacterial Blight
+Wheat,Zaid,59.7,22.6,1959.3,Medium,Loose Smut
+Potato,Kharif,75.6,25.2,1999.7,High,Late Blight
+Soybean,Kharif,83.7,32.8,957.3,Medium,None
+Tomato,Kharif,50.1,29.2,1956.3,Medium,Fruit Borer
+Rice,Rabi,51.2,35.3,1855.4,Medium,None
+Potato,Kharif,62.6,15.3,1726.3,High,Late Blight
+Soybean,Rabi,90.9,21.7,258.9,Medium,Pod Borer
+Tomato,Zaid,60.7,31.7,614.6,Low,None
+Wheat,Zaid,94.7,15.8,530.3,Medium,Powdery Mildew
+Rice,Zaid,44.7,27.2,1223.8,Low,None
+Cotton,Rabi,47.9,32.3,675.3,Low,None
+Wheat,Kharif,55.1,18.6,1730.5,Medium,None
+Wheat,Rabi,47.0,16.2,1260.4,Medium,Powdery Mildew
+Soybean,Zaid,80.2,20.5,1005.9,Medium,Yellow Mosaic
+Cotton,Rabi,59.7,19.4,1093.7,Low,None
+Potato,Rabi,65.1,30.8,908.2,Medium,Early Blight
+Tomato,Rabi,65.8,34.3,653.0,Low,None
+Soybean,Kharif,77.8,30.7,1545.1,High,Rust
+Rice,Kharif,75.0,36.8,1882.1,High,Brown Spot
+Wheat,Zaid,45.6,21.4,259.5,Low,None
+Soybean,Rabi,52.9,21.6,1849.9,Low,None
+Cotton,Zaid,80.6,23.6,1889.3,High,Bacterial Blight
+Tomato,Rabi,73.2,33.0,1807.8,Medium,Early Blight
+Potato,Rabi,63.2,30.3,1654.0,Medium,Early Blight
+Potato,Rabi,85.8,16.0,597.8,Low,None
+Tomato,Zaid,86.5,32.9,1106.3,Medium,Late Blight
+Wheat,Kharif,74.5,24.8,967.6,Medium,Rust
+Soybean,Kharif,94.1,23.3,607.2,High,Pod Borer
+Wheat,Rabi,84.4,21.0,1998.3,Medium,Rust
+Cotton,Kharif,69.8,30.9,1133.7,Medium,Whitefly
+Wheat,Kharif,75.2,17.7,761.2,Medium,Powdery Mildew
+Tomato,Rabi,81.9,22.3,795.0,High,Fruit Borer
+Rice,Rabi,68.7,20.3,1872.4,Medium,Bacterial Leaf Blight
+Soybean,Zaid,51.2,15.3,1138.8,Low,None
+Cotton,Rabi,62.6,29.1,608.0,Low,None
+Cotton,Rabi,78.2,21.5,909.6,Medium,Whitefly
+Potato,Rabi,59.0,37.5,707.9,Low,None
+Cotton,Zaid,58.7,36.0,557.5,Low,None
+Wheat,Rabi,75.1,15.3,1132.8,Medium,Powdery Mildew
+Rice,Zaid,66.8,16.6,1123.5,Low,None
+Tomato,Kharif,41.8,30.5,811.1,Low,None
+Cotton,Kharif,61.9,21.8,847.8,Medium,Bollworm
+Rice,Kharif,53.5,20.3,1624.3,Medium,None
+Rice,Zaid,50.4,36.8,1662.7,Low,None
+Potato,Zaid,54.2,36.7,1629.5,Medium,Late Blight
+Tomato,Rabi,46.2,26.4,1035.7,Low,None
+Rice,Kharif,40.5,31.6,1132.9,Low,None
+Tomato,Kharif,64.1,30.3,1179.6,Medium,Late Blight
+Cotton,Rabi,83.2,35.2,1670.6,High,Bacterial Blight
+Potato,Rabi,94.6,21.5,1763.9,Medium,None
+Potato,Zaid,59.6,32.3,1705.2,Low,None
+Potato,Kharif,69.9,36.5,1137.7,Medium,Early Blight
+Potato,Rabi,60.9,30.8,617.9,Low,None
+Wheat,Zaid,78.3,27.4,1951.6,High,Rust
+Potato,Rabi,54.1,19.0,1848.3,Low,None
+Rice,Zaid,76.3,21.2,1878.2,Medium,None
+Cotton,Zaid,42.1,25.4,384.4,Low,None
+Potato,Zaid,60.2,25.7,1538.2,Medium,Early Blight
+Cotton,Kharif,75.5,17.2,1914.1,High,Bollworm
+Soybean,Kharif,63.9,37.6,816.7,Medium,None
+Rice,Rabi,94.8,20.5,1215.2,High,Blast
+Soybean,Rabi,74.7,15.1,719.9,Low,None
+Tomato,Rabi,77.1,21.8,1670.9,Medium,Late Blight
+Potato,Rabi,49.0,29.7,994.1,Low,None
+Tomato,Kharif,63.5,36.3,801.7,Medium,Fruit Borer
+Cotton,Zaid,55.1,32.4,478.2,Low,None
+Soybean,Rabi,61.7,16.2,643.9,Low,None
+Potato,Kharif,63.8,24.8,935.6,Medium,Late Blight
+Soybean,Kharif,42.0,29.5,1715.9,Medium,None
+Tomato,Zaid,72.9,34.7,699.0,Low,None
+Soybean,Zaid,77.6,30.3,1842.4,High,Yellow Mosaic
+Cotton,Zaid,63.9,33.3,1771.2,Medium,None
+Tomato,Zaid,93.2,34.1,1372.9,High,Late Blight
+Cotton,Zaid,47.3,26.2,1441.3,Medium,Whitefly
+Rice,Rabi,47.7,15.2,740.4,Low,None
+Potato,Rabi,45.1,21.7,784.2,Low,None
+Cotton,Kharif,91.2,22.5,850.3,High,Whitefly
+Soybean,Zaid,65.6,33.6,730.8,Low,None
+Wheat,Rabi,80.4,29.6,1685.9,High,Loose Smut
+Rice,Rabi,73.0,33.3,1389.1,Medium,Brown Spot
+Soybean,Zaid,92.6,18.4,1289.3,High,Yellow Mosaic
+Wheat,Rabi,47.7,25.1,1235.3,Medium,Rust
+Tomato,Zaid,75.3,21.0,1264.7,High,Early Blight
+Soybean,Rabi,92.9,31.8,481.0,Medium,Yellow Mosaic
+Rice,Kharif,44.6,33.1,943.6,Low,None
+Rice,Rabi,65.1,29.8,1178.7,Medium,None
+Wheat,Rabi,41.4,32.2,533.0,Low,None
+Tomato,Rabi,66.9,29.0,255.8,Low,None
+Tomato,Zaid,78.4,32.0,603.0,Medium,Early Blight
+Soybean,Kharif,47.0,21.3,339.8,Low,None
+Cotton,Zaid,78.8,17.4,379.8,Medium,Bollworm
+Rice,Rabi,89.7,37.1,814.5,Medium,None
+Tomato,Zaid,72.3,30.1,282.2,Low,None
+Potato,Kharif,73.3,26.4,1230.0,High,Early Blight
+Soybean,Kharif,90.1,30.5,226.5,Medium,Yellow Mosaic
+Cotton,Rabi,73.1,37.8,889.5,Low,None
+Wheat,Rabi,70.2,27.9,586.0,Medium,Loose Smut
+Potato,Kharif,60.7,19.0,518.2,Low,None
+Wheat,Zaid,54.2,36.4,1433.1,Medium,Powdery Mildew
+Tomato,Kharif,64.2,34.1,374.1,Medium,Early Blight
+Rice,Zaid,51.1,21.9,1716.8,Low,None
+Rice,Zaid,88.8,23.9,1430.7,High,Brown Spot
+Potato,Zaid,75.4,16.3,933.3,Medium,None
+Soybean,Kharif,80.2,23.9,418.0,High,Pod Borer
+Potato,Zaid,75.8,25.1,1827.3,High,Late Blight
+Cotton,Zaid,56.0,18.8,881.6,Low,None
+Soybean,Zaid,62.4,28.8,1642.8,Medium,None
+Wheat,Kharif,86.8,27.5,1368.5,High,Rust
+Tomato,Kharif,53.9,15.5,342.8,Low,None
+Tomato,Kharif,77.3,23.7,1821.7,High,Late Blight
+Rice,Rabi,86.4,15.9,218.4,Medium,Bacterial Leaf Blight
+Soybean,Kharif,70.3,22.5,703.5,Medium,Yellow Mosaic
+Tomato,Kharif,74.5,35.6,1148.2,Medium,None
+Wheat,Zaid,76.1,16.6,1032.9,Medium,Loose Smut
+Wheat,Zaid,66.7,21.1,1236.9,Medium,Loose Smut
+Wheat,Rabi,40.4,26.3,1026.4,Low,None
+Soybean,Kharif,60.1,22.3,1561.4,High,Pod Borer
+Wheat,Zaid,68.5,20.2,1367.7,Medium,Powdery Mildew
+Soybean,Rabi,44.1,28.4,1026.3,Low,None
+Rice,Rabi,57.2,35.6,1316.7,Low,None
+Cotton,Kharif,58.6,23.7,236.5,Low,None
+Potato,Zaid,52.5,26.6,1415.7,Medium,Early Blight
+Rice,Zaid,85.1,32.2,898.5,Medium,Blast
+Potato,Rabi,75.2,30.7,753.8,Medium,Early Blight
+Potato,Rabi,51.9,33.3,567.4,Low,None
+Cotton,Kharif,91.1,17.3,1459.9,High,Whitefly
+Wheat,Zaid,81.2,29.6,593.4,Medium,None
+Wheat,Zaid,82.9,17.1,1732.1,Medium,Powdery Mildew
+Wheat,Rabi,51.0,25.2,875.9,Low,None
+Potato,Zaid,87.0,35.7,1525.5,High,Early Blight
+Cotton,Rabi,88.4,16.3,848.8,Medium,Bacterial Blight
+Cotton,Zaid,62.0,35.9,1134.4,Low,None
+Wheat,Kharif,40.2,29.6,904.5,Medium,Rust
+Tomato,Rabi,46.5,28.7,1116.8,Low,None
+Tomato,Kharif,75.8,29.0,626.9,High,Late Blight
+Wheat,Kharif,87.9,22.2,827.9,High,Rust
+Wheat,Kharif,87.9,21.8,1832.8,High,Loose Smut
+Rice,Kharif,74.8,35.1,1667.6,High,Blast
+Wheat,Zaid,86.7,20.2,1626.0,High,Loose Smut
+Rice,Rabi,78.0,31.2,879.2,Medium,None
+Soybean,Rabi,89.4,19.7,601.1,Low,None
+Soybean,Zaid,60.1,34.4,1993.5,Medium,Yellow Mosaic
+Wheat,Kharif,74.3,32.5,603.1,Medium,Powdery Mildew
+Tomato,Kharif,53.1,26.7,1435.0,Medium,Late Blight
+Cotton,Rabi,71.8,31.1,1212.5,Medium,Bollworm
+Cotton,Zaid,92.0,25.1,374.6,Medium,Whitefly
+Potato,Kharif,79.2,17.7,225.5,Medium,Early Blight
+Rice,Kharif,85.5,24.5,1163.7,High,Brown Spot
+Wheat,Rabi,48.4,29.1,1728.7,Medium,Rust
+Potato,Kharif,79.6,32.5,557.9,Medium,Early Blight
+Cotton,Kharif,70.8,16.2,353.1,Medium,Bollworm
+Wheat,Rabi,67.5,23.1,575.8,Low,None
+Potato,Zaid,71.0,21.6,1924.0,Medium,Late Blight
+Tomato,Kharif,49.0,18.7,373.5,Low,None
+Soybean,Zaid,57.2,18.9,1235.2,Medium,Rust
+Soybean,Rabi,64.9,30.5,611.2,Low,None
+Tomato,Zaid,72.0,19.0,903.4,Low,None
+Soybean,Kharif,79.4,22.0,1753.0,High,Pod Borer
+Rice,Zaid,69.9,25.1,326.3,Low,None
+Cotton,Kharif,46.8,28.1,1547.8,Medium,Whitefly
+Tomato,Rabi,85.4,30.9,1254.2,Medium,Late Blight
+Soybean,Zaid,72.8,24.7,805.6,Medium,None
+Soybean,Zaid,58.8,33.9,654.7,Low,None
+Tomato,Zaid,64.6,34.7,947.2,Low,None
+Soybean,Rabi,86.7,24.8,1855.5,High,Pod Borer
+Soybean,Rabi,43.5,32.6,1111.0,Low,None
+Wheat,Kharif,74.3,19.1,1442.0,High,Rust
+Tomato,Kharif,63.4,37.2,325.2,Medium,None
+Soybean,Rabi,88.0,36.8,1009.4,Medium,Yellow Mosaic
+Tomato,Kharif,85.6,31.1,1801.6,High,Late Blight
+Wheat,Kharif,92.4,16.3,1314.2,High,Rust
+Wheat,Zaid,62.3,36.7,777.3,Low,None
+Cotton,Kharif,88.2,23.6,1138.4,High,Bacterial Blight
+Cotton,Rabi,46.4,23.9,1431.5,Medium,Bacterial Blight
+Potato,Zaid,53.2,26.3,840.0,Low,None
+Cotton,Kharif,41.5,37.5,1643.0,Medium,Bollworm
+Wheat,Rabi,55.7,35.8,1191.2,Low,None
+Soybean,Kharif,66.8,34.0,1445.4,Medium,None
+Tomato,Kharif,50.1,21.8,1617.5,Medium,None
+Rice,Zaid,57.7,29.6,1040.1,Low,None
+Soybean,Rabi,54.9,25.1,1734.7,Medium,Yellow Mosaic
+Soybean,Rabi,87.0,26.1,769.8,High,Rust
+Rice,Kharif,62.0,27.2,932.0,Medium,None
+Cotton,Zaid,85.2,28.7,658.6,Medium,Bollworm
+Wheat,Rabi,50.5,25.6,1679.4,Low,None
+Potato,Rabi,41.2,17.7,857.1,Low,None
+Tomato,Rabi,84.0,26.9,737.5,Medium,Late Blight
+Rice,Rabi,54.2,28.0,1372.4,Medium,None
+Potato,Rabi,52.5,30.3,255.8,Low,None
+Wheat,Rabi,51.8,37.4,1208.1,Low,None
+Rice,Zaid,61.9,29.4,634.0,Low,None
+Cotton,Rabi,53.6,21.2,1729.5,Low,None
+Potato,Rabi,68.8,35.1,712.0,Low,None
+Tomato,Zaid,61.4,24.1,1242.4,Medium,Late Blight
+Tomato,Zaid,62.1,19.0,575.3,Low,None
+Potato,Rabi,87.1,26.7,305.7,High,Late Blight
+Potato,Rabi,84.8,29.0,678.7,High,Late Blight
+Soybean,Zaid,94.4,34.2,1296.0,High,Pod Borer
+Cotton,Kharif,56.1,32.7,1672.4,Medium,None
+Rice,Zaid,83.4,32.5,280.6,Medium,Blast
+Tomato,Zaid,63.9,19.3,1772.5,Medium,None
+Rice,Rabi,68.9,18.6,1526.0,Medium,None
+Wheat,Zaid,84.0,30.5,514.8,Medium,Rust
+Potato,Zaid,62.0,36.3,1654.5,Medium,Early Blight
+Potato,Rabi,49.9,17.1,927.8,Low,None
+Potato,Kharif,55.6,31.5,1563.1,Medium,Late Blight
+Soybean,Rabi,61.0,22.5,935.6,Medium,Yellow Mosaic
+Cotton,Kharif,83.3,36.6,1981.6,High,Bacterial Blight
+Rice,Zaid,82.8,26.6,1590.3,High,Blast
+Tomato,Rabi,51.9,16.1,625.0,Low,None
+Tomato,Kharif,64.3,23.4,1107.5,Medium,Fruit Borer
+Cotton,Kharif,79.9,34.8,334.5,Medium,Bacterial Blight
+Tomato,Kharif,84.2,18.9,1836.7,High,Early Blight
+Wheat,Kharif,80.1,27.0,1190.1,High,Powdery Mildew
+Soybean,Zaid,70.0,34.6,1734.1,Medium,None
+Soybean,Zaid,41.1,33.0,1721.6,Low,None
+Wheat,Zaid,43.0,36.6,1313.7,Low,None
+Cotton,Kharif,60.4,18.9,371.2,Medium,Bacterial Blight
+Rice,Zaid,72.4,16.6,255.2,Low,None
+Potato,Rabi,83.3,18.4,1584.8,High,Late Blight
+Wheat,Kharif,81.3,36.2,1433.0,High,Loose Smut
+Soybean,Zaid,71.1,29.0,1099.6,Medium,Yellow Mosaic
+Tomato,Rabi,63.0,18.5,1174.2,Medium,None
+Cotton,Zaid,50.2,21.3,370.7,Low,None
+Rice,Rabi,73.1,31.5,1426.9,Medium,None
+Potato,Rabi,84.3,32.7,1995.9,High,Early Blight
+Tomato,Rabi,69.7,24.3,494.9,Low,None
+Potato,Kharif,83.9,17.4,936.9,High,Late Blight
+Soybean,Rabi,90.0,27.9,1350.0,High,Rust
+Rice,Kharif,93.4,28.0,1168.9,High,Bacterial Leaf Blight
+Cotton,Kharif,51.6,31.8,965.6,Low,None
+Rice,Kharif,44.7,17.3,1955.9,Medium,Blast
+Tomato,Rabi,66.1,21.2,1081.9,Low,None
+Cotton,Rabi,88.6,16.0,1476.9,High,Bollworm
+Soybean,Rabi,78.5,35.1,868.6,Medium,Yellow Mosaic
+Wheat,Zaid,53.2,23.4,543.2,Low,None
+Wheat,Kharif,93.6,23.3,1763.1,High,Rust
+Wheat,Rabi,51.4,26.6,221.0,Low,None
+Soybean,Kharif,62.2,34.3,286.1,Medium,None
+Tomato,Zaid,87.4,18.4,1692.6,Medium,Early Blight
+Cotton,Kharif,55.1,21.4,779.8,Low,None
+Wheat,Kharif,52.7,22.3,1514.2,Medium,Rust
+Cotton,Zaid,55.0,28.9,1043.2,Low,None
+Rice,Rabi,57.1,25.9,1229.8,Medium,None
+Soybean,Rabi,74.1,21.8,1427.5,Medium,Pod Borer
+Wheat,Rabi,49.2,32.0,1546.8,Low,None
+Cotton,Zaid,54.9,20.3,863.9,Low,None
+Potato,Zaid,77.6,23.1,1437.5,High,Early Blight
+Cotton,Kharif,84.3,16.0,755.4,Medium,None
+Cotton,Rabi,82.5,31.5,759.8,Medium,Whitefly
+Wheat,Rabi,83.8,21.8,513.2,Low,None
+Potato,Rabi,76.5,29.8,1427.0,High,Late Blight
+Soybean,Kharif,87.1,33.1,1239.4,High,Yellow Mosaic
+Rice,Rabi,86.2,21.4,675.3,Medium,Blast
+Wheat,Zaid,40.1,27.8,1549.5,Low,None
+Soybean,Zaid,86.0,23.6,1500.4,High,Pod Borer
+Cotton,Zaid,88.0,22.4,744.0,Medium,Whitefly
+Wheat,Zaid,57.4,29.1,1296.7,Low,None
+Rice,Kharif,51.5,24.8,583.0,Low,None
+Tomato,Zaid,54.8,31.6,1205.0,Medium,Early Blight
+Cotton,Rabi,90.6,35.4,1597.4,High,Bacterial Blight
+Soybean,Kharif,89.0,34.3,1566.6,High,Pod Borer
+Rice,Kharif,63.6,16.0,1735.1,Medium,Bacterial Leaf Blight
+Cotton,Kharif,94.2,15.4,1892.3,High,Bollworm
+Wheat,Zaid,48.8,31.9,1760.8,Low,None
+Rice,Rabi,70.9,36.5,1353.1,Medium,Brown Spot
+Soybean,Rabi,51.1,34.8,1794.6,Low,None
+Soybean,Rabi,78.4,32.8,1265.9,High,Yellow Mosaic
+Potato,Kharif,50.9,17.5,380.5,Low,None
+Cotton,Kharif,70.5,15.5,1542.8,High,Bollworm
+Tomato,Kharif,66.0,24.7,899.0,Medium,Fruit Borer
+Cotton,Rabi,66.4,32.4,1152.9,Medium,Bacterial Blight
+Soybean,Rabi,62.7,29.5,1516.3,Medium,Yellow Mosaic
+Soybean,Zaid,81.8,30.6,404.3,Medium,Rust
+Tomato,Rabi,58.8,32.5,662.0,Low,None
+Soybean,Kharif,92.9,29.1,657.9,High,Pod Borer
+Wheat,Zaid,92.2,17.2,1400.6,High,Loose Smut
+Tomato,Zaid,86.1,18.3,345.8,Medium,Early Blight
+Rice,Rabi,89.8,34.2,857.4,Medium,Bacterial Leaf Blight
+Potato,Kharif,48.6,26.3,1586.1,Medium,Late Blight
+Tomato,Rabi,83.9,22.1,534.0,Medium,Early Blight
+Cotton,Rabi,68.5,27.6,669.3,Low,None
+Tomato,Zaid,90.9,23.5,1042.2,High,Late Blight
+Potato,Zaid,84.2,24.7,414.4,High,Early Blight
+Soybean,Zaid,64.1,27.0,839.4,Medium,None
+Wheat,Kharif,72.0,34.6,1605.9,Medium,None
+Wheat,Kharif,81.8,29.3,1065.8,High,Rust
+Soybean,Zaid,56.9,21.4,413.0,Low,None
+Soybean,Rabi,58.9,25.5,1261.4,Low,None
+Tomato,Kharif,74.6,29.3,1995.1,High,Fruit Borer
+Tomato,Kharif,42.8,25.3,951.0,Low,None
+Soybean,Kharif,56.6,17.5,626.0,Low,None
+Potato,Kharif,80.9,33.7,383.9,Medium,None
+Soybean,Zaid,93.2,35.9,1192.1,Medium,None
+Rice,Zaid,60.8,29.6,779.3,Low,None
+Tomato,Kharif,70.5,16.6,493.5,Medium,None
+Potato,Kharif,68.5,28.7,818.2,Medium,Early Blight
+Soybean,Kharif,89.8,15.3,1130.6,High,Rust
+Rice,Rabi,90.1,17.3,1615.9,Medium,None
+Potato,Zaid,85.1,32.7,794.9,Medium,Early Blight
+Wheat,Kharif,41.1,27.0,1851.1,Medium,Loose Smut
+Wheat,Rabi,59.2,24.1,1120.5,Low,None
+Tomato,Kharif,42.6,25.0,1584.7,Medium,Late Blight
+Potato,Kharif,86.6,28.8,918.9,High,Early Blight
+Tomato,Rabi,81.1,19.5,1327.2,High,Late Blight
+Tomato,Zaid,76.6,34.2,574.8,Medium,Fruit Borer
+Cotton,Rabi,44.3,28.0,462.2,Low,None
+Rice,Zaid,50.2,24.6,232.0,Low,None
+Wheat,Zaid,57.6,22.0,452.3,Low,None
+Soybean,Kharif,78.2,28.6,329.2,High,Rust
+Soybean,Kharif,66.9,36.3,440.3,Medium,None
+Rice,Kharif,84.1,31.5,1466.2,High,Bacterial Leaf Blight
+Rice,Kharif,62.5,22.2,1817.2,High,Brown Spot
+Tomato,Rabi,81.3,24.8,940.0,High,Early Blight
+Soybean,Zaid,79.2,27.5,1923.7,High,Pod Borer
+Soybean,Kharif,89.2,32.5,300.1,Medium,None
+Potato,Rabi,88.8,16.0,1800.3,High,Late Blight
+Soybean,Kharif,55.3,21.1,948.2,Medium,Yellow Mosaic
+Potato,Rabi,93.2,16.4,1218.4,Medium,Late Blight
+Potato,Zaid,46.1,37.2,1249.9,Medium,None
+Cotton,Zaid,92.7,35.4,1967.8,Medium,Whitefly
+Cotton,Rabi,59.3,35.4,1860.7,Low,None
+Soybean,Kharif,64.0,17.3,604.1,Low,None
+Soybean,Zaid,63.7,32.4,1977.6,Medium,Yellow Mosaic
+Wheat,Zaid,52.7,34.0,1411.0,Low,None
+Cotton,Zaid,91.2,35.1,1847.9,High,Bollworm
+Wheat,Rabi,43.6,17.1,1323.9,Low,None
+Soybean,Kharif,52.8,37.6,1004.0,Low,None
+Rice,Kharif,81.7,28.6,1626.2,High,Brown Spot
+Rice,Zaid,79.1,30.9,1552.1,High,Blast
+Rice,Zaid,82.0,23.7,1165.5,High,Blast
+Tomato,Zaid,64.7,16.4,414.8,Low,None
+Cotton,Kharif,46.6,21.5,1583.6,Medium,Whitefly
+Soybean,Rabi,94.6,29.3,287.5,High,Yellow Mosaic
+Wheat,Kharif,57.0,27.0,575.0,Low,None
+Rice,Kharif,91.0,28.2,1371.1,High,Blast
+Tomato,Rabi,71.5,30.4,798.5,Low,None
+Potato,Zaid,73.4,28.5,920.7,Medium,None
+Tomato,Zaid,43.3,20.3,1459.4,Low,None
+Rice,Zaid,54.2,36.0,1255.2,Low,None
+Tomato,Kharif,50.3,37.2,658.8,Low,None
+Wheat,Kharif,81.0,18.2,1997.2,High,Rust
+Cotton,Zaid,58.5,23.3,1184.7,Low,None
+Rice,Zaid,50.7,16.4,380.9,Low,None
+Potato,Kharif,66.2,37.6,758.7,Low,None
+Cotton,Rabi,58.2,34.8,1909.5,Low,None
+Potato,Zaid,74.2,25.6,1392.7,High,Early Blight
+Wheat,Kharif,90.1,26.2,1413.0,High,Powdery Mildew
+Tomato,Zaid,89.8,30.5,1600.4,Medium,Early Blight
+Cotton,Rabi,73.6,31.3,363.1,Low,None
+Potato,Kharif,61.2,32.1,385.8,Low,None
+Wheat,Rabi,88.9,19.0,411.1,Low,None
+Soybean,Kharif,48.8,21.5,1697.7,Medium,Rust
+Wheat,Kharif,64.0,22.6,672.1,Medium,None
+Wheat,Rabi,59.5,28.4,1157.6,Low,None
+Soybean,Kharif,55.5,29.6,1496.1,Medium,Pod Borer
+Wheat,Zaid,60.0,28.9,1667.5,Medium,Loose Smut
+Soybean,Zaid,43.2,31.8,269.6,Low,None
+Tomato,Zaid,61.2,19.9,324.3,Low,None
+Potato,Zaid,59.9,24.4,1937.3,Medium,Late Blight
+Wheat,Rabi,83.6,33.2,1682.1,High,Loose Smut
+Potato,Rabi,44.8,25.4,704.6,Low,None
+Wheat,Rabi,90.7,16.3,798.8,Medium,Rust
+Soybean,Kharif,72.2,21.7,344.7,Low,None
+Tomato,Zaid,65.6,24.4,1250.3,Medium,Late Blight
+Potato,Zaid,77.0,23.0,698.7,High,Late Blight
+Soybean,Kharif,84.7,16.9,326.6,Medium,Yellow Mosaic
+Soybean,Rabi,53.6,21.9,1486.0,Medium,None
+Cotton,Kharif,84.3,16.9,224.8,Medium,Whitefly
+Cotton,Rabi,58.5,22.0,1410.7,Low,None
+Potato,Rabi,51.4,26.7,814.8,Low,None
+Wheat,Rabi,67.5,16.3,1449.6,Medium,None
+Soybean,Kharif,81.5,35.2,1733.1,High,Pod Borer
+Wheat,Kharif,45.1,34.6,219.0,Low,None
+Rice,Zaid,81.5,22.8,859.0,High,Bacterial Leaf Blight
+Rice,Rabi,60.5,19.0,1038.2,Medium,Bacterial Leaf Blight
+Potato,Zaid,40.3,28.1,1222.7,Low,None
+Rice,Kharif,56.9,29.3,754.5,Low,None
+Potato,Zaid,94.7,32.3,1740.7,High,Late Blight
+Soybean,Kharif,56.9,16.3,823.9,Medium,None
+Tomato,Zaid,84.0,30.7,775.5,Medium,Late Blight
+Tomato,Zaid,57.0,29.8,1276.0,Medium,Late Blight
+Soybean,Zaid,42.4,17.0,754.4,Low,None
+Soybean,Kharif,56.3,35.8,1394.2,Medium,Rust
+Tomato,Rabi,54.3,15.5,858.1,Low,None
+Wheat,Zaid,60.0,31.8,1020.5,Low,None
+Cotton,Zaid,57.2,25.8,465.0,Low,None
+Wheat,Rabi,72.3,32.5,1230.7,Medium,Loose Smut
+Wheat,Rabi,88.9,26.9,803.6,High,Rust
+Wheat,Rabi,90.7,22.3,1240.7,High,Powdery Mildew
+Cotton,Rabi,84.8,17.9,1177.0,Medium,None
+Tomato,Rabi,45.7,25.7,1267.6,Low,None
+Cotton,Kharif,66.7,33.8,1511.0,High,Whitefly
+Tomato,Zaid,92.0,15.7,1456.6,High,Late Blight
+Tomato,Kharif,83.8,30.2,1415.8,High,Fruit Borer
+Cotton,Zaid,52.7,17.3,1877.2,Low,None
+Tomato,Rabi,67.6,32.7,1841.4,Medium,Early Blight
+Wheat,Rabi,40.8,27.6,588.9,Low,None
+Tomato,Rabi,93.8,33.2,1142.7,Medium,Late Blight
+Tomato,Rabi,69.8,21.7,1452.9,Medium,Late Blight
+Tomato,Zaid,89.5,18.4,346.1,Low,None
+Wheat,Kharif,72.4,15.8,1218.3,High,Loose Smut
+Wheat,Zaid,43.3,17.2,1180.1,Low,None
+Wheat,Rabi,61.9,36.6,612.5,Low,None
+Tomato,Zaid,94.1,19.0,1608.6,Medium,Early Blight
+Potato,Kharif,78.1,31.1,983.5,High,Early Blight
+Rice,Zaid,75.0,20.6,1176.8,Medium,Bacterial Leaf Blight
+Tomato,Zaid,65.7,24.4,1644.0,Medium,Early Blight
+Rice,Kharif,46.1,29.7,316.5,Low,None
+Tomato,Kharif,58.4,15.9,1722.2,Medium,None
+Rice,Zaid,55.1,31.2,979.0,Low,None
+Potato,Rabi,52.0,30.1,1731.2,Low,None
+Rice,Rabi,92.1,21.6,906.1,Medium,Bacterial Leaf Blight
+Rice,Rabi,51.6,21.3,1074.3,Low,None
+Cotton,Rabi,94.0,29.9,1862.6,High,Bollworm
+Wheat,Kharif,82.3,19.7,980.4,High,Powdery Mildew
+Potato,Rabi,81.5,27.6,459.8,Medium,Late Blight
+Potato,Kharif,91.9,29.4,1061.8,High,Late Blight
+Cotton,Zaid,45.7,32.3,540.9,Low,None
+Potato,Zaid,85.6,18.8,1589.8,High,Early Blight
+Tomato,Zaid,52.5,18.6,656.1,Low,None
+Potato,Zaid,76.9,24.5,290.4,Medium,Early Blight
+Rice,Rabi,66.8,20.8,434.2,Low,None
+Soybean,Zaid,45.8,35.1,240.7,Low,None
+Soybean,Rabi,79.6,28.8,1839.8,High,Rust
+Rice,Zaid,43.1,24.0,1384.3,Medium,Brown Spot
+Soybean,Zaid,87.1,30.1,1274.2,Medium,Rust
+Wheat,Zaid,90.5,29.6,868.0,High,Rust
+Wheat,Zaid,93.2,28.9,1220.4,High,Powdery Mildew
+Potato,Rabi,86.3,26.1,1290.4,High,Late Blight
+Rice,Zaid,58.6,34.9,1239.5,Medium,None
+Tomato,Zaid,58.7,26.9,602.3,Low,None
+Rice,Kharif,67.8,18.5,1441.2,Medium,Brown Spot
+Wheat,Rabi,92.8,18.9,1725.1,High,Loose Smut
+Wheat,Zaid,73.9,20.2,1864.1,Medium,Loose Smut
+Wheat,Rabi,91.9,31.9,860.5,Medium,Loose Smut
+Rice,Rabi,75.8,32.4,1494.9,High,Bacterial Leaf Blight
+Tomato,Zaid,58.8,17.4,314.0,Low,None
+Potato,Kharif,79.1,17.3,475.3,Medium,None
+Cotton,Zaid,90.5,23.4,1041.0,High,Bollworm
+Cotton,Zaid,59.5,32.3,1230.0,Medium,Bacterial Blight
+Tomato,Kharif,87.0,23.7,965.8,High,Early Blight
+Rice,Zaid,82.1,19.9,736.4,Low,None
+Potato,Zaid,74.0,26.4,324.6,Medium,Late Blight
+Soybean,Kharif,54.7,26.6,878.3,Low,None
+Rice,Rabi,71.1,16.2,1510.1,Medium,Bacterial Leaf Blight
+Potato,Zaid,87.0,28.1,1593.9,High,Early Blight
+Tomato,Rabi,83.9,27.8,994.9,High,Fruit Borer
+Wheat,Kharif,61.9,33.7,315.0,Medium,Loose Smut
+Tomato,Rabi,68.2,18.2,1297.4,Medium,Early Blight
+Potato,Zaid,82.2,20.2,470.2,Medium,Late Blight
+Wheat,Kharif,94.1,22.2,634.9,High,Loose Smut
+Wheat,Rabi,73.2,35.3,1868.1,Medium,Powdery Mildew
+Tomato,Kharif,67.2,31.4,1415.8,High,Late Blight
+Tomato,Kharif,87.8,17.6,464.8,Medium,Early Blight
+Cotton,Kharif,65.1,26.4,1553.3,Medium,Whitefly
+Cotton,Zaid,94.3,22.5,506.9,Medium,Bollworm
+Potato,Kharif,40.5,19.0,1176.6,Low,None
+Potato,Rabi,70.0,16.7,731.2,Low,None
+Soybean,Zaid,41.8,35.7,1908.6,Low,None
+Soybean,Zaid,56.2,27.8,1717.1,Low,None
+Wheat,Kharif,40.5,32.7,1141.3,Medium,None
+Cotton,Kharif,88.9,20.1,892.3,Medium,Bollworm
+Soybean,Zaid,62.8,19.6,1355.9,Medium,Rust
+Rice,Rabi,55.7,19.6,1512.7,Medium,Brown Spot
+Potato,Zaid,72.1,36.1,1667.2,Medium,Late Blight
+Tomato,Rabi,59.2,17.3,548.8,Low,None
+Rice,Rabi,78.8,16.2,1515.3,High,Brown Spot
+Soybean,Zaid,77.4,36.7,1806.3,High,Yellow Mosaic
+Rice,Rabi,43.2,32.4,830.5,Low,None
+Wheat,Kharif,61.3,21.3,1815.4,High,Powdery Mildew
+Rice,Zaid,48.3,28.3,1046.7,Low,None
+Tomato,Rabi,46.5,32.3,1404.2,Low,None
+Rice,Rabi,58.7,18.9,1454.8,Medium,Blast
+Soybean,Zaid,41.0,16.0,1655.4,Low,None
+Potato,Kharif,83.9,31.5,879.5,High,Late Blight
+Tomato,Kharif,64.2,22.2,1905.5,High,Fruit Borer
+Soybean,Kharif,71.9,17.1,1557.4,High,Pod Borer
+Potato,Rabi,54.5,15.5,1376.4,Low,None
+Tomato,Rabi,47.3,30.4,454.5,Low,None
+Wheat,Zaid,90.5,16.2,1427.6,High,Loose Smut
+Tomato,Rabi,67.7,38.0,1723.2,Medium,None
+Cotton,Rabi,67.9,26.3,657.6,Low,None
+Rice,Zaid,83.2,20.0,1436.6,Medium,None
+Soybean,Kharif,54.7,16.7,1615.7,Medium,Pod Borer
+Soybean,Kharif,50.5,30.0,960.8,Low,None
+Potato,Rabi,62.3,23.9,1998.5,Medium,Late Blight
+Soybean,Kharif,90.8,23.2,1053.4,High,Pod Borer
+Soybean,Zaid,78.1,23.9,837.1,High,Rust
+Cotton,Zaid,89.8,27.1,1450.4,High,Whitefly
+Soybean,Rabi,67.5,27.3,1898.6,Medium,Yellow Mosaic
+Rice,Kharif,49.4,25.6,1434.7,Medium,Bacterial Leaf Blight
+Wheat,Kharif,55.4,35.6,297.2,Low,None
+Tomato,Zaid,54.7,34.3,699.5,Low,None
+Tomato,Rabi,55.6,25.2,1884.7,Medium,Fruit Borer
+Rice,Rabi,78.9,30.6,264.4,Low,None
+Tomato,Rabi,56.9,15.6,1327.2,Medium,Fruit Borer
+Rice,Kharif,73.5,17.1,1654.5,High,Blast
+Rice,Rabi,40.3,37.4,866.5,Low,None
+Rice,Zaid,41.7,16.8,488.1,Low,None
+Rice,Rabi,76.6,36.2,1569.9,High,Bacterial Leaf Blight
+Wheat,Rabi,77.2,26.6,1476.3,High,Powdery Mildew
+Wheat,Zaid,92.5,27.8,1565.2,High,Loose Smut
+Cotton,Kharif,68.0,22.9,1998.9,Medium,Whitefly
+Cotton,Kharif,72.0,21.0,1488.8,Medium,Whitefly
+Potato,Rabi,51.1,20.3,1436.0,Low,None
+Tomato,Zaid,47.3,26.2,1974.2,Low,None
+Tomato,Zaid,49.7,36.1,858.0,Low,None
+Rice,Zaid,42.6,28.9,350.1,Low,None
+Wheat,Rabi,66.7,19.4,1122.1,Low,None
+Cotton,Rabi,74.2,17.7,979.5,Low,None
+Potato,Zaid,85.8,34.6,1756.0,Medium,None
+Cotton,Kharif,66.4,29.2,639.3,Low,None
+Wheat,Kharif,49.3,23.0,503.2,Low,None
+Rice,Rabi,82.4,30.1,571.6,Medium,None
+Wheat,Rabi,68.1,29.3,1329.5,Medium,None
+Rice,Rabi,80.2,35.6,315.0,Medium,None
+Potato,Zaid,46.1,33.5,620.7,Low,None
+Rice,Kharif,67.5,34.1,1374.9,Medium,Blast
+Cotton,Kharif,67.4,34.5,1590.0,Medium,Whitefly
+Wheat,Kharif,66.2,17.5,406.0,Medium,Loose Smut
+Soybean,Rabi,87.4,28.1,1518.8,High,Pod Borer
+Soybean,Kharif,87.6,27.3,443.5,High,Rust
+Potato,Zaid,85.1,22.4,1696.7,High,Late Blight
+Soybean,Kharif,94.7,24.1,710.3,High,Pod Borer
+Potato,Rabi,74.4,30.0,742.4,Low,None
+Potato,Rabi,58.8,22.8,1971.5,Medium,None
+Cotton,Rabi,43.5,27.9,979.2,Low,None
+Tomato,Rabi,93.9,15.4,279.3,Medium,Late Blight
+Soybean,Rabi,79.1,17.6,1319.4,High,Yellow Mosaic
+Rice,Rabi,81.4,17.1,755.6,Low,None
+Tomato,Zaid,64.0,34.4,782.2,Low,None
+Soybean,Rabi,47.1,31.5,1782.2,Low,None
+Potato,Kharif,74.1,16.0,869.4,Medium,Early Blight
+Soybean,Rabi,73.2,22.1,1042.2,Medium,Rust
+Tomato,Zaid,65.4,19.2,604.6,Low,None
+Rice,Kharif,59.6,20.6,1869.9,Medium,Bacterial Leaf Blight
+Cotton,Rabi,93.6,33.4,830.2,Medium,Whitefly
+Rice,Rabi,75.7,24.2,1217.0,High,Bacterial Leaf Blight
+Potato,Zaid,92.5,23.3,1330.7,High,Late Blight
+Wheat,Rabi,92.8,37.4,735.0,Low,None
+Tomato,Zaid,81.9,36.8,1562.2,High,Fruit Borer
+Tomato,Rabi,84.5,21.5,826.9,Medium,Fruit Borer
+Cotton,Kharif,83.4,26.8,1931.9,High,Whitefly
+Tomato,Zaid,42.9,25.0,712.9,Low,None
+Cotton,Rabi,92.3,20.4,945.8,Medium,Whitefly
+Wheat,Zaid,82.2,16.7,858.3,Medium,Rust
+Rice,Rabi,74.6,15.7,1126.9,Medium,Brown Spot
+Rice,Zaid,75.1,37.5,1409.7,High,Bacterial Leaf Blight
+Tomato,Zaid,86.5,17.6,675.1,Medium,Late Blight
+Potato,Rabi,63.9,28.8,1228.1,Medium,None
+Cotton,Zaid,75.2,15.9,1117.5,Medium,None
+Cotton,Kharif,88.2,31.5,353.2,Medium,Bacterial Blight
+Soybean,Rabi,59.5,17.8,1076.1,Low,None
+Soybean,Rabi,87.6,33.3,1593.5,High,Pod Borer
+Potato,Kharif,53.9,37.6,978.3,Medium,None
+Soybean,Kharif,78.1,29.2,403.2,High,Pod Borer
+Rice,Rabi,84.5,36.6,770.9,Medium,Blast
+Rice,Kharif,78.4,16.0,1408.3,High,Brown Spot
+Soybean,Zaid,62.3,16.7,1537.2,Medium,None
+Soybean,Rabi,75.6,35.6,1412.5,Medium,Yellow Mosaic
+Wheat,Kharif,57.0,33.3,829.6,Low,None
+Cotton,Rabi,86.3,15.3,1837.7,High,Bacterial Blight
+Rice,Zaid,61.7,31.8,823.0,Medium,Bacterial Leaf Blight
+Potato,Kharif,61.0,28.5,383.4,Medium,Early Blight
+Cotton,Kharif,53.6,19.0,957.3,Low,None
+Wheat,Kharif,89.8,24.1,985.0,High,Powdery Mildew
+Wheat,Zaid,75.7,16.2,728.1,Low,None
+Rice,Rabi,53.2,19.9,1711.0,Low,None
+Potato,Kharif,68.7,36.4,381.1,Low,None
+Cotton,Kharif,86.8,37.3,1275.8,High,Bacterial Blight
+Tomato,Rabi,67.3,33.5,773.8,Low,None
+Wheat,Rabi,69.6,27.8,340.6,Low,None
+Soybean,Zaid,83.6,21.5,914.4,Medium,None
+Soybean,Zaid,44.7,16.5,376.1,Low,None
+Rice,Rabi,64.0,24.2,1570.9,Medium,None
+Potato,Zaid,70.3,25.0,912.0,High,Early Blight
+Tomato,Kharif,88.7,31.4,1685.4,High,Early Blight
+Potato,Kharif,70.0,23.1,1618.5,High,Early Blight
+Rice,Kharif,60.9,30.5,637.4,Low,None
+Wheat,Zaid,70.9,30.6,1265.0,Medium,Powdery Mildew
+Soybean,Rabi,86.5,17.2,997.3,Medium,Yellow Mosaic
+Soybean,Zaid,51.7,33.9,1473.9,Low,None
+Soybean,Rabi,87.1,35.3,534.8,Medium,None
+Potato,Kharif,83.1,20.6,1582.6,High,Early Blight
+Soybean,Zaid,91.5,27.4,1543.9,High,Rust
+Rice,Zaid,58.7,27.2,1632.3,Medium,None
+Cotton,Kharif,60.1,22.9,315.6,Medium,Whitefly
+Cotton,Kharif,86.6,35.0,1122.9,Medium,Bacterial Blight
+Soybean,Zaid,69.3,25.7,1261.9,Medium,None
+Potato,Zaid,70.5,27.8,686.2,Medium,None
+Wheat,Rabi,68.3,31.0,508.4,Low,None
+Rice,Zaid,60.2,22.2,709.1,Low,None
+Cotton,Kharif,70.7,22.0,1751.5,High,Bollworm
+Tomato,Rabi,82.2,35.4,1246.8,High,Early Blight
+Rice,Zaid,92.7,18.6,1123.2,Medium,Bacterial Leaf Blight
+Cotton,Kharif,81.8,15.4,232.8,Medium,Bollworm
+Potato,Kharif,71.6,29.1,1335.9,High,Late Blight
+Wheat,Rabi,68.1,31.1,410.4,Low,None
+Soybean,Kharif,50.5,17.5,441.8,Low,None
+Potato,Rabi,94.0,34.5,1996.6,High,Late Blight
+Cotton,Rabi,43.0,18.7,1357.4,Medium,Bollworm
+Soybean,Rabi,88.0,25.2,594.5,High,Pod Borer
+Soybean,Kharif,91.5,36.5,1496.2,High,Yellow Mosaic
+Tomato,Zaid,52.2,33.8,728.5,Low,None
+Soybean,Kharif,40.6,35.6,1060.4,Medium,Yellow Mosaic
+Cotton,Zaid,65.6,26.2,910.3,Low,None
+Wheat,Rabi,57.6,22.0,419.0,Low,None
+Tomato,Zaid,51.1,34.5,840.9,Low,None
+Rice,Kharif,80.1,16.1,1908.7,High,Brown Spot
+Rice,Zaid,40.6,25.2,738.9,Low,None
+Wheat,Kharif,81.4,33.8,1438.9,High,Rust
+Potato,Rabi,47.6,27.2,1856.3,Low,None
+Potato,Rabi,65.6,20.3,1362.4,Medium,None
+Wheat,Rabi,67.9,23.6,225.0,Low,None
+Tomato,Rabi,76.8,32.2,1013.8,Medium,None
+Tomato,Kharif,41.6,29.1,1161.7,Medium,Early Blight
+Potato,Zaid,92.0,24.9,827.9,High,Late Blight
+Rice,Rabi,41.9,33.2,569.2,Low,None
+Soybean,Kharif,71.7,28.4,1149.6,High,Yellow Mosaic
+Potato,Rabi,64.1,33.1,651.4,Low,None
+Wheat,Kharif,70.8,28.5,1740.0,High,Loose Smut
+Wheat,Kharif,79.9,24.8,604.6,High,Rust
+Potato,Zaid,93.7,26.7,333.3,Medium,Early Blight
+Potato,Zaid,86.8,35.0,1998.7,High,Late Blight
+Wheat,Zaid,50.2,15.5,415.6,Low,None
+Soybean,Kharif,84.4,27.2,538.7,High,Rust
+Cotton,Kharif,49.3,18.5,1367.6,Medium,Bollworm
+Potato,Rabi,61.5,23.9,877.6,Medium,None
+Soybean,Zaid,90.2,19.8,336.4,Medium,Pod Borer
+Soybean,Rabi,58.7,30.4,590.3,Low,None
+Tomato,Rabi,82.6,22.3,1016.5,High,Late Blight
+Potato,Kharif,52.2,16.1,1440.1,Medium,Early Blight
+Potato,Kharif,63.8,31.1,1100.3,Medium,Early Blight
+Rice,Zaid,78.0,34.3,876.8,Medium,Blast
+Rice,Rabi,93.0,29.4,1574.1,High,Brown Spot
+Wheat,Rabi,62.2,29.9,774.2,Low,None
+Potato,Kharif,90.2,18.7,1253.3,High,Late Blight
+Wheat,Zaid,83.5,24.3,905.4,High,Rust
+Potato,Kharif,60.0,26.4,538.7,Low,None
+Rice,Zaid,56.5,34.6,783.2,Low,None
+Rice,Zaid,49.3,35.1,967.7,Low,None
+Soybean,Kharif,70.4,31.9,1811.2,Medium,Yellow Mosaic
+Soybean,Zaid,53.8,36.5,872.0,Low,None
+Rice,Kharif,66.4,19.3,956.6,Medium,Bacterial Leaf Blight
+Wheat,Zaid,92.7,21.7,469.4,Medium,Powdery Mildew
+Tomato,Zaid,42.9,28.2,1732.7,Low,None
+Wheat,Zaid,85.5,25.5,906.9,High,Powdery Mildew
+Rice,Rabi,79.2,23.2,1438.3,High,Brown Spot
+Tomato,Kharif,79.2,18.4,1305.2,High,Fruit Borer
+Soybean,Kharif,81.7,32.8,473.4,Medium,None
+Wheat,Kharif,77.8,30.1,399.5,Medium,Rust
+Wheat,Rabi,47.5,35.7,657.3,Low,None
+Potato,Zaid,94.5,27.8,497.2,Medium,Early Blight
+Cotton,Zaid,73.0,35.0,1066.5,Low,None
+Wheat,Kharif,52.5,21.0,1986.2,Medium,Loose Smut
+Tomato,Zaid,69.7,15.5,465.3,Low,None
+Soybean,Rabi,94.6,30.0,896.5,High,Rust
+Tomato,Rabi,42.9,34.2,952.9,Low,None
+Tomato,Zaid,45.6,34.1,1016.6,Low,None
+Cotton,Zaid,71.6,33.8,509.4,Low,None
+Rice,Rabi,75.3,36.1,852.0,Medium,Brown Spot
+Potato,Zaid,50.6,22.6,1062.7,Low,None
+Potato,Zaid,89.8,18.5,1182.8,Medium,Early Blight
+Tomato,Rabi,75.5,33.1,606.5,Medium,Early Blight
+Cotton,Kharif,66.2,15.3,847.6,Medium,None
+Rice,Rabi,40.5,31.4,1752.7,Low,None
+Tomato,Zaid,52.6,20.6,1884.1,Medium,Late Blight
+Cotton,Zaid,42.2,33.8,1065.8,Low,None
+Wheat,Zaid,67.6,29.7,679.8,Low,None
+Tomato,Zaid,83.9,23.9,1930.3,High,Fruit Borer
+Soybean,Kharif,40.8,19.4,244.0,Low,None
+Rice,Zaid,45.6,27.8,1387.4,Medium,Brown Spot
+Cotton,Rabi,41.6,31.9,1314.6,Low,None
+Tomato,Rabi,86.6,22.0,1308.2,High,Fruit Borer
+Wheat,Rabi,83.6,36.5,1793.6,High,Powdery Mildew
+Soybean,Kharif,87.7,22.6,886.2,High,Yellow Mosaic
+Tomato,Kharif,89.5,19.7,504.2,Medium,None
+Potato,Rabi,66.2,26.9,847.5,Low,None
+Tomato,Rabi,57.5,31.8,1838.8,Low,None
+Potato,Rabi,61.4,27.8,473.0,Low,None
+Potato,Zaid,86.8,29.5,403.5,Medium,Early Blight
+Cotton,Zaid,58.0,26.6,1706.7,Low,None
+Tomato,Rabi,54.7,18.0,1527.4,Low,None
+Wheat,Kharif,68.9,22.3,1472.8,High,Loose Smut
+Rice,Kharif,65.2,28.5,527.1,Medium,Brown Spot
+Wheat,Kharif,54.2,22.0,1700.6,Medium,Rust
+Cotton,Kharif,44.2,20.0,1197.1,Low,None
+Tomato,Zaid,51.8,35.5,785.9,Low,None
+Tomato,Kharif,61.0,20.5,258.3,Low,None
+Rice,Rabi,42.1,26.5,1158.4,Low,None
+Soybean,Zaid,88.8,19.5,1545.4,High,Pod Borer
+Wheat,Kharif,48.2,17.8,401.5,Low,None
+Rice,Kharif,66.1,33.1,1978.8,High,Brown Spot
+Tomato,Zaid,52.1,21.0,835.4,Low,None
+Cotton,Kharif,87.6,31.3,1379.0,High,Bacterial Blight
+Rice,Zaid,82.1,16.8,1423.3,High,Brown Spot
+Potato,Rabi,84.2,18.3,844.3,Medium,Early Blight
+Wheat,Kharif,71.0,20.1,1797.9,High,Powdery Mildew
+Potato,Kharif,64.3,29.9,711.8,Medium,None
+Tomato,Rabi,55.0,29.6,1352.7,Low,None
+Potato,Zaid,63.0,34.1,1118.4,Low,None
+Tomato,Zaid,55.5,26.7,1006.4,Low,None
+Wheat,Kharif,73.9,32.1,1092.2,Medium,Loose Smut
+Cotton,Zaid,80.5,26.3,1089.4,High,Bacterial Blight
+Tomato,Zaid,88.5,32.1,1825.4,Medium,Fruit Borer
+Rice,Kharif,65.9,16.9,1125.7,Medium,None
+Rice,Rabi,80.3,19.6,727.2,Medium,Bacterial Leaf Blight
+Wheat,Kharif,91.0,27.5,538.6,High,Loose Smut
+Rice,Zaid,83.7,27.5,1495.9,High,Bacterial Leaf Blight
+Rice,Rabi,85.1,31.8,1553.9,High,Bacterial Leaf Blight
+Cotton,Kharif,56.2,37.3,1805.9,Medium,Bollworm
+Wheat,Rabi,73.4,23.7,1865.0,High,Rust
+Tomato,Rabi,60.2,37.0,920.5,Low,None
+Tomato,Kharif,78.8,17.6,1615.7,High,Fruit Borer
+Cotton,Rabi,58.4,33.8,209.1,Low,None
+Soybean,Kharif,47.3,27.2,414.8,Low,None
+Soybean,Rabi,68.4,19.4,1783.2,Medium,None
+Cotton,Rabi,78.3,28.3,1780.7,High,Whitefly
+Tomato,Rabi,66.8,26.8,234.6,Low,None
+Tomato,Kharif,94.4,17.6,1688.7,High,Early Blight
+Tomato,Zaid,62.3,17.2,948.9,Low,None
+Soybean,Zaid,53.9,22.5,1787.7,Low,None
+Potato,Kharif,53.2,21.4,1223.6,Medium,None
+Potato,Kharif,59.5,23.8,231.7,Low,None
+Soybean,Rabi,77.8,26.7,1635.6,High,Rust
+Cotton,Kharif,49.2,33.8,880.9,Low,None
+Soybean,Zaid,63.9,26.8,806.2,Medium,Yellow Mosaic
+Rice,Rabi,63.7,20.2,1294.6,Medium,None
+Cotton,Kharif,71.8,21.6,560.5,Low,None
+Soybean,Rabi,51.9,15.2,472.7,Low,None
+Rice,Kharif,74.1,30.6,1790.8,Medium,Brown Spot
+Potato,Zaid,61.4,29.4,1084.7,Low,None
+Soybean,Rabi,82.9,30.3,1072.8,Medium,Rust
+Potato,Kharif,49.0,16.6,769.4,Low,None
+Cotton,Rabi,85.7,17.0,289.4,Medium,Whitefly
+Cotton,Rabi,75.1,25.7,1754.0,High,Whitefly
+Rice,Rabi,58.9,36.3,1215.5,Low,None
+Rice,Kharif,89.6,27.1,1739.7,High,Blast
+Potato,Rabi,83.6,16.6,1229.5,Medium,Early Blight
+Wheat,Zaid,49.7,24.4,1217.4,Medium,None
+Rice,Kharif,70.9,25.6,1930.5,High,Bacterial Leaf Blight
+Soybean,Zaid,61.7,21.7,1323.9,Medium,Rust
+Potato,Zaid,43.2,28.8,1643.2,Medium,Early Blight
+Wheat,Rabi,52.2,19.5,672.9,Low,None
+Cotton,Rabi,40.8,17.8,1612.9,Medium,Bacterial Blight
+Potato,Zaid,70.5,25.0,1429.1,High,Late Blight
+Rice,Zaid,60.3,37.6,311.6,Low,None
+Rice,Rabi,41.5,28.8,955.6,Low,None
+Wheat,Zaid,58.6,31.4,1419.8,Low,None
+Potato,Kharif,49.6,34.5,1475.7,Medium,None
+Rice,Rabi,65.0,23.2,730.7,Low,None
+Soybean,Rabi,49.7,15.7,1602.4,Low,None
+Cotton,Kharif,58.0,26.0,1406.9,Medium,Bacterial Blight
+Rice,Rabi,48.1,16.4,594.3,Low,None
+Rice,Zaid,94.4,23.2,1036.0,High,Bacterial Leaf Blight
+Cotton,Kharif,66.5,23.6,1785.4,High,Whitefly
+Soybean,Kharif,63.9,31.7,1305.3,High,Pod Borer
+Wheat,Kharif,47.5,36.8,722.3,Low,None
+Wheat,Kharif,86.9,15.7,1762.8,High,Loose Smut
+Soybean,Zaid,49.6,29.8,1620.3,Low,None
+Tomato,Zaid,93.4,30.4,1582.8,High,Early Blight
+Soybean,Zaid,64.5,23.5,1250.1,Medium,None
+Wheat,Rabi,89.9,24.8,580.8,Medium,Loose Smut
+Rice,Zaid,74.8,18.2,977.0,Low,None
+Cotton,Kharif,65.3,33.0,1721.7,Medium,Whitefly
+Tomato,Zaid,61.7,18.1,386.1,Low,None
+Wheat,Kharif,50.5,27.6,520.2,Low,None
+Potato,Zaid,89.4,35.1,262.5,Low,None
+Cotton,Zaid,42.5,16.6,1529.4,Medium,Whitefly
+Soybean,Zaid,76.9,15.4,1241.8,High,Rust
+Cotton,Zaid,74.4,26.7,1630.1,High,Bacterial Blight
+Wheat,Kharif,56.4,21.8,1481.4,Medium,Powdery Mildew
+Soybean,Kharif,46.6,20.7,752.2,Low,None
+Tomato,Zaid,48.3,28.4,576.9,Low,None
+Tomato,Rabi,76.9,17.4,584.4,Low,None
+Wheat,Kharif,79.0,32.4,1561.0,High,Powdery Mildew
+Soybean,Kharif,83.8,24.2,1750.5,High,Rust
+Cotton,Kharif,83.0,34.0,989.1,Medium,None
+Wheat,Kharif,81.1,31.4,1240.9,High,Rust
+Cotton,Rabi,84.3,15.3,213.2,Medium,Whitefly
+Tomato,Kharif,70.9,32.4,1143.6,Medium,None
+Tomato,Rabi,56.5,22.2,512.9,Low,None
+Tomato,Rabi,47.0,20.0,1458.8,Low,None
+Cotton,Rabi,43.1,26.4,1854.9,Low,None
+Wheat,Zaid,90.2,29.0,1820.6,High,Rust
+Soybean,Rabi,85.6,37.4,1738.5,High,Rust
+Cotton,Rabi,53.7,18.4,1918.2,Low,None
+Tomato,Kharif,94.8,27.3,771.3,High,Early Blight
+Wheat,Rabi,67.0,22.8,1930.7,Medium,None
+Wheat,Zaid,75.9,22.9,1828.0,High,Powdery Mildew
+Tomato,Zaid,84.9,22.0,1670.8,High,Early Blight
+Potato,Zaid,56.7,18.3,415.2,Low,None
+Soybean,Rabi,60.5,16.0,807.0,Medium,Yellow Mosaic
+Wheat,Kharif,71.8,15.5,586.4,Medium,Rust
+Potato,Kharif,57.1,31.3,376.1,Low,None
+Soybean,Kharif,89.3,28.5,1009.9,High,Rust
+Rice,Rabi,66.4,15.2,890.2,Low,None
+Soybean,Zaid,48.3,17.1,1346.2,Low,None
+Wheat,Rabi,70.7,36.4,868.4,Low,None
+Rice,Zaid,82.0,28.7,229.1,High,Blast
+Rice,Kharif,44.9,27.2,1654.8,Medium,Bacterial Leaf Blight
+Soybean,Kharif,55.2,35.3,745.8,Low,None
+Rice,Rabi,82.0,26.7,695.9,Medium,None
+Potato,Rabi,44.0,25.0,738.6,Low,None
+Wheat,Rabi,72.7,16.2,1437.0,Medium,None
+Rice,Kharif,91.6,31.1,607.9,Medium,Brown Spot
+Rice,Zaid,71.1,36.6,535.4,Low,None
+Tomato,Kharif,53.9,32.3,1543.3,Medium,Fruit Borer
+Wheat,Rabi,43.7,23.4,1733.3,Low,None
+Soybean,Kharif,54.6,37.6,1752.0,Medium,Yellow Mosaic
+Tomato,Kharif,52.1,21.7,209.6,Low,None
+Rice,Kharif,85.4,21.5,938.6,Medium,Blast
+Tomato,Rabi,72.8,24.3,1421.2,High,Fruit Borer
+Tomato,Kharif,43.9,36.4,543.3,Low,None
+Potato,Rabi,64.7,33.3,807.4,Low,None
+Soybean,Kharif,74.5,18.1,1214.6,Medium,Rust
+Wheat,Zaid,58.5,25.7,491.8,Low,None
+Cotton,Kharif,75.9,18.4,1876.3,High,Whitefly
+Soybean,Kharif,40.9,29.1,1566.6,Medium,Yellow Mosaic
+Tomato,Kharif,47.1,32.8,1699.4,Medium,None
+Potato,Kharif,90.7,34.3,365.5,Medium,None
+Soybean,Zaid,63.1,34.6,1858.6,Medium,None
+Cotton,Kharif,85.7,27.6,1589.4,High,Whitefly
+Rice,Rabi,50.0,35.4,1769.5,Medium,Blast
+Tomato,Kharif,49.4,15.0,1515.8,Medium,None
+Rice,Rabi,85.7,33.4,355.7,Low,None
+Rice,Rabi,43.6,32.7,343.4,Low,None
+Potato,Rabi,42.3,21.7,1210.8,Low,None
+Cotton,Zaid,55.0,31.2,1257.5,Medium,Bollworm
+Potato,Kharif,83.1,33.8,1687.7,High,Early Blight
+Cotton,Kharif,88.2,17.7,538.9,Medium,Whitefly
+Potato,Zaid,74.0,25.8,626.4,Medium,None
+Tomato,Zaid,65.5,28.8,1817.4,Medium,None
+Rice,Kharif,76.3,36.4,1769.8,High,Bacterial Leaf Blight
+Wheat,Zaid,78.8,23.3,892.7,High,Rust
+Soybean,Zaid,57.3,27.9,670.4,Low,None
+Soybean,Rabi,41.7,17.3,419.6,Low,None
+Tomato,Zaid,44.4,35.0,1159.0,Low,None
+Tomato,Kharif,53.8,26.8,1559.1,Medium,Early Blight
+Soybean,Kharif,49.6,19.9,1340.3,Medium,Pod Borer
+Tomato,Kharif,80.3,24.6,1925.3,High,Fruit Borer
+Soybean,Rabi,93.7,25.5,886.7,High,Pod Borer
+Tomato,Kharif,70.1,22.4,1727.5,High,Fruit Borer
+Rice,Zaid,64.2,16.4,657.6,Low,None
+Tomato,Kharif,57.1,26.0,1114.9,Low,None
+Potato,Zaid,81.9,29.7,1047.3,High,Late Blight
+Cotton,Kharif,69.0,19.0,1168.2,Medium,None
+Soybean,Kharif,43.2,28.1,875.9,Low,None
+Wheat,Kharif,68.1,22.5,1726.1,Medium,Rust
+Wheat,Kharif,40.4,25.9,224.9,Low,None
+Potato,Rabi,90.8,18.8,453.3,Medium,Late Blight
+Rice,Rabi,65.3,21.2,798.6,Low,None
+Wheat,Rabi,72.3,36.0,1580.4,Medium,None
+Potato,Kharif,71.8,29.2,1149.3,High,Early Blight
+Rice,Kharif,61.3,25.4,245.3,Low,None
+Soybean,Kharif,92.2,25.0,1459.9,High,Pod Borer
+Potato,Kharif,45.1,23.0,1558.5,Medium,None
+Soybean,Zaid,75.4,27.4,1572.4,High,Yellow Mosaic
+Potato,Rabi,66.0,36.3,1698.9,Medium,Early Blight
+Wheat,Kharif,93.6,36.6,627.9,Medium,Powdery Mildew
+Soybean,Kharif,70.5,22.2,1000.7,Medium,None
+Cotton,Rabi,93.2,21.4,473.5,Medium,Whitefly
+Rice,Rabi,63.5,15.1,435.1,Low,None
+Wheat,Zaid,53.5,29.8,462.3,Low,None
+Rice,Zaid,42.0,26.1,1519.2,Medium,Blast
+Rice,Kharif,57.7,31.9,689.9,Low,None
+Tomato,Zaid,86.4,20.5,1719.8,High,Early Blight
+Wheat,Kharif,83.4,28.3,1713.8,High,Loose Smut
+Tomato,Rabi,76.0,27.8,463.0,Medium,Early Blight
+Potato,Rabi,44.5,21.3,1188.4,Low,None
+Rice,Zaid,51.6,28.9,801.3,Low,None
+Potato,Kharif,49.8,17.8,277.1,Low,None
+Rice,Rabi,86.3,28.8,793.9,Medium,Brown Spot
+Potato,Zaid,80.0,27.5,1946.9,High,Early Blight
+Wheat,Rabi,47.6,31.4,1667.6,Medium,None
+Tomato,Kharif,88.4,31.5,658.6,Medium,None
+Wheat,Rabi,51.8,21.7,912.4,Low,None
+Cotton,Rabi,49.9,35.7,1305.0,Low,None
+Wheat,Rabi,41.4,15.0,737.5,Low,None
+Rice,Zaid,94.4,33.4,1751.8,High,Blast
+Potato,Kharif,59.1,30.2,875.6,Low,None
+Cotton,Rabi,50.7,31.5,1693.3,Medium,Bollworm
+Potato,Zaid,83.7,16.4,1140.4,Medium,None
+Tomato,Zaid,86.7,28.2,649.0,Medium,Fruit Borer
+Tomato,Rabi,86.6,32.7,587.2,Medium,Fruit Borer
+Soybean,Kharif,67.1,19.0,1844.9,High,Pod Borer
+Cotton,Kharif,88.7,32.8,1596.2,High,Bacterial Blight
+Rice,Zaid,76.9,34.5,480.6,Medium,Brown Spot
+Wheat,Zaid,49.5,24.1,1423.2,Medium,Rust
+Rice,Kharif,88.2,15.4,1051.7,Medium,None
+Soybean,Rabi,54.4,34.2,732.3,Low,None
+Tomato,Kharif,80.6,37.7,781.7,Medium,Late Blight
+Wheat,Kharif,51.7,23.6,1303.2,Medium,Powdery Mildew
+Wheat,Kharif,84.0,28.6,1293.1,High,Loose Smut
+Tomato,Zaid,73.1,28.8,427.8,Medium,Fruit Borer
+Soybean,Kharif,93.0,22.2,637.2,High,Rust
+Soybean,Kharif,63.9,22.4,301.5,Medium,None
+Tomato,Kharif,81.6,34.3,1025.5,High,Early Blight
+Tomato,Kharif,88.9,18.5,871.6,High,Fruit Borer
+Tomato,Kharif,92.4,27.8,1550.6,High,Early Blight
+Soybean,Zaid,62.8,25.3,692.3,Low,None
+Tomato,Kharif,50.6,23.8,941.6,Medium,Late Blight
+Wheat,Zaid,74.6,21.5,1677.6,Medium,Powdery Mildew
+Soybean,Zaid,80.7,35.4,1683.9,Medium,Pod Borer
+Rice,Kharif,51.4,23.6,1557.9,Medium,Blast
+Rice,Kharif,76.9,24.6,839.9,High,Brown Spot
+Soybean,Zaid,74.4,19.1,1606.6,Medium,Rust
+Potato,Kharif,62.7,22.1,1725.7,Medium,Early Blight
+Tomato,Kharif,67.9,26.5,1893.5,High,Early Blight
+Rice,Zaid,81.5,16.4,872.3,Medium,Blast
+Wheat,Rabi,52.7,23.2,884.7,Low,None
+Cotton,Zaid,42.1,29.0,795.7,Low,None
+Cotton,Kharif,93.4,24.9,860.9,High,Bollworm
+Potato,Rabi,88.6,21.3,940.5,Medium,Early Blight
+Tomato,Rabi,69.3,31.2,1412.7,Medium,Early Blight
+Tomato,Zaid,70.0,15.8,479.8,Low,None
+Cotton,Rabi,65.6,36.0,1032.9,Low,None
+Rice,Zaid,86.8,34.7,1040.2,Medium,Bacterial Leaf Blight
+Tomato,Kharif,79.7,37.8,1654.1,High,Fruit Borer
+Rice,Zaid,92.6,19.6,1403.7,Medium,Brown Spot
+Soybean,Rabi,78.0,26.3,1145.8,High,Yellow Mosaic
+Rice,Kharif,59.1,21.4,1479.6,Medium,Brown Spot
+Rice,Rabi,69.4,32.6,629.7,Low,None
+Potato,Zaid,70.8,23.2,1474.5,High,Early Blight
+Cotton,Rabi,70.2,18.7,431.0,Low,None
+Rice,Rabi,50.9,20.4,1610.3,Medium,Bacterial Leaf Blight
+Wheat,Zaid,61.1,20.7,771.2,Low,None
+Wheat,Rabi,60.2,20.7,663.8,Low,None
+Rice,Rabi,63.5,34.6,1981.7,Medium,Bacterial Leaf Blight
+Wheat,Kharif,63.1,33.9,375.8,Medium,Rust
+Rice,Zaid,63.9,17.8,244.5,Low,None
+Tomato,Kharif,73.3,32.6,454.8,Medium,None
+Potato,Kharif,47.6,16.7,792.1,Low,None
+Cotton,Zaid,56.8,32.8,666.7,Low,None
+Rice,Kharif,70.9,20.5,1399.2,Medium,Blast
+Tomato,Zaid,43.7,19.9,1210.6,Medium,None
+Rice,Zaid,81.2,24.7,1671.4,High,Bacterial Leaf Blight
+Rice,Zaid,89.2,21.0,543.3,Medium,None
+Wheat,Zaid,87.7,33.5,354.9,Low,None
+Potato,Rabi,89.3,37.0,644.3,Medium,Late Blight
+Cotton,Kharif,92.5,33.0,935.9,High,Bacterial Blight
+Rice,Zaid,93.5,26.6,239.9,High,Bacterial Leaf Blight
+Soybean,Rabi,47.5,19.4,949.8,Low,None
+Soybean,Rabi,57.3,17.1,1476.5,Low,None
+Wheat,Zaid,75.0,24.6,1615.4,High,Rust
+Cotton,Zaid,63.3,31.2,520.2,Low,None
+Soybean,Rabi,75.4,33.0,1720.6,Medium,Yellow Mosaic
+Soybean,Rabi,89.7,17.2,325.1,Low,None
+Tomato,Rabi,79.4,23.2,1946.3,High,Late Blight
+Wheat,Rabi,81.3,26.6,1253.9,High,Loose Smut
+Potato,Kharif,69.8,25.5,1037.2,Medium,Late Blight
+Tomato,Kharif,82.6,21.2,638.4,Medium,Fruit Borer
+Potato,Kharif,52.4,24.4,1173.9,Low,None
+Potato,Zaid,58.3,29.6,580.4,Low,None
+Soybean,Zaid,85.1,33.8,285.4,Medium,None
+Potato,Rabi,93.1,33.6,1132.9,Medium,Late Blight
+Cotton,Rabi,50.9,32.2,629.1,Low,None
+Potato,Rabi,72.2,36.4,1728.0,Medium,None
+Rice,Rabi,63.4,26.1,577.2,Low,None
+Potato,Zaid,66.7,33.6,1458.9,Medium,None
+Potato,Kharif,68.2,25.4,1551.7,High,Late Blight
+Cotton,Zaid,40.1,29.3,303.5,Low,None
+Tomato,Rabi,57.7,20.5,1397.3,Low,None
+Wheat,Kharif,46.7,29.2,1400.9,Medium,Rust
+Rice,Rabi,47.4,24.7,1025.7,Low,None
+Soybean,Rabi,88.0,25.5,1850.9,High,Rust
+Rice,Rabi,42.6,33.4,572.6,Low,None
+Tomato,Zaid,94.8,30.5,1021.8,Medium,Fruit Borer
+Rice,Zaid,45.1,26.6,1743.2,Medium,Bacterial Leaf Blight
+Potato,Kharif,56.6,31.1,1478.5,Medium,Late Blight
+Tomato,Zaid,46.8,15.1,743.6,Low,None
+Wheat,Kharif,77.2,30.7,941.2,Medium,Powdery Mildew
+Rice,Kharif,45.8,37.8,1467.5,Medium,Blast
+Cotton,Kharif,45.1,36.2,818.3,Low,None
+Rice,Rabi,61.4,29.8,204.1,Low,None
+Soybean,Zaid,46.8,35.7,394.1,Low,None
+Soybean,Rabi,54.9,36.7,685.6,Low,None
+Soybean,Kharif,84.7,24.7,1941.0,High,Rust
+Tomato,Kharif,91.1,17.5,1696.3,High,Late Blight
+Rice,Rabi,58.9,31.2,323.7,Low,None
+Wheat,Kharif,49.8,27.3,496.3,Low,None
+Rice,Kharif,55.0,27.6,1889.2,Medium,Blast
+Tomato,Rabi,90.3,28.7,504.5,High,Early Blight
+Tomato,Zaid,56.1,17.5,634.5,Low,None
+Cotton,Rabi,84.2,35.5,592.2,Low,None
+Cotton,Zaid,93.4,27.7,1469.1,High,Bollworm
+Wheat,Zaid,70.7,21.9,465.9,Low,None
+Potato,Kharif,58.7,35.1,928.9,Low,None
+Cotton,Rabi,87.2,23.2,1603.7,High,Whitefly
+Cotton,Zaid,78.3,36.6,1242.9,High,Whitefly
+Wheat,Zaid,89.3,33.6,969.7,Medium,Loose Smut
+Cotton,Kharif,60.3,18.7,1939.9,High,Whitefly
+Wheat,Kharif,61.3,17.3,890.8,Medium,Loose Smut
+Tomato,Rabi,68.8,25.1,478.4,Low,None
+Rice,Rabi,43.8,23.7,1654.4,Medium,None
+Rice,Zaid,71.1,15.6,948.3,Medium,Bacterial Leaf Blight
+Cotton,Rabi,78.0,17.1,1593.9,High,Whitefly
+Cotton,Kharif,52.2,32.0,1834.9,Medium,Whitefly
+Cotton,Rabi,59.8,21.7,1423.7,Medium,None
+Tomato,Zaid,85.8,28.1,309.3,High,Early Blight
+Wheat,Rabi,50.7,17.2,737.0,Low,None
+Wheat,Zaid,86.9,36.0,1439.4,Medium,Rust
+Potato,Rabi,85.2,15.8,1582.9,High,Early Blight
+Rice,Kharif,48.6,28.8,1264.5,Medium,Bacterial Leaf Blight
+Tomato,Kharif,45.9,18.1,503.4,Low,None
+Soybean,Rabi,89.6,31.6,1915.7,High,Yellow Mosaic
+Rice,Zaid,42.9,24.8,1328.1,Low,None
+Cotton,Rabi,41.1,29.7,1740.0,Medium,Whitefly
+Soybean,Kharif,60.0,23.7,491.4,Medium,Yellow Mosaic
+Potato,Kharif,63.5,26.9,418.8,Medium,Early Blight
+Tomato,Rabi,72.9,25.7,516.6,Medium,Early Blight
+Potato,Rabi,85.4,25.8,239.3,Medium,Late Blight
+Rice,Rabi,58.6,25.2,1323.1,Low,None
+Wheat,Rabi,91.1,22.4,980.4,High,Loose Smut
+Rice,Zaid,86.1,34.0,1441.4,High,Brown Spot
+Tomato,Rabi,81.1,36.0,494.2,Medium,Late Blight
+Rice,Zaid,43.0,26.3,485.0,Low,None
+Wheat,Zaid,42.6,28.9,797.5,Low,None
+Wheat,Rabi,69.1,27.9,1034.1,Medium,Powdery Mildew
+Soybean,Rabi,93.4,29.6,1117.2,High,Rust
+Tomato,Kharif,89.1,15.2,1937.5,High,Early Blight
+Potato,Zaid,74.4,23.6,1212.8,High,Late Blight
+Potato,Kharif,47.7,18.1,1628.7,Medium,Late Blight
+Cotton,Rabi,92.2,35.0,1647.0,Medium,None
+Wheat,Zaid,57.2,32.5,1894.9,Low,None
+Wheat,Rabi,64.5,20.3,1790.6,Medium,Rust
+Rice,Rabi,94.4,18.2,1609.6,High,Blast
+Wheat,Zaid,93.3,27.3,897.3,High,Powdery Mildew
+Cotton,Zaid,43.7,23.4,1260.7,Medium,Bacterial Blight
+Tomato,Kharif,50.2,35.5,1978.1,Medium,Early Blight
+Tomato,Rabi,63.0,37.6,395.5,Low,None
+Cotton,Zaid,57.5,29.0,1229.4,Low,None
+Soybean,Zaid,75.4,15.8,1277.2,Medium,Pod Borer
+Soybean,Kharif,65.8,17.2,1141.7,Medium,Pod Borer
+Tomato,Rabi,64.7,25.3,1389.2,Medium,Late Blight
+Potato,Zaid,66.2,19.9,516.7,Low,None
+Rice,Zaid,92.7,30.3,1610.9,High,Brown Spot
+Soybean,Rabi,43.0,16.2,1815.1,Medium,Yellow Mosaic
+Soybean,Rabi,51.9,30.2,614.3,Low,None
+Potato,Kharif,72.3,15.6,1470.9,High,Late Blight
+Rice,Zaid,78.9,15.4,341.5,Medium,Blast
+Rice,Zaid,82.1,28.3,770.2,Medium,None
+Potato,Kharif,57.6,22.0,1862.0,Medium,Late Blight
+Tomato,Rabi,41.8,24.7,930.7,Low,None
+Tomato,Zaid,44.0,23.0,1908.5,Low,None
+Tomato,Kharif,81.1,34.8,1020.3,High,Fruit Borer
+Rice,Rabi,44.9,25.1,519.1,Low,None
+Potato,Kharif,80.9,35.8,1508.6,High,Early Blight
+Tomato,Kharif,91.6,28.6,1142.1,High,Early Blight
+Tomato,Kharif,54.5,17.8,1604.6,Medium,Early Blight
+Rice,Zaid,41.8,17.7,1327.6,Low,None
+Wheat,Kharif,74.5,19.2,1938.9,Medium,Rust
+Rice,Zaid,61.3,30.1,1200.7,Medium,Bacterial Leaf Blight
+Potato,Rabi,69.9,19.9,1852.7,Medium,Late Blight
+Cotton,Rabi,43.2,24.7,544.0,Low,None
+Tomato,Rabi,70.6,16.3,1183.5,Low,None
+Rice,Rabi,49.3,17.5,1298.6,Low,None
+Tomato,Rabi,67.5,32.6,296.2,Low,None
+Tomato,Rabi,50.7,33.4,300.7,Low,None
+Wheat,Rabi,40.2,25.1,1491.7,Medium,Loose Smut
+Cotton,Zaid,54.4,36.0,1534.0,Low,None
+Tomato,Kharif,86.7,31.9,984.7,High,Fruit Borer
+Tomato,Rabi,57.7,33.9,258.9,Low,None
+Tomato,Rabi,42.5,35.7,1937.4,Medium,Late Blight
+Wheat,Rabi,53.6,19.0,1213.5,Medium,Loose Smut
+Rice,Zaid,72.7,30.7,366.2,Low,None
+Soybean,Zaid,58.8,33.0,1036.3,Low,None
+Tomato,Rabi,75.0,23.9,233.6,Medium,Fruit Borer
+Potato,Rabi,84.2,29.1,631.8,High,Early Blight
+Wheat,Zaid,68.8,34.7,990.0,Low,None
+Tomato,Zaid,45.7,27.2,1954.8,Medium,None
+Rice,Zaid,76.4,34.6,1137.3,Medium,None
+Potato,Kharif,48.9,20.7,1522.9,Medium,Late Blight
+Wheat,Zaid,62.6,19.5,1989.7,Medium,Loose Smut
+Rice,Kharif,85.8,36.7,1294.4,High,Brown Spot
+Rice,Kharif,91.2,28.1,1026.6,High,Blast
+Tomato,Zaid,45.0,37.0,872.2,Low,None
+Cotton,Zaid,67.9,18.3,793.0,Low,None
+Soybean,Zaid,50.6,33.5,1660.9,Medium,None
+Soybean,Kharif,89.1,36.3,236.5,Medium,Yellow Mosaic
+Tomato,Rabi,74.4,26.7,644.9,Medium,Early Blight
+Rice,Rabi,47.1,35.0,1437.6,Medium,None
+Wheat,Zaid,43.4,20.5,1365.1,Medium,Loose Smut
+Potato,Zaid,76.2,31.5,454.7,Medium,None
+Soybean,Kharif,66.0,31.8,1720.6,High,Rust
+Soybean,Zaid,46.8,25.2,348.4,Low,None
+Soybean,Zaid,40.6,15.6,1672.1,Medium,None
+Rice,Kharif,78.2,32.1,1933.1,High,Bacterial Leaf Blight
+Wheat,Rabi,73.5,16.3,1142.4,Medium,Rust
+Rice,Kharif,69.8,37.4,1999.3,Medium,None
+Wheat,Zaid,73.7,36.9,1885.0,Medium,Loose Smut
+Cotton,Kharif,91.1,19.4,444.7,Medium,Whitefly
+Potato,Kharif,83.6,19.2,1400.3,High,Late Blight
+Soybean,Zaid,68.0,25.5,1790.7,Medium,Pod Borer
+Potato,Kharif,58.6,31.6,270.4,Low,None
+Tomato,Rabi,69.1,18.0,1192.0,Low,None
+Rice,Zaid,41.8,21.5,569.3,Low,None
+Cotton,Rabi,51.8,33.2,814.1,Low,None
+Tomato,Kharif,77.5,31.1,429.8,Medium,Late Blight
+Wheat,Kharif,84.6,36.6,1553.7,High,Loose Smut
+Tomato,Zaid,40.6,22.7,737.0,Low,None
+Tomato,Zaid,81.2,33.1,1740.0,High,Fruit Borer
+Tomato,Rabi,69.9,19.3,1468.2,Medium,Fruit Borer
+Rice,Zaid,88.9,34.2,1482.3,High,Bacterial Leaf Blight
+Soybean,Rabi,67.4,34.6,1978.2,Medium,Rust
+Wheat,Kharif,82.2,19.4,881.1,Medium,Rust
+Cotton,Kharif,80.1,16.8,1339.0,High,Bacterial Blight
+Wheat,Zaid,80.9,37.0,343.6,Low,None
+Soybean,Zaid,52.4,23.2,1663.2,Medium,Yellow Mosaic
+Potato,Kharif,83.5,26.1,1498.3,High,Early Blight
+Wheat,Kharif,63.9,26.4,1476.2,High,Loose Smut
+Potato,Rabi,74.8,20.3,511.1,Low,None
+Tomato,Rabi,58.4,24.7,1813.1,Medium,None
+Cotton,Kharif,58.0,31.2,590.3,Low,None
+Potato,Rabi,57.7,16.2,1822.6,Low,None
+Soybean,Rabi,52.8,29.1,1519.2,Medium,Yellow Mosaic
+Cotton,Rabi,60.3,35.2,1170.6,Low,None
+Tomato,Rabi,58.3,34.7,378.3,Low,None
+Soybean,Zaid,54.2,16.7,1781.2,Medium,None
+Rice,Rabi,48.4,24.3,880.6,Low,None
+Tomato,Rabi,91.2,18.0,1356.3,High,Fruit Borer
+Tomato,Rabi,91.4,20.7,1089.5,Medium,Late Blight
+Potato,Zaid,88.9,28.3,493.2,High,Late Blight
+Potato,Kharif,70.8,19.5,1344.3,High,Late Blight
+Potato,Zaid,49.4,37.1,1650.4,Low,None
+Rice,Zaid,78.8,37.9,362.5,Low,None
+Wheat,Kharif,80.8,24.4,270.5,High,Rust
+Cotton,Zaid,88.1,23.3,1740.5,High,Bacterial Blight
+Cotton,Zaid,41.6,24.7,1901.2,Low,None
+Potato,Zaid,66.1,30.5,891.5,Medium,Early Blight
+Soybean,Rabi,60.0,22.3,1661.7,Medium,Pod Borer
+Wheat,Kharif,87.5,19.1,1137.2,High,Rust
+Rice,Zaid,60.6,36.1,1676.8,Medium,Brown Spot
+Potato,Rabi,49.8,34.0,630.9,Low,None
+Potato,Rabi,59.8,20.7,712.2,Low,None
+Wheat,Kharif,76.6,26.3,1431.8,High,Powdery Mildew
+Potato,Kharif,59.6,16.3,1769.7,Medium,None
+Tomato,Kharif,46.7,37.5,507.1,Low,None
+Tomato,Zaid,61.6,34.4,645.0,Low,None
+Soybean,Zaid,52.2,16.9,201.5,Low,None
+Tomato,Kharif,87.3,18.5,207.9,Medium,None
+Potato,Zaid,79.9,18.2,1873.6,High,Early Blight
+Rice,Zaid,62.1,23.7,1331.8,Medium,Brown Spot
+Soybean,Zaid,65.7,26.5,818.6,Low,None
+Rice,Zaid,76.8,28.7,1867.3,High,Blast
+Soybean,Zaid,71.0,17.5,247.4,Low,None
+Tomato,Zaid,91.5,17.4,1553.9,High,Late Blight
+Potato,Zaid,47.2,36.1,1072.6,Low,None
+Potato,Kharif,89.6,34.7,1051.1,Medium,None
+Tomato,Rabi,68.2,29.1,503.9,Low,None
+Rice,Zaid,52.3,37.4,1016.5,Low,None
+Soybean,Kharif,81.3,26.0,629.6,High,Rust
+Soybean,Kharif,75.3,26.4,1185.5,High,Pod Borer
+Rice,Zaid,74.6,23.8,1458.7,High,Blast
+Tomato,Kharif,81.8,26.3,1946.9,High,Fruit Borer
+Cotton,Zaid,77.7,21.9,1306.6,High,Whitefly
+Wheat,Zaid,71.4,22.5,746.5,Medium,Powdery Mildew
+Rice,Zaid,91.9,33.6,1629.8,High,Brown Spot
+Rice,Rabi,52.3,32.9,1469.6,Low,None
+Potato,Kharif,68.3,22.4,1891.4,High,Early Blight
+Potato,Zaid,73.8,26.6,1296.7,High,Early Blight
+Wheat,Kharif,78.2,25.2,1810.5,High,Rust
+Potato,Kharif,90.1,30.3,1592.7,High,Early Blight
+Tomato,Kharif,50.2,31.5,706.9,Low,None
+Rice,Rabi,85.8,27.6,368.3,High,Bacterial Leaf Blight
+Potato,Zaid,52.5,16.7,1735.1,Low,None
+Tomato,Zaid,72.4,22.7,780.8,Medium,Fruit Borer
+Tomato,Zaid,69.8,26.9,608.8,Low,None
+Soybean,Zaid,45.6,37.8,1812.5,Low,None
+Cotton,Kharif,59.5,16.7,1689.2,Medium,None
+Wheat,Zaid,67.4,27.2,1038.0,Low,None
+Rice,Zaid,59.6,29.5,1682.6,Medium,Bacterial Leaf Blight
+Wheat,Rabi,52.6,20.3,616.7,Low,None
+Tomato,Zaid,42.1,17.5,1004.6,Low,None
+Cotton,Rabi,93.0,31.7,682.1,Medium,Whitefly
+Tomato,Kharif,72.2,31.4,1232.0,High,Late Blight
+Potato,Rabi,77.8,31.4,1564.1,High,Late Blight
+Rice,Zaid,63.9,30.7,642.3,Low,None
+Cotton,Zaid,56.4,16.6,567.8,Low,None
+Cotton,Zaid,89.4,28.0,1411.9,High,Bollworm
+Tomato,Rabi,81.7,36.2,1145.4,Medium,None
+Soybean,Zaid,46.5,19.6,1409.7,Medium,Rust
+Potato,Kharif,42.9,25.9,1039.6,Low,None
+Soybean,Kharif,52.5,17.8,1552.8,Medium,Rust
+Wheat,Zaid,41.6,22.9,1522.0,Low,None
+Potato,Rabi,78.2,34.1,1654.5,High,Late Blight
+Tomato,Kharif,71.3,28.0,1514.9,High,Early Blight
+Wheat,Rabi,58.5,36.0,866.4,Low,None
+Wheat,Kharif,70.7,36.6,1338.2,Medium,Loose Smut
+Potato,Kharif,88.4,31.5,1845.5,High,Late Blight
+Cotton,Kharif,90.5,21.2,979.6,Medium,Whitefly
+Rice,Zaid,77.4,16.4,1626.8,High,Blast
+Soybean,Zaid,43.7,15.3,382.8,Low,None
+Tomato,Zaid,92.0,19.4,1109.2,Medium,None
+Potato,Rabi,70.6,27.3,1453.0,High,Early Blight
+Cotton,Rabi,76.2,32.1,459.4,Medium,None
+Soybean,Kharif,90.7,25.6,1117.8,High,Yellow Mosaic
+Potato,Kharif,69.9,25.4,1896.3,Medium,None
+Rice,Zaid,50.1,32.1,1397.1,Medium,None
+Tomato,Kharif,46.2,33.1,1572.9,Medium,None
+Cotton,Zaid,74.1,36.7,833.7,Medium,Whitefly
+Soybean,Rabi,46.1,20.4,569.7,Low,None
+Soybean,Zaid,72.1,32.9,1077.9,Low,None
+Wheat,Zaid,82.5,31.8,562.6,Medium,Loose Smut
+Soybean,Kharif,45.5,15.3,1861.6,Medium,Yellow Mosaic
+Wheat,Zaid,93.8,20.1,1737.5,Medium,Rust
+Tomato,Rabi,64.2,20.1,1078.5,Medium,None
+Tomato,Kharif,48.7,25.7,863.4,Low,None
+Tomato,Zaid,48.8,30.0,432.7,Low,None
+Cotton,Rabi,41.4,25.8,1433.5,Low,None
+Soybean,Kharif,85.5,37.2,665.8,Medium,None
+Soybean,Rabi,77.2,19.5,500.6,Medium,Yellow Mosaic
+Potato,Rabi,54.0,21.9,201.0,Low,None
+Soybean,Kharif,66.4,24.5,1715.6,High,Yellow Mosaic
+Soybean,Kharif,51.3,33.8,1547.1,Medium,Pod Borer
+Soybean,Rabi,70.6,20.2,1742.3,Medium,Pod Borer
+Cotton,Rabi,80.7,22.9,1494.7,High,Bacterial Blight
+Soybean,Rabi,60.6,33.6,712.7,Low,None
+Rice,Rabi,87.0,21.7,887.6,Medium,None
+Cotton,Rabi,60.1,36.2,540.5,Low,None
+Potato,Rabi,79.8,15.2,1122.2,Medium,Late Blight
+Cotton,Rabi,82.7,27.1,484.3,Medium,Bacterial Blight
+Wheat,Kharif,70.4,29.2,963.5,Medium,None
+Soybean,Rabi,59.5,33.0,926.9,Low,None
+Tomato,Zaid,44.9,31.5,1170.9,Low,None
+Tomato,Kharif,42.4,27.2,1786.3,Medium,Late Blight
+Wheat,Zaid,56.8,22.9,1515.0,Low,None
+Rice,Rabi,88.8,23.3,1829.9,High,Blast
+Cotton,Rabi,65.7,19.6,1953.2,Medium,Whitefly
+Cotton,Kharif,86.6,22.6,1866.5,High,Bacterial Blight
+Potato,Rabi,48.0,30.5,1306.6,Medium,None
+Rice,Rabi,61.5,29.5,338.9,Low,None
+Rice,Zaid,94.4,30.1,504.9,Medium,Blast
+Rice,Kharif,83.6,29.7,345.5,High,Blast
+Rice,Rabi,85.1,18.4,935.9,Medium,Blast
+Cotton,Zaid,41.5,23.9,210.5,Low,None
+Potato,Rabi,91.3,26.4,1462.6,High,Early Blight
+Rice,Rabi,79.0,18.7,1917.2,High,Blast
+Cotton,Kharif,85.7,24.5,290.3,High,Whitefly
+Cotton,Kharif,46.1,27.4,1529.6,Medium,Bollworm
+Rice,Kharif,71.6,22.5,1218.9,High,Blast
+Potato,Zaid,56.2,25.6,1209.8,Low,None
+Wheat,Rabi,78.3,29.2,1763.1,High,Loose Smut
+Potato,Kharif,52.7,17.2,690.0,Low,None
+Cotton,Kharif,55.8,32.6,224.6,Low,None
+Cotton,Kharif,56.3,15.6,400.8,Low,None
+Cotton,Rabi,94.7,29.5,1719.9,High,Bacterial Blight
+Potato,Kharif,80.3,36.3,1627.9,High,Late Blight
+Wheat,Zaid,43.5,37.7,672.7,Low,None
+Potato,Kharif,53.4,25.8,523.1,Low,None
+Cotton,Rabi,46.0,34.0,619.7,Low,None
+Rice,Rabi,44.8,21.6,894.9,Low,None
+Wheat,Zaid,71.9,23.0,384.9,Medium,Powdery Mildew
+Cotton,Rabi,94.4,21.7,224.2,Low,None
+Rice,Rabi,40.6,22.6,977.8,Low,None
+Cotton,Rabi,86.9,29.2,937.1,High,Bollworm
+Potato,Rabi,71.6,34.6,1153.1,Medium,Late Blight
+Wheat,Kharif,91.8,16.5,1851.4,High,Rust
+Tomato,Zaid,70.6,28.0,328.1,Medium,Fruit Borer
+Wheat,Kharif,87.0,36.9,1368.4,High,Rust
+Wheat,Kharif,61.4,28.0,1322.1,Medium,None
+Wheat,Rabi,88.2,16.0,771.6,Medium,Powdery Mildew
+Wheat,Zaid,70.6,37.7,440.8,Low,None
+Potato,Zaid,75.4,26.9,872.9,High,Early Blight
+Cotton,Kharif,45.8,31.5,1950.0,Medium,Bollworm
+Potato,Rabi,55.4,19.9,1709.8,Low,None
+Potato,Zaid,44.8,31.8,502.5,Low,None
+Wheat,Rabi,66.9,21.2,411.1,Low,None
+Cotton,Rabi,65.0,26.6,1921.7,Medium,Whitefly
+Tomato,Kharif,84.9,20.0,1482.9,High,Fruit Borer
+Rice,Zaid,87.1,24.1,1694.8,High,Brown Spot
+Potato,Zaid,48.5,15.2,481.2,Low,None
+Tomato,Kharif,67.3,22.4,739.7,Medium,None
+Soybean,Zaid,85.8,17.9,1099.4,Medium,Rust
+Wheat,Rabi,70.5,24.3,1434.9,High,Powdery Mildew
+Cotton,Zaid,62.2,17.9,781.8,Low,None
+Cotton,Kharif,78.0,27.7,254.3,High,Bollworm
+Tomato,Zaid,87.6,21.7,1583.3,Medium,Late Blight
+Wheat,Rabi,67.5,31.5,1308.5,Medium,Loose Smut
+Rice,Kharif,78.3,24.3,1157.0,High,Blast
+Soybean,Kharif,89.0,24.7,862.6,High,Yellow Mosaic
+Potato,Rabi,85.1,15.6,1798.1,High,Early Blight
+Tomato,Kharif,81.2,16.6,542.4,Medium,None
+Soybean,Zaid,74.6,35.9,1303.2,Medium,Yellow Mosaic
+Wheat,Kharif,54.5,22.7,1711.4,Medium,Rust
+Rice,Zaid,87.6,34.5,1687.5,High,Brown Spot
+Soybean,Zaid,88.9,32.8,1388.9,High,Rust
+Potato,Rabi,93.6,26.7,1157.5,High,Late Blight
+Potato,Kharif,56.1,24.9,1548.4,Medium,Early Blight
+Tomato,Rabi,47.3,21.7,1825.7,Medium,None
+Potato,Kharif,83.2,17.3,1432.0,High,Early Blight
+Tomato,Zaid,44.7,21.6,259.2,Low,None
+Soybean,Kharif,79.4,35.7,1033.9,Medium,Rust
+Rice,Zaid,82.3,18.3,1856.7,High,Blast
+Tomato,Rabi,79.9,18.9,392.3,Medium,Fruit Borer
+Rice,Zaid,74.2,29.3,268.3,Medium,Blast
+Rice,Rabi,59.8,17.8,1931.2,Low,None
+Tomato,Zaid,61.8,16.9,265.9,Low,None
+Wheat,Zaid,83.9,36.8,696.8,Medium,Rust
+Tomato,Kharif,78.3,37.3,1607.9,High,Fruit Borer
+Wheat,Rabi,53.2,22.5,378.9,Low,None
+Cotton,Kharif,88.1,20.8,1764.0,High,Bacterial Blight
+Potato,Zaid,58.0,22.5,822.7,Low,None
+Wheat,Kharif,95.0,21.8,303.9,Medium,Rust
+Wheat,Rabi,92.9,18.6,1466.9,High,Powdery Mildew
+Cotton,Zaid,42.1,19.1,346.0,Low,None
+Potato,Zaid,74.7,37.9,1719.5,Medium,None
+Rice,Rabi,59.7,32.3,982.0,Low,None
+Rice,Rabi,50.0,28.1,1264.2,Medium,Brown Spot
+Soybean,Zaid,62.7,29.4,586.9,Low,None
+Tomato,Rabi,53.5,24.7,1263.9,Medium,Early Blight
+Rice,Zaid,72.3,34.6,1492.4,Medium,None
+Rice,Zaid,46.0,34.1,1516.9,Medium,Brown Spot
+Cotton,Rabi,56.8,20.4,1556.9,Medium,Bacterial Blight
+Potato,Kharif,68.0,17.6,1030.5,Medium,Late Blight
+Rice,Rabi,91.7,28.0,1063.1,High,Bacterial Leaf Blight
+Tomato,Rabi,91.1,29.2,1974.4,High,Fruit Borer
+Cotton,Kharif,79.3,32.3,1945.9,High,Whitefly
+Rice,Kharif,68.8,18.8,444.2,Medium,Bacterial Leaf Blight
+Rice,Kharif,49.2,15.1,623.2,Low,None
+Potato,Rabi,53.0,37.4,270.5,Low,None
+Soybean,Zaid,55.3,29.4,355.8,Low,None
+Cotton,Kharif,42.9,19.5,1191.7,Medium,Whitefly
+Potato,Rabi,88.4,18.5,1005.9,Medium,Late Blight
+Wheat,Rabi,51.3,17.3,1003.4,Low,None
+Wheat,Zaid,71.1,30.6,585.0,Low,None
+Soybean,Kharif,40.2,37.9,1782.6,Medium,Pod Borer
+Tomato,Zaid,62.8,23.3,425.9,Low,None
+Rice,Zaid,63.8,38.0,1894.4,Medium,Brown Spot
+Rice,Rabi,58.9,31.6,1644.5,Low,None
+Rice,Zaid,81.6,30.6,1984.8,High,Blast
+Potato,Kharif,79.4,21.1,203.5,Medium,None
+Tomato,Rabi,69.4,35.5,1584.3,Medium,Early Blight
+Wheat,Rabi,91.3,28.6,1344.0,High,Powdery Mildew
+Wheat,Zaid,43.1,32.1,1510.7,Medium,Rust
+Wheat,Zaid,65.8,21.3,387.6,Low,None
+Potato,Zaid,91.0,18.7,358.4,Medium,Late Blight
+Tomato,Rabi,54.5,18.2,561.8,Low,None
+Potato,Rabi,81.0,37.4,1573.4,High,Early Blight
+Soybean,Kharif,62.6,31.3,1190.1,Medium,None
+Soybean,Kharif,72.2,17.1,908.8,Medium,None
+Potato,Rabi,44.3,36.7,1287.0,Medium,None
+Tomato,Kharif,94.9,25.3,1514.3,High,Early Blight
+Tomato,Rabi,64.3,28.9,1515.3,Medium,None
+Potato,Kharif,49.9,16.3,568.0,Low,None
+Cotton,Kharif,62.2,21.8,1562.5,Medium,Whitefly
+Tomato,Rabi,49.0,28.8,1018.6,Low,None
+Cotton,Zaid,62.4,19.1,297.5,Low,None
+Potato,Zaid,87.0,37.7,1035.5,Medium,None
+Soybean,Rabi,85.9,22.9,214.4,High,Yellow Mosaic
+Soybean,Rabi,56.8,21.6,1618.4,Medium,Rust
+Rice,Zaid,86.5,23.3,535.9,High,Brown Spot
+Cotton,Rabi,78.8,31.7,1445.7,Medium,Whitefly
+Soybean,Zaid,52.4,19.2,725.9,Low,None
+Wheat,Kharif,91.1,36.8,1570.0,High,Powdery Mildew
+Potato,Kharif,44.0,23.1,225.2,Low,None
+Rice,Kharif,69.4,32.0,1555.9,High,Bacterial Leaf Blight
+Cotton,Kharif,43.4,29.4,1617.6,Medium,Bollworm
+Cotton,Kharif,83.0,17.5,1279.2,High,Bollworm
+Soybean,Kharif,66.4,18.0,683.2,Medium,Yellow Mosaic
+Soybean,Kharif,76.8,22.3,512.5,High,Yellow Mosaic
+Soybean,Rabi,41.4,20.8,1578.0,Medium,Yellow Mosaic
+Potato,Rabi,62.6,15.6,689.1,Low,None
+Potato,Zaid,62.7,19.9,231.6,Low,None
+Soybean,Zaid,63.7,29.3,590.0,Low,None
+Soybean,Kharif,59.1,23.9,1893.7,Medium,Yellow Mosaic
+Tomato,Kharif,90.0,37.4,829.7,Medium,Late Blight
+Soybean,Rabi,61.7,35.2,1224.2,Medium,Rust
+Potato,Rabi,59.8,19.0,1804.2,Medium,None
+Soybean,Kharif,73.3,19.8,386.2,Medium,Rust
+Cotton,Zaid,90.7,20.0,397.3,Medium,Bacterial Blight
+Wheat,Rabi,93.6,24.6,1601.5,High,Powdery Mildew
+Cotton,Zaid,93.1,37.7,972.0,Medium,Bollworm
+Wheat,Zaid,92.5,30.0,1791.1,High,Rust
+Soybean,Zaid,72.2,20.3,1580.9,Medium,Yellow Mosaic
+Tomato,Kharif,77.4,33.1,1701.3,High,Early Blight
+Potato,Rabi,91.7,36.9,213.2,Low,None
+Rice,Zaid,84.3,30.5,999.1,Medium,None
+Potato,Zaid,57.2,32.7,1253.4,Low,None
+Wheat,Kharif,42.0,26.2,308.7,Low,None
+Cotton,Kharif,89.8,26.4,1266.8,High,Bacterial Blight
+Cotton,Rabi,50.9,33.8,453.0,Low,None
+Soybean,Zaid,92.5,21.8,309.3,Medium,Yellow Mosaic
+Soybean,Zaid,80.4,28.9,332.2,High,Rust
+Soybean,Rabi,43.6,19.9,1110.4,Low,None
+Rice,Zaid,94.9,27.2,1704.3,High,Bacterial Leaf Blight
+Potato,Kharif,50.2,36.6,949.9,Medium,None
+Rice,Rabi,85.9,19.2,724.3,Medium,Blast
+Cotton,Rabi,86.5,25.4,580.4,Medium,Bacterial Blight
+Potato,Zaid,72.0,34.4,201.6,Low,None
+Wheat,Zaid,78.8,30.0,674.6,Medium,Rust
+Potato,Kharif,82.5,34.8,783.8,Medium,Late Blight
+Cotton,Rabi,75.3,35.8,926.0,Medium,None
+Tomato,Rabi,88.5,23.3,971.0,High,Early Blight
+Tomato,Kharif,67.3,30.3,656.4,Low,None
+Tomato,Zaid,77.1,20.3,1474.0,High,Late Blight
+Soybean,Zaid,90.1,25.2,1144.9,High,Rust
+Tomato,Kharif,67.2,17.2,1661.6,Medium,Late Blight
+Cotton,Zaid,88.6,33.1,1755.3,High,Bollworm
+Rice,Rabi,71.6,21.1,851.4,Medium,Blast
+Tomato,Rabi,80.2,17.8,1721.1,High,Fruit Borer
+Cotton,Kharif,46.6,24.4,1351.9,Medium,Whitefly
+Tomato,Rabi,47.3,24.0,1317.5,Low,None
+Cotton,Kharif,48.6,34.6,610.1,Low,None
+Soybean,Zaid,44.6,28.5,1264.3,Low,None
+Rice,Zaid,46.3,20.8,1012.2,Low,None
+Rice,Zaid,72.1,22.2,1016.0,Medium,Bacterial Leaf Blight
+Cotton,Kharif,63.5,24.5,1789.2,High,Bacterial Blight
+Rice,Zaid,76.0,28.2,694.0,Medium,Brown Spot
+Tomato,Zaid,86.7,37.0,1340.2,Medium,Late Blight
+Tomato,Rabi,87.2,20.2,1647.0,High,Early Blight
+Potato,Kharif,76.9,25.3,901.3,High,Late Blight
+Tomato,Zaid,52.2,22.9,238.0,Low,None
+Cotton,Zaid,53.0,17.6,1793.2,Low,None
+Tomato,Rabi,68.9,35.8,204.9,Low,None
+Soybean,Rabi,84.9,30.5,1726.2,High,Yellow Mosaic
+Potato,Kharif,67.5,17.8,403.6,Medium,Early Blight
+Potato,Rabi,60.9,35.8,1174.5,Low,None
+Wheat,Kharif,87.7,25.6,1746.6,High,Loose Smut
+Wheat,Zaid,45.0,25.0,1149.9,Low,None
+Rice,Zaid,53.1,29.4,1747.6,Medium,Bacterial Leaf Blight
+Tomato,Kharif,53.5,22.4,1742.9,Medium,Fruit Borer
+Cotton,Zaid,83.9,15.0,1507.8,High,Whitefly
+Tomato,Zaid,54.7,25.6,559.1,Low,None
+Cotton,Kharif,73.1,17.7,209.6,Medium,Bacterial Blight
+Wheat,Rabi,72.6,35.7,1022.8,Medium,None
+Tomato,Kharif,77.6,22.5,1434.0,High,Fruit Borer
+Tomato,Zaid,63.3,25.2,1503.1,Medium,Fruit Borer
+Cotton,Zaid,65.1,30.8,1155.6,Low,None
+Rice,Rabi,87.2,30.5,988.4,Medium,Bacterial Leaf Blight
+Potato,Rabi,87.5,25.9,1658.5,High,Early Blight
+Wheat,Kharif,47.2,33.5,615.6,Low,None
+Potato,Rabi,42.8,31.8,412.8,Low,None
+Soybean,Zaid,42.8,28.1,1340.9,Medium,None
+Soybean,Zaid,91.5,26.7,902.0,High,Yellow Mosaic
+Wheat,Zaid,62.7,28.2,1176.4,Medium,None
+Tomato,Kharif,42.1,34.8,1634.4,Medium,None
+Potato,Rabi,82.1,32.5,1601.6,High,Early Blight
+Soybean,Kharif,45.9,36.0,225.0,Low,None
+Cotton,Rabi,80.1,16.4,1178.5,Medium,None
+Cotton,Zaid,61.4,38.0,521.5,Low,None
+Tomato,Zaid,88.4,25.1,636.1,Medium,None
+Rice,Rabi,42.6,21.7,787.0,Low,None
+Wheat,Zaid,66.8,36.7,843.7,Medium,None
+Wheat,Kharif,54.9,19.2,931.0,Low,None
+Potato,Zaid,71.5,31.8,711.9,Low,None
+Soybean,Zaid,48.5,26.3,794.5,Low,None
+Cotton,Rabi,73.6,34.2,576.4,Low,None
+Soybean,Zaid,66.7,20.9,1842.2,Medium,None
+Soybean,Kharif,50.5,37.2,610.5,Low,None
+Cotton,Kharif,49.0,15.8,1622.6,Medium,Whitefly
+Cotton,Kharif,73.2,26.1,1371.3,High,Whitefly
+Rice,Rabi,79.0,32.3,1188.4,Medium,Bacterial Leaf Blight
+Tomato,Kharif,83.0,35.6,1934.7,High,Fruit Borer
+Cotton,Zaid,65.5,36.9,790.1,Low,None
+Cotton,Kharif,67.7,24.5,1015.1,Medium,Bollworm
+Cotton,Kharif,60.4,32.6,367.4,Medium,None
+Tomato,Zaid,88.8,34.8,797.7,Medium,None
+Cotton,Kharif,46.2,22.5,1297.4,Medium,Bollworm
+Cotton,Kharif,52.1,25.9,1383.6,Medium,Bollworm
+Soybean,Kharif,86.2,30.6,1978.8,High,Yellow Mosaic
+Wheat,Kharif,42.6,19.5,1260.6,Medium,Loose Smut
+Soybean,Zaid,55.2,18.9,1668.6,Low,None
+Soybean,Zaid,74.8,17.3,1994.1,Medium,Rust
+Soybean,Rabi,66.7,29.4,390.2,Low,None
+Cotton,Rabi,81.2,35.0,1114.1,Medium,Whitefly
+Tomato,Rabi,80.7,18.0,1036.7,Medium,None
+Potato,Rabi,54.6,17.7,1996.0,Medium,None
+Tomato,Zaid,83.7,24.3,709.1,High,Fruit Borer
+Rice,Rabi,42.1,18.8,661.1,Low,None
+Soybean,Rabi,59.3,32.4,751.1,Low,None
+Rice,Zaid,76.7,16.9,847.4,Medium,None
+Soybean,Zaid,49.4,18.0,1465.5,Medium,Rust
+Cotton,Kharif,54.0,34.9,522.7,Low,None
+Wheat,Rabi,64.4,22.0,902.0,Medium,Powdery Mildew
+Wheat,Zaid,64.9,18.6,1413.9,Medium,Powdery Mildew
+Soybean,Rabi,69.6,27.1,733.8,Low,None
+Soybean,Zaid,43.4,25.2,686.1,Low,None
+Cotton,Kharif,41.8,31.9,916.7,Medium,Bacterial Blight
+Potato,Zaid,52.8,24.4,567.2,Low,None
+Cotton,Rabi,70.7,15.1,1513.8,Medium,None
+Cotton,Rabi,74.0,15.9,1330.4,Medium,Bacterial Blight
+Cotton,Kharif,73.9,25.6,470.4,Medium,Whitefly
+Wheat,Kharif,82.2,34.3,1537.1,High,Loose Smut
+Tomato,Rabi,89.2,33.3,1069.3,Medium,Early Blight
+Soybean,Kharif,75.0,26.8,967.3,High,Rust
+Tomato,Rabi,45.9,19.2,1773.2,Low,None
+Rice,Rabi,86.8,26.2,741.7,High,Blast
+Cotton,Zaid,81.3,37.2,1970.3,High,Whitefly
+Wheat,Rabi,79.3,28.9,1381.3,High,Powdery Mildew
+Potato,Rabi,45.8,36.1,1166.2,Low,None
+Rice,Rabi,58.6,33.7,482.5,Low,None
+Cotton,Rabi,60.8,31.9,626.2,Low,None
+Rice,Rabi,62.4,16.1,1967.2,Medium,Bacterial Leaf Blight
+Potato,Zaid,83.0,27.8,1489.8,High,Early Blight
+Tomato,Rabi,52.9,28.4,1723.8,Medium,Late Blight
+Tomato,Rabi,41.1,32.4,1203.5,Low,None
+Potato,Kharif,80.3,34.2,1335.1,High,Early Blight
+Potato,Kharif,77.6,36.6,1109.3,Medium,Late Blight
+Rice,Rabi,53.0,35.6,649.0,Low,None
+Soybean,Zaid,64.4,27.7,639.6,Low,None
+Potato,Kharif,64.2,18.6,1438.5,Medium,Late Blight
+Soybean,Kharif,42.3,20.6,888.4,Low,None
+Wheat,Zaid,70.0,21.3,1875.4,Medium,Rust
+Potato,Zaid,85.7,25.7,986.9,High,Early Blight
+Soybean,Kharif,62.8,34.8,340.5,Low,None
+Wheat,Zaid,46.2,37.7,385.2,Low,None
+Wheat,Rabi,40.9,32.4,1209.6,Low,None
+Rice,Zaid,43.5,32.4,476.8,Low,None
+Cotton,Kharif,68.8,23.3,1795.8,Medium,None
+Potato,Zaid,82.8,28.2,1744.4,High,Late Blight
+Cotton,Kharif,70.6,17.8,1352.3,Medium,Bollworm
+Soybean,Rabi,92.9,23.6,1537.2,High,Yellow Mosaic
+Rice,Kharif,81.2,33.8,454.6,Medium,Bacterial Leaf Blight
+Potato,Kharif,43.6,31.3,1538.8,Medium,Late Blight
+Soybean,Zaid,92.4,17.3,276.6,Low,None
+Rice,Rabi,68.5,37.3,958.5,Low,None
+Tomato,Zaid,49.5,20.0,791.8,Low,None
+Tomato,Zaid,68.1,21.9,899.7,Low,None
+Potato,Rabi,72.0,26.1,1393.4,High,Late Blight
+Rice,Rabi,72.3,24.7,960.9,High,Bacterial Leaf Blight
+Rice,Kharif,82.4,27.1,618.9,High,Blast
+Soybean,Rabi,79.6,29.7,1487.0,High,Pod Borer
+Potato,Zaid,84.4,33.7,1322.7,High,Early Blight
+Soybean,Rabi,43.2,28.0,626.5,Low,None
+Cotton,Rabi,64.7,17.2,1063.0,Low,None
+Tomato,Zaid,49.9,21.2,1197.5,Low,None
+Potato,Zaid,89.5,21.7,1864.4,High,Late Blight
+Wheat,Zaid,67.9,31.4,1263.7,Medium,Rust
+Rice,Kharif,58.2,37.1,1943.6,Medium,Blast
+Rice,Zaid,48.0,25.0,624.6,Low,None
+Cotton,Kharif,75.2,23.0,514.8,High,Bacterial Blight
+Soybean,Kharif,78.6,21.0,453.3,Medium,Pod Borer
+Cotton,Kharif,70.3,29.8,831.8,High,Bacterial Blight
+Wheat,Zaid,93.3,32.6,1633.1,High,Loose Smut
+Wheat,Rabi,73.6,18.8,925.4,Low,None
+Tomato,Kharif,50.2,29.8,1761.9,Medium,None
+Wheat,Zaid,71.2,18.8,1796.4,Medium,Loose Smut
+Cotton,Rabi,50.7,29.7,1156.8,Low,None
+Soybean,Kharif,92.4,25.3,1409.9,High,Yellow Mosaic
+Rice,Rabi,77.3,31.5,731.4,Low,None
+Potato,Zaid,47.6,27.2,608.6,Low,None
+Cotton,Zaid,92.1,35.5,570.9,Medium,None
+Potato,Zaid,55.5,30.7,1873.5,Medium,Early Blight
+Wheat,Rabi,89.2,35.8,216.6,Medium,Powdery Mildew
+Rice,Kharif,87.2,24.6,840.5,High,Brown Spot
+Wheat,Kharif,87.7,20.8,1709.6,High,Rust
+Soybean,Zaid,74.7,36.6,1706.8,Medium,Yellow Mosaic
+Soybean,Kharif,50.0,18.0,1803.0,Medium,Pod Borer
+Wheat,Zaid,41.4,15.6,958.5,Low,None
+Potato,Kharif,46.5,24.9,1798.0,Medium,Early Blight
+Wheat,Rabi,90.0,33.3,1690.6,High,Rust
+Cotton,Zaid,51.6,26.1,1461.8,Low,None
+Rice,Kharif,43.5,28.7,1407.2,Medium,None
+Cotton,Zaid,87.0,18.2,1381.4,High,Whitefly
+Wheat,Rabi,49.9,35.7,797.2,Low,None
+Rice,Kharif,50.5,19.1,1369.3,Medium,Blast
+Wheat,Rabi,55.1,22.4,1333.0,Medium,Rust
+Potato,Kharif,75.7,34.4,1134.1,Medium,Late Blight
+Tomato,Zaid,68.0,27.5,762.1,Low,None
+Soybean,Zaid,53.4,18.8,219.0,Low,None
+Soybean,Zaid,87.3,23.2,771.9,Medium,None
+Tomato,Zaid,42.2,31.8,1009.6,Low,None
+Cotton,Kharif,70.9,31.1,1361.8,Medium,Bacterial Blight
+Cotton,Kharif,76.7,22.2,1174.5,High,Whitefly
+Soybean,Kharif,58.0,15.6,1583.2,Medium,Rust
+Rice,Rabi,57.3,36.8,303.7,Low,None
+Tomato,Kharif,79.0,33.8,1462.7,High,Early Blight
+Soybean,Kharif,47.0,37.8,456.4,Low,None
+Tomato,Rabi,46.4,31.2,1743.4,Low,None
+Cotton,Rabi,65.1,30.9,1665.8,Medium,Whitefly
+Soybean,Zaid,57.0,19.1,1989.6,Low,None
+Soybean,Kharif,76.0,29.8,1892.8,High,Rust
+Potato,Rabi,89.7,32.6,1916.5,High,Early Blight

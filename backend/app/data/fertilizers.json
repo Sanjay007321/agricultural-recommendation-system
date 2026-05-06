@@ -1,0 +1,141 @@
+{
+  "fertilizers": [
+    {
+      "name": "Urea",
+      "type": "Nitrogen",
+      "npk_ratio": "46-0-0",
+      "nitrogen_percent": 46,
+      "phosphorus_percent": 0,
+      "potassium_percent": 0,
+      "price_per_kg": 14,
+      "application_method": "Broadcasting/Top dressing",
+      "best_time": "During vegetative growth stage",
+      "precautions": ["Do not apply in standing water", "Apply in 2-3 splits"]
+    },
+    {
+      "name": "DAP",
+      "type": "Phosphorus",
+      "npk_ratio": "18-46-0",
+      "nitrogen_percent": 18,
+      "phosphorus_percent": 46,
+      "potassium_percent": 0,
+      "price_per_kg": 27,
+      "application_method": "Basal application/Band placement",
+      "best_time": "At sowing/transplanting",
+      "precautions": ["Apply deep in soil", "Mix with soil before sowing"]
+    },
+    {
+      "name": "MOP",
+      "type": "Potassium",
+      "npk_ratio": "0-0-60",
+      "nitrogen_percent": 0,
+      "phosphorus_percent": 0,
+      "potassium_percent": 60,
+      "price_per_kg": 20,
+      "application_method": "Basal application",
+      "best_time": "At sowing",
+      "precautions": ["Avoid direct contact with seeds", "Apply with other fertilizers"]
+    },
+    {
+      "name": "NPK 10-26-26",
+      "type": "Complex",
+      "npk_ratio": "10-26-26",
+      "nitrogen_percent": 10,
+      "phosphorus_percent": 26,
+      "potassium_percent": 26,
+      "price_per_kg": 32,
+      "application_method": "Basal application",
+      "best_time": "At sowing",
+      "precautions": ["Store in dry place", "Apply uniformly"]
+    },
+    {
+      "name": "NPK 12-32-16",
+      "type": "Complex",
+      "npk_ratio": "12-32-16",
+      "nitrogen_percent": 12,
+      "phosphorus_percent": 32,
+      "potassium_percent": 16,
+      "price_per_kg": 30,
+      "application_method": "Basal application",
+      "best_time": "At sowing",
+      "precautions": ["Do not mix with urea", "Apply in moist soil"]
+    },
+    {
+      "name": "SSP",
+      "type": "Phosphorus",
+      "npk_ratio": "0-16-0",
+      "nitrogen_percent": 0,
+      "phosphorus_percent": 16,
+      "potassium_percent": 0,
+      "sulfur_percent": 11,
+      "price_per_kg": 9,
+      "application_method": "Basal application",
+      "best_time": "At sowing",
+      "precautions": ["Contains sulfur for oilseeds", "Apply in sulfur deficient soils"]
+    },
+    {
+      "name": "Zinc Sulphate",
+      "type": "Micronutrient",
+      "npk_ratio": "0-0-0",
+      "zinc_percent": 21,
+      "price_per_kg": 45,
+      "application_method": "Soil application/Foliar spray",
+      "best_time": "At sowing or foliar at tillering",
+      "precautions": ["Essential for rice and wheat", "Apply in zinc deficient soils"]
+    },
+    {
+      "name": "Borax",
+      "type": "Micronutrient",
+      "npk_ratio": "0-0-0",
+      "boron_percent": 11,
+      "price_per_kg": 85,
+      "application_method": "Soil application/Foliar spray",
+      "best_time": "At flowering stage",
+      "precautions": ["Essential for pulses and oilseeds", "Do not overdose"]
+    },
+    {
+      "name": "Ammonium Sulphate",
+      "type": "Nitrogen",
+      "npk_ratio": "21-0-0",
+      "nitrogen_percent": 21,
+      "sulfur_percent": 24,
+      "price_per_kg": 16,
+      "application_method": "Top dressing",
+      "best_time": "During vegetative growth",
+      "precautions": ["Good for oilseeds", "Contains sulfur"]
+    },
+    {
+      "name": "Neem Coated Urea",
+      "type": "Nitrogen",
+      "npk_ratio": "46-0-0",
+      "nitrogen_percent": 46,
+      "price_per_kg": 15,
+      "application_method": "Broadcasting/Top dressing",
+      "best_time": "During vegetative growth",
+      "precautions": ["Slow release", "Better nitrogen use efficiency"]
+    }
+  ],
+  "organic_fertilizers": [
+    {
+      "name": "Farmyard Manure (FYM)",
+      "npk_content": "0.5-0.2-0.5",
+      "application_rate_per_acre": "4000 kg",
+      "price_per_quintal": 200,
+      "benefits": ["Improves soil structure", "Increases water retention", "Slow nutrient release"]
+    },
+    {
+      "name": "Vermicompost",
+      "npk_content": "1.5-0.5-1.0",
+      "application_rate_per_acre": "1000 kg",
+      "price_per_quintal": 800,
+      "benefits": ["Rich in micronutrients", "Improves soil biology", "Enhances root growth"]
+    },
+    {
+      "name": "Neem Cake",
+      "npk_content": "5.0-1.0-1.5",
+      "application_rate_per_acre": "200 kg",
+      "price_per_quintal": 2500,
+      "benefits": ["Pest repellent", "Slow nitrogen release", "Improves soil health"]
+    }
+  ]
+}

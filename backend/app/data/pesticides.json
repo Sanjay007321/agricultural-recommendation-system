@@ -1,0 +1,217 @@
+{
+  "diseases": {
+    "Rice": [
+      {
+        "name": "Blast",
+        "symptoms": ["Diamond shaped lesions on leaves", "Neck rot", "Node blast"],
+        "favorable_conditions": "High humidity, low temperature",
+        "pesticides": ["Tricyclazole", "Carbendazim", "Isoprothiolane"],
+        "organic_treatment": "Neem oil spray, Remove infected plants"
+      },
+      {
+        "name": "Brown Spot",
+        "symptoms": ["Oval brown spots on leaves", "Grain discoloration"],
+        "favorable_conditions": "Nutrient deficiency, Drought stress",
+        "pesticides": ["Mancozeb", "Carbendazim", "Propiconazole"],
+        "organic_treatment": "Proper fertilization, Seed treatment with Trichoderma"
+      },
+      {
+        "name": "Bacterial Leaf Blight",
+        "symptoms": ["Water-soaked lesions", "Yellow to white lesions", "Wilting"],
+        "favorable_conditions": "High temperature, Heavy rainfall",
+        "pesticides": ["Streptomycin", "Copper oxychloride"],
+        "organic_treatment": "Use resistant varieties, Avoid excess nitrogen"
+      }
+    ],
+    "Wheat": [
+      {
+        "name": "Rust",
+        "symptoms": ["Orange-brown pustules on leaves", "Yellow streaks"],
+        "favorable_conditions": "Cool, humid weather",
+        "pesticides": ["Propiconazole", "Tebuconazole", "Mancozeb"],
+        "organic_treatment": "Early sowing, Resistant varieties"
+      },
+      {
+        "name": "Loose Smut",
+        "symptoms": ["Black spore mass replacing grain", "Infected heads"],
+        "favorable_conditions": "Infected seeds",
+        "pesticides": ["Carboxin", "Thiram"],
+        "organic_treatment": "Hot water seed treatment, Clean seeds"
+      },
+      {
+        "name": "Powdery Mildew",
+        "symptoms": ["White powdery growth on leaves", "Yellowing"],
+        "favorable_conditions": "Dry, warm days with cool nights",
+        "pesticides": ["Sulfur", "Propiconazole", "Triadimefon"],
+        "organic_treatment": "Proper spacing, Neem oil"
+      }
+    ],
+    "Cotton": [
+      {
+        "name": "Bollworm",
+        "symptoms": ["Holes in bolls", "Damaged squares", "Boll shedding"],
+        "favorable_conditions": "Warm weather",
+        "pesticides": ["Cypermethrin", "Chlorpyrifos", "Spinosad"],
+        "organic_treatment": "Pheromone traps, Neem spray, Bt cotton"
+      },
+      {
+        "name": "Whitefly",
+        "symptoms": ["Sticky leaves", "Sooty mold", "Leaf curling"],
+        "favorable_conditions": "Dry weather, High temperature",
+        "pesticides": ["Imidacloprid", "Thiamethoxam", "Diafenthiuron"],
+        "organic_treatment": "Yellow sticky traps, Neem oil"
+      },
+      {
+        "name": "Bacterial Blight",
+        "symptoms": ["Angular leaf spots", "Black arm", "Boll rot"],
+        "favorable_conditions": "Warm, humid weather",
+        "pesticides": ["Streptocycline", "Copper oxychloride"],
+        "organic_treatment": "Resistant varieties, Crop rotation"
+      }
+    ],
+    "Soybean": [
+      {
+        "name": "Yellow Mosaic",
+        "symptoms": ["Yellow patches on leaves", "Stunted growth", "Reduced pods"],
+        "favorable_conditions": "Whitefly transmission",
+        "pesticides": ["Imidacloprid", "Thiamethoxam"],
+        "organic_treatment": "Resistant varieties, Early sowing, Yellow sticky traps"
+      },
+      {
+        "name": "Pod Borer",
+        "symptoms": ["Holes in pods", "Damaged seeds"],
+        "favorable_conditions": "Warm, humid weather",
+        "pesticides": ["Chlorpyrifos", "Quinalphos", "Spinosad"],
+        "organic_treatment": "Neem spray, Pheromone traps"
+      },
+      {
+        "name": "Rust",
+        "symptoms": ["Brown pustules on leaves", "Premature defoliation"],
+        "favorable_conditions": "High humidity",
+        "pesticides": ["Hexaconazole", "Propiconazole"],
+        "organic_treatment": "Early planting, Resistant varieties"
+      }
+    ],
+    "Tomato": [
+      {
+        "name": "Early Blight",
+        "symptoms": ["Dark spots with concentric rings", "Leaf yellowing"],
+        "favorable_conditions": "Warm, humid weather",
+        "pesticides": ["Mancozeb", "Chlorothalonil", "Copper oxychloride"],
+        "organic_treatment": "Crop rotation, Remove infected leaves"
+      },
+      {
+        "name": "Late Blight",
+        "symptoms": ["Water-soaked lesions", "White mold on undersides"],
+        "favorable_conditions": "Cool, wet weather",
+        "pesticides": ["Metalaxyl", "Cymoxanil", "Mancozeb"],
+        "organic_treatment": "Proper spacing, Avoid overhead irrigation"
+      },
+      {
+        "name": "Fruit Borer",
+        "symptoms": ["Holes in fruits", "Rotting fruits"],
+        "favorable_conditions": "Warm weather",
+        "pesticides": ["Cypermethrin", "Spinosad", "Indoxacarb"],
+        "organic_treatment": "Pheromone traps, Neem spray"
+      }
+    ],
+    "Potato": [
+      {
+        "name": "Late Blight",
+        "symptoms": ["Dark brown lesions", "White mold", "Rotting tubers"],
+        "favorable_conditions": "Cool, wet weather",
+        "pesticides": ["Mancozeb", "Metalaxyl", "Cymoxanil"],
+        "organic_treatment": "Resistant varieties, Proper drainage"
+      },
+      {
+        "name": "Early Blight",
+        "symptoms": ["Brown spots with rings", "Defoliation"],
+        "favorable_conditions": "Warm, alternating wet-dry conditions",
+        "pesticides": ["Chlorothalonil", "Mancozeb"],
+        "organic_treatment": "Crop rotation, Remove crop debris"
+      }
+    ]
+  },
+  "pesticides": [
+    {
+      "name": "Imidacloprid",
+      "type": "Insecticide",
+      "target_pests": ["Whitefly", "Aphids", "Jassids", "Thrips"],
+      "dosage": "0.5 ml/L",
+      "price_per_100ml": 180,
+      "waiting_period_days": 14
+    },
+    {
+      "name": "Chlorpyrifos",
+      "type": "Insecticide",
+      "target_pests": ["Bollworm", "Pod borer", "Stem borer"],
+      "dosage": "2 ml/L",
+      "price_per_100ml": 85,
+      "waiting_period_days": 21
+    },
+    {
+      "name": "Cypermethrin",
+      "type": "Insecticide",
+      "target_pests": ["Bollworm", "Fruit borer", "Caterpillars"],
+      "dosage": "1 ml/L",
+      "price_per_100ml": 120,
+      "waiting_period_days": 7
+    },
+    {
+      "name": "Mancozeb",
+      "type": "Fungicide",
+      "target_diseases": ["Blight", "Rust", "Leaf spot"],
+      "dosage": "2.5 g/L",
+      "price_per_100g": 65,
+      "waiting_period_days": 7
+    },
+    {
+      "name": "Carbendazim",
+      "type": "Fungicide",
+      "target_diseases": ["Blast", "Powdery mildew", "Root rot"],
+      "dosage": "1 g/L",
+      "price_per_100g": 140,
+      "waiting_period_days": 14
+    },
+    {
+      "name": "Propiconazole",
+      "type": "Fungicide",
+      "target_diseases": ["Rust", "Powdery mildew", "Sheath blight"],
+      "dosage": "1 ml/L",
+      "price_per_100ml": 280,
+      "waiting_period_days": 21
+    },
+    {
+      "name": "Spinosad",
+      "type": "Bio-insecticide",
+      "target_pests": ["Fruit borer", "Thrips", "Caterpillars"],
+      "dosage": "0.5 ml/L",
+      "price_per_100ml": 450,
+      "waiting_period_days": 3
+    },
+    {
+      "name": "Neem Oil",
+      "type": "Bio-pesticide",
+      "target_pests": ["General pest deterrent", "Whitefly", "Aphids"],
+      "dosage": "5 ml/L",
+      "price_per_liter": 350,
+      "waiting_period_days": 0
+    },
+    {
+      "name": "Trichoderma",
+      "type": "Bio-fungicide",
+      "target_diseases": ["Root rot", "Wilt", "Damping off"],
+      "dosage": "5 g/L (seed treatment)",
+      "price_per_kg": 350,
+      "waiting_period_days": 0
+    },
+    {
+      "name": "Copper Oxychloride",
+      "type": "Fungicide",
+      "target_diseases": ["Bacterial diseases", "Blight", "Leaf spot"],
+      "dosage": "3 g/L",
+      "price_per_100g": 90,
+      "waiting_period_days": 14
+    }
+  ]
+}

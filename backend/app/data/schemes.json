@@ -1,0 +1,216 @@
+{
+  "schemes": [
+    {
+      "id": 1,
+      "name": "PM-KISAN",
+      "full_name": "Pradhan Mantri Kisan Samman Nidhi",
+      "benefit": "Rs. 6,000 per year in 3 installments",
+      "description": "Direct income support to small and marginal farmers",
+      "eligibility": {
+        "land_size_max_acres": 5,
+        "income_limit": null,
+        "all_farmers": true
+      },
+      "documents_required": ["Aadhaar Card", "Land Records", "Bank Account"],
+      "apply_link": "https://pmkisan.gov.in",
+      "helpline": "155261"
+    },
+    {
+      "id": 2,
+      "name": "PMFBY",
+      "full_name": "Pradhan Mantri Fasal Bima Yojana",
+      "benefit": "Crop insurance at 2% premium for Kharif, 1.5% for Rabi",
+      "description": "Comprehensive crop insurance against natural calamities",
+      "eligibility": {
+        "all_farmers": true,
+        "loanee_farmers": "Compulsory",
+        "non_loanee": "Voluntary"
+      },
+      "documents_required": ["Land Records", "Sowing Certificate", "Bank Account", "Aadhaar"],
+      "apply_link": "https://pmfby.gov.in",
+      "helpline": "1800-180-1551"
+    },
+    {
+      "id": 3,
+      "name": "Kisan Credit Card",
+      "full_name": "Kisan Credit Card Scheme",
+      "benefit": "Credit up to Rs. 3 lakh at 4% interest (with subsidy)",
+      "description": "Short-term credit for crop production and allied activities",
+      "eligibility": {
+        "all_farmers": true,
+        "tenant_farmers": true,
+        "sharecroppers": true
+      },
+      "documents_required": ["Land Records", "Identity Proof", "Passport Photo", "Bank Account"],
+      "apply_link": "Apply at any bank branch",
+      "helpline": "Contact local bank"
+    },
+    {
+      "id": 4,
+      "name": "Soil Health Card",
+      "full_name": "Soil Health Card Scheme",
+      "benefit": "Free soil testing and recommendations",
+      "description": "Soil nutrient status and fertilizer recommendations",
+      "eligibility": {
+        "all_farmers": true
+      },
+      "documents_required": ["Land location", "Farmer details"],
+      "apply_link": "https://soilhealth.dac.gov.in",
+      "helpline": "Contact Agriculture Department"
+    },
+    {
+      "id": 5,
+      "name": "PM-KUSUM",
+      "full_name": "Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan",
+      "benefit": "90% subsidy on solar pumps, solar power generation",
+      "description": "Solar energy for irrigation and income generation",
+      "eligibility": {
+        "all_farmers": true,
+        "land_required": true
+      },
+      "documents_required": ["Land Records", "Electricity Connection", "Bank Account", "Aadhaar"],
+      "apply_link": "https://pmkusum.mnre.gov.in",
+      "helpline": "State DISCOM"
+    },
+    {
+      "id": 6,
+      "name": "PMKSY",
+      "full_name": "Pradhan Mantri Krishi Sinchai Yojana",
+      "benefit": "Subsidy on micro-irrigation (drip/sprinkler)",
+      "description": "More crop per drop - efficient water use",
+      "eligibility": {
+        "all_farmers": true,
+        "subsidy_percent": 55
+      },
+      "documents_required": ["Land Records", "Bank Account", "Aadhaar"],
+      "apply_link": "https://pmksy.gov.in",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 7,
+      "name": "eNAM",
+      "full_name": "National Agriculture Market",
+      "benefit": "Online trading platform, better prices",
+      "description": "Pan-India electronic trading portal for agricultural commodities",
+      "eligibility": {
+        "all_farmers": true
+      },
+      "documents_required": ["Aadhaar", "Bank Account", "Mobile Number"],
+      "apply_link": "https://enam.gov.in",
+      "helpline": "1800-270-0224"
+    },
+    {
+      "id": 8,
+      "name": "Agricultural Infrastructure Fund",
+      "full_name": "Agriculture Infrastructure Fund",
+      "benefit": "Interest subvention of 3% on loans up to Rs. 2 crore",
+      "description": "Financing for post-harvest management and community farming assets",
+      "eligibility": {
+        "farmers": true,
+        "fpos": true,
+        "agri_entrepreneurs": true
+      },
+      "documents_required": ["Project Report", "Land Documents", "Bank Account"],
+      "apply_link": "https://agriinfra.dac.gov.in",
+      "helpline": "Contact NABARD"
+    },
+    {
+      "id": 9,
+      "name": "Sub-Mission on Agricultural Mechanization",
+      "full_name": "SMAM - Farm Mechanization",
+      "benefit": "40-50% subsidy on farm machinery",
+      "description": "Subsidy on tractors, implements, and farm equipment",
+      "eligibility": {
+        "small_marginal_farmers": "50% subsidy",
+        "other_farmers": "40% subsidy"
+      },
+      "documents_required": ["Land Records", "Aadhaar", "Bank Account", "Quotation from dealer"],
+      "apply_link": "https://agrimachinery.nic.in",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 10,
+      "name": "National Mission on Oilseeds and Oil Palm",
+      "full_name": "NMOOP",
+      "benefit": "Subsidy on seeds, mini kits, demonstrations",
+      "description": "Promotion of oilseed cultivation for self-sufficiency",
+      "eligibility": {
+        "oilseed_farmers": true,
+        "crops": ["Groundnut", "Soybean", "Sunflower", "Mustard", "Sesame"]
+      },
+      "documents_required": ["Land Records", "Aadhaar", "Bank Account"],
+      "apply_link": "State Agriculture Department",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 11,
+      "name": "National Food Security Mission",
+      "full_name": "NFSM",
+      "benefit": "Subsidy on seeds, INM/IPM, demonstrations",
+      "description": "Increase production of rice, wheat, pulses, coarse cereals",
+      "eligibility": {
+        "all_farmers": true,
+        "crops": ["Rice", "Wheat", "Pulses", "Maize", "Millets"]
+      },
+      "documents_required": ["Land Records", "Aadhaar"],
+      "apply_link": "State Agriculture Department",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 12,
+      "name": "Rashtriya Krishi Vikas Yojana",
+      "full_name": "RKVY-RAFTAAR",
+      "benefit": "Infrastructure development, agri-business support",
+      "description": "Incentivize states for increased public investment in agriculture",
+      "eligibility": {
+        "all_farmers": true,
+        "agri_startups": true
+      },
+      "documents_required": ["Project proposal", "Land documents"],
+      "apply_link": "https://rkvy.nic.in",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 13,
+      "name": "Paramparagat Krishi Vikas Yojana",
+      "full_name": "PKVY - Organic Farming",
+      "benefit": "Rs. 50,000 per hectare over 3 years for organic farming",
+      "description": "Promote organic farming through cluster approach",
+      "eligibility": {
+        "organic_farmers": true,
+        "cluster_size": "20 farmers / 20 hectares"
+      },
+      "documents_required": ["Land Records", "Aadhaar", "Cluster formation documents"],
+      "apply_link": "State Agriculture Department",
+      "helpline": "State Agriculture Department"
+    },
+    {
+      "id": 14,
+      "name": "Mission for Integrated Development of Horticulture",
+      "full_name": "MIDH",
+      "benefit": "Subsidy on planting material, protected cultivation, PHM",
+      "description": "Holistic growth of horticulture sector",
+      "eligibility": {
+        "horticulture_farmers": true,
+        "crops": ["Fruits", "Vegetables", "Spices", "Flowers"]
+      },
+      "documents_required": ["Land Records", "Aadhaar", "Bank Account"],
+      "apply_link": "https://midh.gov.in",
+      "helpline": "State Horticulture Department"
+    },
+    {
+      "id": 15,
+      "name": "Interest Subvention Scheme",
+      "full_name": "Interest Subvention on Short Term Crop Loans",
+      "benefit": "Effective interest rate of 4% on crop loans up to Rs. 3 lakh",
+      "description": "2% interest subvention + 3% prompt repayment incentive",
+      "eligibility": {
+        "all_farmers": true,
+        "loan_limit": 300000
+      },
+      "documents_required": ["KCC", "Land Records", "Aadhaar"],
+      "apply_link": "Apply at bank",
+      "helpline": "Contact bank branch"
+    }
+  ]
+}

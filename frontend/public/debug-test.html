@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State/District Debug Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6 text-center">State/District Dropdown Debug Test</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Direct Backend Test -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-semibold mb-4">Direct Backend Test</h2>
+                <button onclick="testDirectBackend()" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mb-4">
+                    Test Backend Connection
+                </button>
+                <div id="backend-results" class="text-sm font-mono whitespace-pre-wrap bg-gray-50 p-3 rounded"></div>
+            </div>
+            
+            <!-- Frontend Proxy Test -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-semibold mb-4">Frontend Proxy Test</h2>
+                <button onclick="testFrontendProxy()" class="w-full bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 mb-4">
+                    Test Frontend Proxy
+                </button>
+                <div id="proxy-results" class="text-sm font-mono whitespace-pre-wrap bg-gray-50 p-3 rounded"></div>
+            </div>
+        </div>
+        
+        <!-- Registration Test -->
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+            <h2 class="text-xl font-semibold mb-4">Registration Test</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <input type="text" id="test-name" placeholder="Full Name" value="Test User" class="p-2 border rounded">
+                <input type="text" id="test-mobile" placeholder="Mobile" value="9998887777" class="p-2 border rounded">
+                <input type="password" id="test-password" placeholder="Password" value="password123" class="p-2 border rounded">
+                <input type="text" id="test-state" placeholder="State" value="Tamil Nadu" class="p-2 border rounded">
+                <input type="text" id="test-district" placeholder="District" value="Erode" class="p-2 border rounded">
+            </div>
+            <button onclick="testRegistration()" class="w-full bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-600">
+                Test Registration
+            </button>
+            <div id="registration-results" class="mt-4 text-sm font-mono whitespace-pre-wrap bg-gray-50 p-3 rounded"></div>
+        </div>
+        
+        <!-- State/District Selection Test -->
+        <div class="bg-white rounded-lg shadow p-6 mt-6">
+            <h2 class="text-xl font-semibold mb-4">State/District Selection Test</h2>
+            <div class="mb-4">
+                <label class="block text-sm font-medium mb-2">Select State:</label>
+                <select id="state-select" class="w-full p-2 border rounded" onchange="loadDistricts()">
+                    <option value="">-- Loading states... --</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-medium mb-2">Select District:</label>
+                <select id="district-select" class="w-full p-2 border rounded" disabled>
+                    <option value="">-- Select state first --</option>
+                </select>
+            </div>
+            <div id="selection-info" class="text-sm bg-blue-50 p-3 rounded"></div>
+        </div>
+    </div>
+
+    <script>
+        let statesData = [];
+        let currentDistricts = [];
+        
+        // Load states on page load
+        window.addEventListener('load', async function() {
+            await loadStates();
+        });
+        
+        async function loadStates() {
+            const results = document.getElementById('backend-results');
+            results.textContent = 'Loading states...\n';
+            
+            try {
+                // Test direct backend connection
+                const backendResponse = await fetch('http://localhost:8001/api/states');
+                results.textContent += `Backend status: ${backendResponse.status}\n`;
+                
+                if (backendResponse.ok) {
+                    statesData = await backendResponse.json();
+                    results.textContent += `✓ Loaded ${statesData.length} states\n`;
+                    
+                    // Populate state dropdown
+                    const stateSelect = document.getElementById('state-select');
+                    stateSelect.innerHTML = '<option value="">-- Select State --</option>';
+                    statesData.forEach(state => {
+                        const option = document.createElement('option');
+                        option.value = state.name;
+                        option.textContent = `${state.name} (${state.districts.length} districts)`;
+                        stateSelect.appendChild(option);
+                    });
+                    
+                    results.textContent += '✓ State dropdown populated\n';
+                } else {
+                    results.textContent += `✗ Backend error: ${backendResponse.status}\n`;
+                }
+            } catch (error) {
+                results.textContent += `✗ Connection error: ${error.message}\n`;
+            }
+        }
+        
+        async function testDirectBackend() {
+            const results = document.getElementById('backend-results');
+            results.textContent = 'Testing direct backend connection...\n';
+            
+            try {
+                const response = await fetch('http://localhost:8001/api/states');
+                results.textContent += `Status: ${response.status}\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    results.textContent += `States loaded: ${data.length}\n`;
+                    const tn = data.find(s => s.name === 'Tamil Nadu');
+                    if (tn) {
+                        results.textContent += `Tamil Nadu districts: ${tn.districts.length}\n`;
+                        results.textContent += `Erode available: ${tn.districts.includes('Erode')}\n`;
+                    }
+                } else {
+                    results.textContent += `Error: ${response.status}\n`;
+                }
+            } catch (error) {
+                results.textContent += `Error: ${error.message}\n`;
+            }
+        }
+        
+        async function testFrontendProxy() {
+            const results = document.getElementById('proxy-results');
+            results.textContent = 'Testing frontend proxy...\n';
+            
+            try {
+                const response = await fetch('/api/states');
+                results.textContent += `Proxy status: ${response.status}\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    results.textContent += `States via proxy: ${data.length}\n`;
+                } else {
+                    results.textContent += `Proxy error: ${response.status}\n`;
+                }
+            } catch (error) {
+                results.textContent += `Proxy connection error: ${error.message}\n`;
+            }
+        }
+        
+        async function testRegistration() {
+            const results = document.getElementById('registration-results');
+            results.textContent = 'Testing registration...\n';
+            
+            const testData = {
+                full_name: document.getElementById('test-name').value,
+                mobile: document.getElementById('test-mobile').value,
+                password: document.getElementById('test-password').value,
+                state: document.getElementById('test-state').value,
+                district: document.getElementById('test-district').value
+            };
+            
+            results.textContent += `Data: ${JSON.stringify(testData, null, 2)}\n\n`;
+            
+            try {
+                const response = await fetch('/api/auth/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(testData)
+                });
+                
+                results.textContent += `Registration status: ${response.status}\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    results.textContent += `✓ Success! Farmer ID: ${data.farmer_id}\n`;
+                } else {
+                    const error = await response.text();
+                    results.textContent += `✗ Registration failed: ${error}\n`;
+                }
+            } catch (error) {
+                results.textContent += `✗ Error: ${error.message}\n`;
+            }
+        }
+        
+        function loadDistricts() {
+            const stateName = document.getElementById('state-select').value;
+            const districtSelect = document.getElementById('district-select');
+            const info = document.getElementById('selection-info');
+            
+            if (!stateName) {
+                districtSelect.innerHTML = '<option value="">-- Select state first --</option>';
+                districtSelect.disabled = true;
+                info.textContent = 'Please select a state first';
+                return;
+            }
+            
+            const state = statesData.find(s => s.name === stateName);
+            if (state) {
+                currentDistricts = state.districts;
+                districtSelect.innerHTML = '<option value="">-- Select District --</option>';
+                state.districts.forEach(district => {
+                    const option = document.createElement('option');
+                    option.value = district;
+                    option.textContent = district;
+                    districtSelect.appendChild(option);
+                });
+                districtSelect.disabled = false;
+                info.textContent = `Selected: ${stateName} (${state.districts.length} districts available)`;
+            }
+        }
+        
+        // Update selection info when district is selected
+        document.getElementById('district-select').addEventListener('change', function() {
+            const state = document.getElementById('state-select').value;
+            const district = this.value;
+            const info = document.getElementById('selection-info');
+            
+            if (state && district) {
+                info.textContent = `Selected: ${state} → ${district}`;
+                info.className = 'text-sm bg-green-100 p-3 rounded';
+            }
+        });
+    </script>
+</body>
+</html>

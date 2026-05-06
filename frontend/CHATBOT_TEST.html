@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .info-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #16a34a; }
+        .feature {
+            margin: 15px 0;
+            padding: 10px;
+            background: #f0fdf4;
+            border-left: 4px solid #16a34a;
+        }
+        .test-section {
+            margin: 20px 0;
+        }
+        button {
+            background: #16a34a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #15803d;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-box">
+        <h1>🌾 AI Agricultural ChatBot - Testing Guide</h1>
+        
+        <div class="test-section">
+            <h2>✅ Features Implemented</h2>
+            <div class="feature">
+                <strong>1. Position:</strong> ChatBot appears at bottom-right corner of the screen
+            </div>
+            <div class="feature">
+                <strong>2. Language Support:</strong> English and Tamil language toggle
+            </div>
+            <div class="feature">
+                <strong>3. Voice Input:</strong> Click microphone icon to use voice commands
+            </div>
+            <div class="feature">
+                <strong>4. Agricultural Knowledge:</strong> Crop info, diseases, schemes, weather
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>🧪 How to Test</h2>
+            <ol>
+                <li><strong>Start the development server:</strong>
+                    <pre><code>cd frontend
+npm run dev</code></pre>
+                </li>
+                <li><strong>Navigate to Dashboard:</strong> Login to your account</li>
+                <li><strong>Look for green chat icon:</strong> Bottom-right corner</li>
+                <li><strong>Click to open:</strong> Chat window opens</li>
+                <li><strong>Test language toggle:</strong> Click "தமிழ்" button</li>
+                <li><strong>Test voice input:</strong> Click microphone icon</li>
+                <li><strong>Ask questions:</strong> Type or speak your queries</li>
+            </ol>
+        </div>
+
+        <div class="test-section">
+            <h2>💬 Sample Questions to Try</h2>
+            
+            <h3>English:</h3>
+            <ul>
+                <li>"Tell me about rice cultivation"</li>
+                <li>"What are the government schemes?"</li>
+                <li>"How to control crop diseases?"</li>
+                <li>"What is the best weather for wheat?"</li>
+            </ul>
+
+            <h3>Tamil:</h3>
+            <ul>
+                <li>"நெல் சாகுபடி முறைகள்"</li>
+                <li>"அரசு திட்டங்கள் என்ன?"</li>
+                <li>"பயிர் நோய்களை கட்டுப்படுத்துவது எப்படி?"</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>⚙️ Technical Details</h2>
+            <ul>
+                <li><strong>Component:</strong> AIChatBot.jsx</li>
+                <li><strong>Location:</strong> frontend/src/components/AIChatBot.jsx</li>
+                <li><strong>Integration:</strong> Added to App.jsx (all protected routes)</li>
+                <li><strong>Voice API:</strong> Web Speech Recognition API</li>
+                <li><strong>Styling:</strong> Tailwind CSS</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>🎨 UI Elements</h2>
+            <ul>
+                <li>✅ Green circular button (closed state)</li>
+                <li>✅ Red circular button (open state)</li>
+                <li>✅ Fixed position: bottom-6 right-6</li>
+                <li>✅ Responsive chat window</li>
+                <li>✅ Language toggle button</li>
+                <li>✅ Voice input with visual feedback</li>
+                <li>✅ Message timestamps</li>
+                <li>✅ Loading indicators</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>🔧 Browser Compatibility</h2>
+            <p><strong>Recommended:</strong> Google Chrome, Microsoft Edge</p>
+            <p><strong>Voice Support:</strong> Chrome/Edge (best), Firefox (good), Safari (limited)</p>
+        </div>
+    </div>
+
+    <script>
+        // Check if speech recognition is available
+        if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+            console.log('✅ Speech Recognition is supported');
+        } else {
+            console.log('❌ Speech Recognition is NOT supported');
+            console.log('Please use Chrome, Edge, or Firefox for voice input');
+        }
+    </script>
+</body>
+</html>

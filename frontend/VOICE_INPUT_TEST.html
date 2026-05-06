@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Input Diagnostic Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .test-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+        .test-section h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+        }
+        .test-section h2::before {
+            content: '✓';
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-size: 0.8em;
+        }
+        .result {
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+        .result.pass {
+            background: #d4edda;
+            color: #155724;
+            border-left: 4px solid #28a745;
+        }
+        .result.fail {
+            background: #f8d7da;
+            color: #721c24;
+            border-left: 4px solid #dc3545;
+        }
+        .result.warning {
+            background: #fff3cd;
+            color: #856404;
+            border-left: 4px solid #ffc107;
+        }
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-indicator.active {
+            background: #28a745;
+            animation: pulse 1.5s infinite;
+        }
+        .status-indicator.inactive {
+            background: #dc3545;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .output-box {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin-top: 15px;
+            min-height: 100px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .info-card strong {
+            color: #667eea;
+        }
+        .mic-test {
+            text-align: center;
+            padding: 30px;
+        }
+        .mic-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        .listening {
+            animation: bounce 0.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎤 Voice Input Diagnostic Test</h1>
+        <p class="subtitle">Test your browser's speech recognition capabilities</p>
+
+        <!-- Browser Support Check -->
+        <div class="test-section">
+            <h2>Browser Support Check</h2>
+            <div id="browserSupport"></div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <strong>Browser:</strong><br>
+                    <span id="browserName">Detecting...</span>
+                </div>
+                <div class="info-card">
+                    <strong>Speech API:</strong><br>
+                    <span id="speechAPI">Detecting...</span>
+                </div>
+                <div class="info-card">
+                    <strong>Microphone API:</strong><br>
+                    <span id="micAPI">Detecting...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Microphone Permission Test -->
+        <div class="test-section">
+            <h2>Microphone Permission Test</h2>
+            <div id="micPermission"></div>
+            <button class="btn" onclick="testMicrophone()" style="margin-top: 15px;">
+                🔊 Test Microphone Access
+            </button>
+        </div>
+
+        <!-- Speech Recognition Test -->
+        <div class="test-section">
+            <h2>Live Speech Recognition Test</h2>
+            <div class="mic-test">
+                <div class="mic-icon" id="micIcon">🎤</div>
+                <button class="btn" id="startBtn" onclick="toggleRecognition()">
+                    Start Voice Test
+                </button>
+                <p id="statusText" style="margin-top: 15px; color: #666;">Click button to start</p>
+            </div>
+            <div class="output-box" id="output">Waiting for speech input...</div>
+        </div>
+
+        <!-- Troubleshooting Guide -->
+        <div class="test-section">
+            <h2>Troubleshooting Guide</h2>
+            <div style="line-height: 1.8;">
+                <strong>If voice input is not working:</strong><br><br>
+                1. <strong>Use Chrome or Edge:</strong> These browsers have the best speech recognition support<br>
+                2. <strong>Check microphone permissions:</strong> Click the lock icon in address bar<br>
+                3. <strong>Enable microphone:</strong> Allow microphone access when prompted<br>
+                4. <strong>Check microphone hardware:</strong> Ensure your microphone is connected and working<br>
+                5. <strong>HTTPS required:</strong> Speech recognition requires secure context (HTTPS or localhost)<br>
+                6. <strong>Update browser:</strong> Make sure you're using the latest browser version
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let recognition = null;
+        let isListening = false;
+
+        // Check browser support on load
+        window.addEventListener('load', () => {
+            checkBrowserSupport();
+        });
+
+        function checkBrowserSupport() {
+            const browserInfo = navigator.userAgent;
+            const browserSupportDiv = document.getElementById('browserSupport');
+            const browserNameSpan = document.getElementById('browserName');
+            const speechAPISpan = document.getElementById('speechAPI');
+            const micAPISpan = document.getElementById('micAPI');
+
+            // Detect browser
+            let browser = 'Unknown';
+            if (browserInfo.indexOf('Chrome') > -1) {
+                browser = 'Google Chrome';
+            } else if (browserInfo.indexOf('Safari') > -1) {
+                browser = 'Safari';
+            } else if (browserInfo.indexOf('Firefox') > -1) {
+                browser = 'Mozilla Firefox';
+            } else if (browserInfo.indexOf('Edge') > -1) {
+                browser = 'Microsoft Edge';
+            }
+            browserNameSpan.textContent = browser;
+
+            // Check Speech Recognition API
+            const hasSpeechAPI = 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
+            speechAPISpan.innerHTML = hasSpeechAPI 
+                ? '<span style="color: green;">✓ Available</span>' 
+                : '<span style="color: red;">✗ Not Available</span>';
+
+            // Check Microphone API
+            const hasMicAPI = navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
+            micAPISpan.innerHTML = hasMicAPI 
+                ? '<span style="color: green;">✓ Available</span>' 
+                : '<span style="color: red;">✗ Not Available</span>';
+
+            // Overall result
+            if (hasSpeechAPI && hasMicAPI) {
+                browserSupportDiv.innerHTML = `
+                    <div class="result pass">
+                        ✓ Your browser supports speech recognition!
+                    </div>
+                `;
+            } else {
+                browserSupportDiv.innerHTML = `
+                    <div class="result fail">
+                        ✗ Your browser does not fully support speech recognition. 
+                        Please use Google Chrome or Microsoft Edge.
+                    </div>
+                    <div class="result warning">
+                        ⚠ Recommended: Download Chrome from <a href="https://www.google.com/chrome/" target="_blank">google.com/chrome</a>
+                    </div>
+                `;
+            }
+        }
+
+        async function testMicrophone() {
+            const micPermissionDiv = document.getElementById('micPermission');
+            
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                micPermissionDiv.innerHTML = `
+                    <div class="result pass">
+                        ✓ Microphone access granted! Your microphone is working.
+                    </div>
+                `;
+                
+                // Stop the stream
+                stream.getTracks().forEach(track => track.stop());
+            } catch (error) {
+                micPermissionDiv.innerHTML = `
+                    <div class="result fail">
+                        ✗ Microphone access denied or not available.<br>
+                        Error: ${error.message}
+                    </div>
+                    <div class="result warning">
+                        ⚠ Please allow microphone access when prompted by the browser.
+                    </div>
+                `;
+            }
+        }
+
+        function toggleRecognition() {
+            const startBtn = document.getElementById('startBtn');
+            const statusText = document.getElementById('statusText');
+            const micIcon = document.getElementById('micIcon');
+            const output = document.getElementById('output');
+
+            if (!recognition) {
+                // Initialize speech recognition
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                
+                if (!SpeechRecognition) {
+                    alert('Speech recognition is not supported in your browser. Please use Chrome or Edge.');
+                    return;
+                }
+
+                recognition = new SpeechRecognition();
+                recognition.continuous = false;
+                recognition.interimResults = false;
+                recognition.lang = 'en-US';
+
+                recognition.onstart = () => {
+                    isListening = true;
+                    startBtn.textContent = 'Stop Voice Test';
+                    startBtn.style.background = '#dc3545';
+                    statusText.textContent = 'Listening... Speak now';
+                    statusText.style.color = '#28a745';
+                    micIcon.classList.add('listening');
+                    output.textContent = 'Listening...';
+                };
+
+                recognition.onresult = (event) => {
+                    const transcript = event.results[0][0].transcript;
+                    const confidence = Math.round(event.results[0][0].confidence * 100);
+                    
+                    output.textContent = `✓ Detected: "${transcript}"\nConfidence: ${confidence}%`;
+                    stopRecognition();
+                };
+
+                recognition.onerror = (event) => {
+                    console.error('Speech recognition error:', event.error);
+                    let errorMsg = 'Error: ';
+                    
+                    switch(event.error) {
+                        case 'not-allowed':
+                            errorMsg += 'Microphone permission denied';
+                            break;
+                        case 'no-speech':
+                            errorMsg += 'No speech detected';
+                            break;
+                        case 'audio-capture':
+                            errorMsg += 'No microphone found';
+                            break;
+                        default:
+                            errorMsg += event.error;
+                    }
+                    
+                    output.textContent = `✗ ${errorMsg}`;
+                    stopRecognition();
+                };
+
+                recognition.onend = () => {
+                    stopRecognition();
+                };
+            }
+
+            if (isListening) {
+                recognition.stop();
+            } else {
+                recognition.start();
+            }
+        }
+
+        function stopRecognition() {
+            const startBtn = document.getElementById('startBtn');
+            const statusText = document.getElementById('statusText');
+            const micIcon = document.getElementById('micIcon');
+
+            isListening = false;
+            startBtn.textContent = 'Start Voice Test';
+            startBtn.style.background = '#667eea';
+            statusText.textContent = 'Click button to start';
+            statusText.style.color = '#666';
+            micIcon.classList.remove('listening');
+        }
+    </script>
+</body>
+</html>

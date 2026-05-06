@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="max-w-2xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6 text-center">Registration Test with Aadhar Number</h1>
+        
+        <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-semibold mb-4">Test Registration Form</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <input type="text" id="full-name" placeholder="Full Name" value="Test User" class="p-2 border rounded">
+                <input type="text" id="mobile" placeholder="Mobile Number" value="9998887777" class="p-2 border rounded">
+                <input type="text" id="aadhar" placeholder="Aadhar Number (12 digits)" value="123456789012" class="p-2 border rounded">
+                <input type="password" id="password" placeholder="Password" value="password123" class="p-2 border rounded">
+                <input type="password" id="confirm-password" placeholder="Confirm Password" value="password123" class="p-2 border rounded">
+                <input type="text" id="state" placeholder="State" value="Tamil Nadu" class="p-2 border rounded">
+                <input type="text" id="district" placeholder="District" value="Erode" class="p-2 border rounded">
+                <input type="text" id="village" placeholder="Village (Optional)" value="Test Village" class="p-2 border rounded">
+            </div>
+            
+            <button onclick="testRegistration()" class="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mb-4">
+                Test Registration
+            </button>
+            
+            <div id="results" class="text-sm font-mono whitespace-pre-wrap bg-gray-50 p-3 rounded"></div>
+        </div>
+    </div>
+
+    <script>
+        async function testRegistration() {
+            const results = document.getElementById('results');
+            results.textContent = 'Testing registration...\n';
+            
+            const formData = {
+                full_name: document.getElementById('full-name').value,
+                mobile: document.getElementById('mobile').value,
+                aadhar_number: document.getElementById('aadhar').value,
+                password: document.getElementById('password').value,
+                state: document.getElementById('state').value,
+                district: document.getElementById('district').value,
+                village: document.getElementById('village').value
+            };
+            
+            results.textContent += `Form Data: ${JSON.stringify(formData, null, 2)}\n\n`;
+            
+            try {
+                const response = await fetch('http://localhost:8001/api/auth/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                results.textContent += `Status: ${response.status}\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    results.textContent += `✓ Registration successful!\n`;
+                    results.textContent += `Farmer ID: ${data.farmer_id}\n`;
+                    results.textContent += `Access Token: ${data.access_token ? 'Received' : 'Not received'}\n`;
+                } else {
+                    const error = await response.text();
+                    results.textContent += `✗ Registration failed: ${error}\n`;
+                }
+            } catch (error) {
+                results.textContent += `✗ Error: ${error.message}\n`;
+            }
+        }
+    </script>
+</body>
+</html>

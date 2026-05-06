@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Image Upload Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2e7d32; margin-bottom: 20px; }
+        .upload-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #4caf50;
+            border-radius: 10px;
+            text-align: center;
+        }
+        input[type="file"] { margin: 10px 0; }
+        button {
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover { background: #45a049; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        .preview { margin: 20px 0; text-align: center; }
+        .preview img {
+            max-width: 400px;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .results {
+            margin-top: 20px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-radius: 5px;
+            display: none;
+        }
+        .results.show { display: block; }
+        .result-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-left: 4px solid #4caf50;
+            display: flex;
+            justify-content: space-between;
+        }
+        .result-label { font-weight: bold; color: #555; }
+        .result-value { color: #2e7d32; font-size: 18px; }
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            display: none;
+        }
+        .error.show { display: block; }
+        .loading {
+            text-align: center;
+            color: #4caf50;
+            font-size: 18px;
+            display: none;
+        }
+        .loading.show { display: block; }
+        .token-status {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .token-ok { background: #c8e6c9; color: #2e7d32; }
+        .token-missing { background: #ffcdd2; color: #c62828; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 Soil Image Analysis Test</h1>
+        
+        <div id="tokenStatus" class="token-status"></div>
+        
+        <div class="upload-section">
+            <h3>Upload Soil Image</h3>
+            <input type="file" id="imageInput" accept="image/*" />
+            <br/>
+            <button onclick="analyzeImage()" id="analyzeBtn">Analyze Soil Image</button>
+        </div>
+        
+        <div class="preview" id="preview" style="display: none;">
+            <h4>Image Preview:</h4>
+            <img id="imagePreview" src="" alt="Soil preview" />
+        </div>
+        
+        <div class="loading" id="loading">
+            <p>⏳ Analyzing soil image... Please wait...</p>
+        </div>
+        
+        <div class="error" id="errorBox"></div>
+        
+        <div class="results" id="resultsBox">
+            <h3>✅ Analysis Results:</h3>
+            <div class="result-item">
+                <span class="result-label">Soil Type:</span>
+                <span class="result-value" id="soilType">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">pH Value:</span>
+                <span class="result-value" id="soilPh">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Nitrogen (N):</span>
+                <span class="result-value" id="nitrogen">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Phosphorus (P):</span>
+                <span class="result-value" id="phosphorus">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Potassium (K):</span>
+                <span class="result-value" id="potassium">-</span>
+            </div>
+            <div class="result-item">
+                <span class="result-label">Confidence:</span>
+                <span class="result-value" id="confidence">-</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedFile = null;
+        
+        // Check token on page load - use 'access_token' key
+        window.onload = function() {
+            const token = localStorage.getItem('access_token');
+            const tokenStatus = document.getElementById('tokenStatus');
+            
+            if (token) {
+                tokenStatus.textContent = '✓ Authentication Token: Present';
+                tokenStatus.className = 'token-status token-ok';
+            } else {
+                tokenStatus.textContent = '✗ Authentication Token: Missing - Please login first!';
+                tokenStatus.className = 'token-status token-missing';
+            }
+        };
+        
+        document.getElementById('imageInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            selectedFile = file;
+            
+            // Show preview
+            const reader = new FileReader();
+            reader.onloadend = function() {
+                document.getElementById('imagePreview').src = reader.result;
+                document.getElementById('preview').style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        });
+        
+        async function analyzeImage() {
+            const errorBox = document.getElementById('errorBox');
+            const resultsBox = document.getElementById('resultsBox');
+            const loading = document.getElementById('loading');
+            const analyzeBtn = document.getElementById('analyzeBtn');
+            
+            // Reset
+            errorBox.classList.remove('show');
+            resultsBox.classList.remove('show');
+            
+            if (!selectedFile) {
+                errorBox.textContent = 'Please select an image first!';
+                errorBox.classList.add('show');
+                return;
+            }
+            
+            // Get token - use 'access_token' key
+            const token = localStorage.getItem('access_token');
+            if (!token) {
+                errorBox.textContent = 'Authentication required! Please login to the app first.';
+                errorBox.classList.add('show');
+                return;
+            }
+            
+            // Prepare form data
+            const formData = new FormData();
+            formData.append('image', selectedFile);
+            
+            // Show loading
+            loading.classList.add('show');
+            analyzeBtn.disabled = true;
+            
+            try {
+                console.log('Sending request to backend...');
+                console.log('Token:', token ? 'Present' : 'Missing');
+                
+                const response = await fetch('http://localhost:8001/api/soil/analyze-image', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: formData
+                });
+                
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    console.error('Backend error:', errorData);
+                    throw new Error(errorData.detail || 'Analysis failed');
+                }
+                
+                const result = await response.json();
+                console.log('Result:', result);
+                
+                if (result.success && result.data) {
+                    // Display results with 2 decimal places
+                    document.getElementById('soilType').textContent = result.data.soil_type || 'N/A';
+                    document.getElementById('soilPh').textContent = (parseFloat(result.data.soil_ph || 0).toFixed(2)) || 'N/A';
+                    document.getElementById('nitrogen').textContent = (parseFloat(result.data.nitrogen || 0).toFixed(2)) + ' kg/ha';
+                    document.getElementById('phosphorus').textContent = (parseFloat(result.data.phosphorus || 0).toFixed(2)) + ' kg/ha';
+                    document.getElementById('potassium').textContent = (parseFloat(result.data.potassium || 0).toFixed(2)) + ' kg/ha';
+                    document.getElementById('confidence').textContent = ((result.data.confidence || 0) * 100).toFixed(0) + '%';
+
+                    resultsBox.classList.add('show');
+                    
+                    alert('✅ Soil image analyzed successfully!');
+                } else {
+                    throw new Error('Invalid response from server');
+                }
+            } catch (err) {
+                console.error('Error:', err);
+                errorBox.textContent = 'Error: ' + err.message;
+                errorBox.classList.add('show');
+            } finally {
+                loading.classList.remove('show');
+                analyzeBtn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

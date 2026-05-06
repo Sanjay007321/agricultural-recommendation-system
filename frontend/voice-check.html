@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Input Quick Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f0f9ff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { color: #0369a1; }
+        .result {
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            font-size: 1.1em;
+        }
+        .pass { background: #dcfce7; color: #166534; }
+        .fail { background: #fee2e2; color: #991b1b; }
+        .warn { background: #fef3c7; color: #92400e; }
+        button {
+            background: #0369a1;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        button:hover { background: #075985; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎤 Voice Input Checker</h1>
+        <p>Quick check if your browser supports voice input</p>
+        
+        <div id="results"></div>
+        
+        <button onclick="runTests()">🔄 Run Tests Again</button>
+    </div>
+
+    <script>
+        function runTests() {
+            const resultsDiv = document.getElementById('results');
+            let html = '';
+            
+            // Test 1: Browser Detection
+            const isChrome = navigator.userAgent.indexOf('Chrome') > -1;
+            const isEdge = navigator.userAgent.indexOf('Edg') > -1;
+            const isFirefox = navigator.userAgent.indexOf('Firefox') > -1;
+            
+            if (isChrome || isEdge) {
+                html += '<div class="result pass">✓ You\'re using ' + (isChrome ? 'Chrome' : 'Edge') + ' - Great for voice input!</div>';
+            } else if (isFirefox) {
+                html += '<div class="result warn">⚠ Firefox has limited voice support. Consider Chrome or Edge.</div>';
+            } else {
+                html += '<div class="result fail">✗ Your browser may not support voice input. Use Chrome or Edge.</div>';
+            }
+            
+            // Test 2: Speech Recognition API
+            const hasSpeechAPI = 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
+            if (hasSpeechAPI) {
+                html += '<div class="result pass">✓ Speech Recognition API is available</div>';
+            } else {
+                html += '<div class="result fail">✗ Speech Recognition API NOT available. Install Chrome/Edge.</div>';
+            }
+            
+            // Test 3: Microphone API
+            const hasMicAPI = navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
+            if (hasMicAPI) {
+                html += '<div class="result pass">✓ Microphone API is available</div>';
+            } else {
+                html += '<div class="result fail">✗ Microphone API NOT available</div>';
+            }
+            
+            // Test 4: Microphone Permission
+            navigator.mediaDevices.getUserMedia({ audio: true })
+                .then(() => {
+                    html += '<div class="result pass">✓ Microphone access granted and working!</div>';
+                    html += '<div class="result pass"><strong>✅ All tests passed! Voice input should work in your chatbot.</strong></div>';
+                    resultsDiv.innerHTML = html;
+                })
+                .catch(err => {
+                    if (err.name === 'NotAllowedError') {
+                        html += '<div class="result fail">✗ Microphone permission DENIED. Click the lock icon in address bar to allow.</div>';
+                    } else if (err.name === 'NotFoundError') {
+                        html += '<div class="result fail">✗ No microphone found. Please connect a microphone.</div>';
+                    } else {
+                        html += '<div class="result fail">✗ Microphone error: ' + err.message + '</div>';
+                    }
+                    resultsDiv.innerHTML = html;
+                });
+        }
+        
+        // Run tests on page load
+        runTests();
+    </script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
+import os
 
 from app.config import settings
 from app.database import init_db
@@ -22,13 +23,14 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS middleware
+# CORS middleware - Allow all origins for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origin_regex=".*",  # Allow all origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    max_age=3600,
 )
 
 # Include routers
@@ -39,7 +41,7 @@ app.include_router(soil_analysis.router)
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to Crop Management System API - UPDATED",
+        "message": "Welcome to Crop Management System API",
         "docs": "/docs",
         "version": "1.0.0"
     }
